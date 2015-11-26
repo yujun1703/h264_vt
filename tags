@@ -1,0 +1,1433 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIGN	include/common.h	/^#define ALIGN(/;"	d
+ARCH_X86	include/config_x264_x86.h	/^#define ARCH_X86 /;"	d
+ARRAY_ELEMS	include/common.h	/^#define ARRAY_ELEMS(/;"	d
+ARRAY_SIZE	include/common.h	/^#define ARRAY_SIZE(/;"	d
+AVCODEC_DSPUTIL_H	include/dsputil.h	/^#define AVCODEC_DSPUTIL_H$/;"	d
+AdvanceClockAndVideoFrameTimestamp	h264_vt_encoder_unittest.cc	/^  void AdvanceClockAndVideoFrameTimestamp() {$/;"	f	class:media::cast::H264VideoToolboxEncoderTest
+AllocateBlock	coremedia_glue.h	/^    void* (*AllocateBlock)(void*, size_t);$/;"	m	struct:CoreMediaGlue::__anon2
+ArrayWithIntegers	h264_vt_encoder.cc	/^base::ScopedCFTypeRef<CFArrayRef> ArrayWithIntegers(const int* v, size_t size) {$/;"	f	namespace:webrtc::__anon8
+BASE_MACROS_H_	macros.h	/^#define BASE_MACROS_H_$/;"	d
+BASIS_SHIFT	include/dsputil.h	/^#define BASIS_SHIFT /;"	d
+BIT_DEPTH	include/common.h	/^#define BIT_DEPTH /;"	d
+CFLAGS_CC_Debug	libwebrtc_h264.target.mk	/^CFLAGS_CC_Debug := -fno-rtti \\$/;"	m
+CFLAGS_CC_Release	libwebrtc_h264.target.mk	/^CFLAGS_CC_Release := -fno-rtti \\$/;"	m
+CFLAGS_C_Debug	libwebrtc_h264.target.mk	/^CFLAGS_C_Debug := $/;"	m
+CFLAGS_C_Release	libwebrtc_h264.target.mk	/^CFLAGS_C_Release := $/;"	m
+CFLAGS_Debug	libwebrtc_h264.target.mk	/^CFLAGS_Debug := -fno-exceptions \\$/;"	m
+CFLAGS_Release	libwebrtc_h264.target.mk	/^CFLAGS_Release := -fno-exceptions \\$/;"	m
+CHECKED_MALLOC	include/common.h	/^#define CHECKED_MALLOC(/;"	d
+CHECKED_MALLOCZERO	include/common.h	/^#define CHECKED_MALLOCZERO(/;"	d
+CHROMA444	include/common.h	/^#define CHROMA444 /;"	d
+CHROMA_DC	include/common.h	/^#define CHROMA_DC /;"	d
+CHROMA_FORMAT	include/common.h	/^#    define CHROMA_FORMAT /;"	d
+CHROMA_H_SHIFT	include/common.h	/^#    define CHROMA_H_SHIFT /;"	d
+CHROMA_SIZE	include/common.h	/^#define CHROMA_SIZE(/;"	d
+CHROMA_V_SHIFT	include/common.h	/^#    define CHROMA_V_SHIFT /;"	d
+CLIP3	x264Encoder.cpp	/^#define CLIP3(/;"	d	file:
+CMBlockBufferCustomBlockSource	coremedia_glue.h	/^  } CMBlockBufferCustomBlockSource;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::__anon2
+CMBlockBufferFlags	coremedia_glue.h	/^  typedef uint32_t CMBlockBufferFlags;$/;"	t	class:CoreMediaGlue
+CMBlockBufferRef	coremedia_glue.h	/^  typedef struct OpaqueCMBlockBuffer* CMBlockBufferRef;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::OpaqueCMBlockBuffer
+CMFormatDescriptionRef	coremedia_glue.h	/^  typedef const struct opaqueCMFormatDescription* CMFormatDescriptionRef;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::opaqueCMFormatDescription
+CMSampleBufferRef	coremedia_glue.h	/^  typedef struct OpaqueCMSampleBuffer* CMSampleBufferRef;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::OpaqueCMSampleBuffer
+CMSampleBufferRef	include/h264_vt_encoder.h	/^  typedef CoreMediaGlue::CMSampleBufferRef CMSampleBufferRef;$/;"	t	class:webrtc::H264VideoToolboxEncoder
+CMTime	coremedia_glue.h	/^  } CMTime;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::__anon1
+CMTimeEpoch	coremedia_glue.h	/^  typedef int64_t CMTimeEpoch;$/;"	t	class:CoreMediaGlue
+CMTimeFlags	coremedia_glue.h	/^  typedef uint32_t CMTimeFlags;$/;"	t	class:CoreMediaGlue
+CMTimeScale	coremedia_glue.h	/^  typedef int32_t CMTimeScale;$/;"	t	class:CoreMediaGlue
+CMTimeValue	coremedia_glue.h	/^  typedef int64_t CMTimeValue;$/;"	t	class:CoreMediaGlue
+CMVideoCodecType	coremedia_glue.h	/^  typedef FourCharCode CMVideoCodecType;$/;"	t	class:CoreMediaGlue
+CMVideoDimensions	coremedia_glue.h	/^  } CMVideoDimensions;$/;"	t	class:CoreMediaGlue	typeref:struct:CoreMediaGlue::__anon3
+CMVideoFormatDescriptionRef	coremedia_glue.h	/^  typedef CMFormatDescriptionRef CMVideoFormatDescriptionRef;$/;"	t	class:CoreMediaGlue
+COMPILE_ASSERT	macros.h	/^#define COMPILE_ASSERT(/;"	d
+COMPILE_ASSERT	macros.h	/^#undef COMPILE_ASSERT$/;"	d
+CP128	include/common.h	/^#define CP128(/;"	d
+CP16	include/common.h	/^#define CP16(/;"	d
+CP32	include/common.h	/^#define CP32(/;"	d
+CP64	include/common.h	/^#define CP64(/;"	d
+CPPIXEL_X4	include/common.h	/^#define CPPIXEL_X4(/;"	d
+CR_DEFINE_STATIC_LOCAL	macros.h	/^#define CR_DEFINE_STATIC_LOCAL(/;"	d
+CX264Encoder	include/x264Encoder.h	/^	class ENC_API CX264Encoder$/;"	c	namespace:webrtc
+CX264Encoder	x264Encoder.cpp	/^	CX264Encoder::CX264Encoder() :$/;"	f	class:webrtc::CX264Encoder
+Clip3	include/x264.h	/^#define Clip3(/;"	d
+CompareFrameWithExpected	h264_vt_encoder_unittest.cc	/^  void CompareFrameWithExpected(const scoped_refptr<VideoFrame>& frame) {$/;"	f	class:media::cast::EndToEndFrameChecker
+CompareFrameWithExpected	h264_vt_encoder_unittest.cc	/^  void CompareFrameWithExpected(scoped_ptr<EncodedFrame> encoded_frame) {$/;"	f	class:media::cast::MetadataRecorder
+CompressionCallback	h264_vt_encoder.cc	/^void H264VideoToolboxEncoder::CompressionCallback(void* encoder_opaque,$/;"	f	class:webrtc::H264VideoToolboxEncoder
+ConfigParam	x264Encoder.cpp	/^	void CX264Encoder::ConfigParam(void* param)$/;"	f	class:webrtc::CX264Encoder
+ConfigureSession	h264_vt_encoder.cc	/^void H264VideoToolboxEncoder::ConfigureSession($/;"	f	class:webrtc::H264VideoToolboxEncoder
+Copy	h264_impl.cc	/^VideoDecoder* H264DecoderImpl::Copy() {$/;"	f	class:webrtc::H264DecoderImpl
+CoreMediaGlue	coremedia_glue.h	/^class MEDIA_EXPORT CoreMediaGlue {$/;"	c
+Create	h264.cc	/^  H264Encoder* H264Encoder::Create() {$/;"	f	class:webrtc::H264Encoder
+Create	h264.cc	/^H264Decoder* H264Decoder::Create() {$/;"	f	class:webrtc::H264Decoder
+Create	h264_factory.cc	/^VP8Decoder* VP8Decoder::Create() {$/;"	f	class:webrtc::VP8Decoder
+Create	h264_factory.cc	/^VP8Encoder* VP8Encoder::Create() {$/;"	f	class:webrtc::VP8Encoder
+Create	h264_impl.cc	/^	H264Encoder* H264Encoder::Create() {$/;"	f	class:webrtc::H264Encoder
+Create	h264_impl.cc	/^H264Decoder* H264Decoder::Create() {$/;"	f	class:webrtc::H264Decoder
+CreateFrameAndMemsetPlane	h264_vt_encoder_unittest.cc	/^void CreateFrameAndMemsetPlane(VideoFrameFactory* const video_frame_factory) {$/;"	f	namespace:media::cast
+DEFS_Debug	libwebrtc_h264.target.mk	/^DEFS_Debug := '-DWEBRTC_SVNREVISION="Unavailable(issue687)"' \\$/;"	m
+DEFS_Release	libwebrtc_h264.target.mk	/^DEFS_Release := '-DWEBRTC_SVNREVISION="Unavailable(issue687)"' \\$/;"	m
+DEF_OLD_QPEL	include/dsputil.h	/^#define DEF_OLD_QPEL(/;"	d
+DISALLOW_ASSIGN	macros.h	/^#define DISALLOW_ASSIGN(/;"	d
+DISALLOW_COPY	macros.h	/^#define DISALLOW_COPY(/;"	d
+DISALLOW_COPY_AND_ASSIGN	macros.h	/^#define DISALLOW_COPY_AND_ASSIGN(/;"	d
+DISALLOW_EVIL_CONSTRUCTORS	macros.h	/^#define DISALLOW_EVIL_CONSTRUCTORS(/;"	d
+DISALLOW_IMPLICIT_CONSTRUCTORS	macros.h	/^#define DISALLOW_IMPLICIT_CONSTRUCTORS(/;"	d
+DSPContext	include/dsputil.h	/^typedef struct DSPContext {$/;"	s
+DSPContext	include/dsputil.h	/^} DSPContext;$/;"	t	typeref:struct:DSPContext
+Decode	h264.cc	/^int H264Decoder::Decode(const EncodedImage& input_image,$/;"	f	class:webrtc::H264Decoder
+Decode	h264_impl.cc	/^int H264DecoderImpl::Decode(const EncodedImage& input_image,$/;"	f	class:webrtc::H264DecoderImpl
+DecodeDone	h264_vt_encoder_unittest.cc	/^  void DecodeDone(VideoDecoder::Status status) {$/;"	f	class:media::cast::EndToEndFrameChecker
+DictionaryWithKeyValue	h264_vt_encoder.cc	/^base::ScopedCFTypeRef<CFDictionaryRef> DictionaryWithKeyValue(CFTypeRef key,$/;"	f	namespace:webrtc::__anon8
+DictionaryWithKeysAndValues	h264_vt_encoder.cc	/^base::ScopedCFTypeRef<CFDictionaryRef> DictionaryWithKeysAndValues($/;"	f	namespace:webrtc::__anon8
+EDGE_BOTTOM	include/dsputil.h	/^#define EDGE_BOTTOM /;"	d
+EDGE_TOP	include/dsputil.h	/^#define EDGE_TOP /;"	d
+EDGE_WIDTH	include/dsputil.h	/^#define EDGE_WIDTH /;"	d
+ENCODER_DEBUG_OPT	x264Encoder.cpp	/^#define ENCODER_DEBUG_OPT /;"	d	file:
+ENC_API	include/x264Encoder.h	/^#define ENC_API /;"	d
+ENC_API	include/x264Encoder.h	/^#define ENC_API$/;"	d
+EXPORT	x264Encoder.cpp	/^#define EXPORT /;"	d	file:
+E_FAIL	include/x264Encoder.h	/^#define E_FAIL /;"	d
+E_INVALIDARG	include/x264Encoder.h	/^#define E_INVALIDARG /;"	d
+EmFrameType	include/x264Encoder.h	/^	} EmFrameType;$/;"	t	namespace:webrtc	typeref:enum:webrtc::__anon41
+Encode	h264.cc	/^int H264Encoder::Encode(const VideoFrame& input_image,$/;"	f	class:webrtc::H264Encoder
+Encode	h264_impl.cc	/^int H264EncoderImpl::Encode(const I420VideoFrame& input_image,$/;"	f	class:webrtc::H264EncoderImpl
+Encode	x264Encoder.cpp	/^	HRESULT CX264Encoder::Encode(const I420VideoFrame& input_image, x264_nal_t **nal,int* i_nal, VideoFrameType VideoFrameType)$/;"	f	class:webrtc::CX264Encoder
+EncodeDone	h264_vt_encoder_unittest.cc	/^  void EncodeDone(scoped_ptr<EncodedFrame> encoded_frame) {$/;"	f	class:media::cast::EndToEndFrameChecker
+EncodeFlags	reference_picture_selection.cc	/^int ReferencePictureSelection::EncodeFlags(int picture_id, bool send_refresh,$/;"	f	class:webrtc::ReferencePictureSelection
+EncodeVideoFrame	h264_vt_encoder.cc	/^bool H264VideoToolboxEncoder::EncodeVideoFrame($/;"	f	class:webrtc::H264VideoToolboxEncoder
+EncodedKeyFrame	reference_picture_selection.cc	/^void ReferencePictureSelection::EncodedKeyFrame(int picture_id) {$/;"	f	class:webrtc::ReferencePictureSelection
+EndToEndFrameChecker	h264_vt_encoder_unittest.cc	/^  explicit EndToEndFrameChecker(const VideoDecoderConfig& config)$/;"	f	class:media::cast::EndToEndFrameChecker
+EndToEndFrameChecker	h264_vt_encoder_unittest.cc	/^class EndToEndFrameChecker$/;"	c	namespace:media::cast	file:
+Expectation	h264_vt_encoder_unittest.cc	/^  struct Expectation {$/;"	s	class:media::cast::MetadataRecorder	file:
+FDEC_STRIDE	include/common.h	/^#define FDEC_STRIDE /;"	d
+FENC_STRIDE	include/common.h	/^#define FENC_STRIDE /;"	d
+FF_LIBMPEG2_IDCT_PERM	include/dsputil.h	/^#define FF_LIBMPEG2_IDCT_PERM /;"	d
+FF_NO_IDCT_PERM	include/dsputil.h	/^#define FF_NO_IDCT_PERM /;"	d
+FF_PARTTRANS_IDCT_PERM	include/dsputil.h	/^#define FF_PARTTRANS_IDCT_PERM /;"	d
+FF_SIMPLE_IDCT_PERM	include/dsputil.h	/^#define FF_SIMPLE_IDCT_PERM /;"	d
+FF_SSE2_IDCT_PERM	include/dsputil.h	/^#define FF_SSE2_IDCT_PERM /;"	d
+FF_TRANSPOSE_IDCT_PERM	include/dsputil.h	/^#define FF_TRANSPOSE_IDCT_PERM /;"	d
+FILLER_OVERHEAD	include/common.h	/^#define FILLER_OVERHEAD /;"	d
+FIX8	include/common.h	/^#define FIX8(/;"	d
+FRAME_SIZE	include/common.h	/^#define FRAME_SIZE(/;"	d
+FreeBlock	coremedia_glue.h	/^    void (*FreeBlock)(void*, void*, size_t);$/;"	m	struct:CoreMediaGlue::__anon2
+GYP_CFLAGS	libwebrtc_h264.target.mk	/^$(OBJS): GYP_CFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE))$/;"	m
+GYP_CXXFLAGS	libwebrtc_h264.target.mk	/^$(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE))$/;"	m
+GYP_LDFLAGS	libwebrtc_h264.target.mk	/^$(obj).target\/src\/modules\/video_coding\/codecs\/h264\/libwebrtc_h264.a: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))$/;"	m
+GetEncodedFrame	h264.cc	/^int H264Encoder::GetEncodedFrame(const VideoFrame& input_image) {$/;"	f	class:webrtc::H264Encoder
+GetEncodedPartitions	h264_impl.cc	/^int H264EncoderImpl::GetEncodedPartitions(const I420VideoFrame& input_image) {$/;"	f	class:webrtc::H264EncoderImpl
+GetFrameAvgQP	x264Encoder.cpp	/^	HRESULT CX264Encoder::GetFrameAvgQP(float* pQP)$/;"	f	class:webrtc::CX264Encoder
+H264Decoder	h264.cc	/^H264Decoder::H264Decoder()$/;"	f	class:webrtc::H264Decoder
+H264Decoder	include/h264_encoder_decoder.h	/^class H264Decoder : public VideoDecoder {$/;"	c	namespace:webrtc
+H264Decoder	include/h264_interface.h	/^class H264Decoder : public VideoDecoder {$/;"	c	namespace:webrtc
+H264DecoderImpl	h264_impl.cc	/^H264DecoderImpl::H264DecoderImpl()      $/;"	f	class:webrtc::H264DecoderImpl
+H264DecoderImpl	include/h264_impl.h	/^class H264DecoderImpl : public H264Decoder {$/;"	c	namespace:webrtc
+H264Encoder	h264.cc	/^H264Encoder::H264Encoder()$/;"	f	class:webrtc::H264Encoder
+H264Encoder	include/h264.h	/^class H264Encoder : public VideoEncoder {$/;"	c	namespace:webrtc
+H264Encoder	include/h264_encoder_decoder.h	/^class H264Encoder : public VideoEncoder {$/;"	c	namespace:webrtc
+H264Encoder	include/h264_interface.h	/^class H264Encoder : public VideoEncoder {$/;"	c	namespace:webrtc
+H264EncoderImpl	h264_impl.cc	/^H264EncoderImpl::H264EncoderImpl() $/;"	f	class:webrtc::H264EncoderImpl
+H264EncoderImpl	include/h264_impl.h	/^	class H264EncoderImpl : public H264Encoder {$/;"	c	namespace:webrtc
+H264VideoToolboxEncoder	h264_vt_encoder.cc	/^H264VideoToolboxEncoder::H264VideoToolboxEncoder()$/;"	f	class:webrtc::H264VideoToolboxEncoder
+H264VideoToolboxEncoder	include/h264_vt_encoder.h	/^class H264VideoToolboxEncoder {$/;"	c	namespace:webrtc
+H264VideoToolboxEncoderTest	h264_vt_encoder_unittest.cc	/^  H264VideoToolboxEncoderTest()$/;"	f	class:media::cast::H264VideoToolboxEncoderTest
+H264VideoToolboxEncoderTest	h264_vt_encoder_unittest.cc	/^class H264VideoToolboxEncoderTest : public ::testing::Test {$/;"	c	namespace:media::cast	file:
+HAVE_ALTIVEC	include/config_x264_x86.h	/^#define HAVE_ALTIVEC /;"	d
+HAVE_ALTIVEC_H	include/config_x264_x86.h	/^#define HAVE_ALTIVEC_H /;"	d
+HAVE_ARMV6	include/config_x264_x86.h	/^#define HAVE_ARMV6 /;"	d
+HAVE_ARMV6T2	include/config_x264_x86.h	/^#define HAVE_ARMV6T2 /;"	d
+HAVE_AVS	include/config_x264_x86.h	/^#define HAVE_AVS /;"	d
+HAVE_BEOSTHREAD	include/config_x264_x86.h	/^#define HAVE_BEOSTHREAD /;"	d
+HAVE_CPU_COUNT	include/config_x264_x86.h	/^#define HAVE_CPU_COUNT /;"	d
+HAVE_FFMS	include/config_x264_x86.h	/^#define HAVE_FFMS /;"	d
+HAVE_GF_MALLOC	include/config_x264_x86.h	/^#define HAVE_GF_MALLOC /;"	d
+HAVE_GPAC	include/config_x264_x86.h	/^#define HAVE_GPAC /;"	d
+HAVE_GPL	include/config_x264_x86.h	/^#define HAVE_GPL /;"	d
+HAVE_INTERLACED	include/config_x264_x86.h	/^#define HAVE_INTERLACED /;"	d
+HAVE_LAVF	include/config_x264_x86.h	/^#define HAVE_LAVF /;"	d
+HAVE_LOG2F	include/config_x264_x86.h	/^#define HAVE_LOG2F /;"	d
+HAVE_MALLOC_H	include/config_x264_x86.h	/^#define HAVE_MALLOC_H /;"	d
+HAVE_MMX	include/config_x264_x86.h	/^#define HAVE_MMX /;"	d
+HAVE_NEON	include/config_x264_x86.h	/^#define HAVE_NEON /;"	d
+HAVE_POSIXTHREAD	include/config_x264_x86.h	/^#define HAVE_POSIXTHREAD /;"	d
+HAVE_STRING_H	include/config_x264_x86.h	/^#define HAVE_STRING_H /;"	d
+HAVE_SWSCALE	include/config_x264_x86.h	/^#define HAVE_SWSCALE /;"	d
+HAVE_THREAD	include/config_x264_x86.h	/^#define HAVE_THREAD /;"	d
+HAVE_VECTOREXT	include/config_x264_x86.h	/^#define HAVE_VECTOREXT /;"	d
+HAVE_VISUALIZE	include/config_x264_x86.h	/^#define HAVE_VISUALIZE /;"	d
+HAVE_WIN32THREAD	include/config_x264_x86.h	/^#define HAVE_WIN32THREAD /;"	d
+HRESULT	include/x264Encoder.h	/^#define HRESULT /;"	d
+INCS_Debug	libwebrtc_h264.target.mk	/^INCS_Debug := -Isrc \\$/;"	m
+INCS_Release	libwebrtc_h264.target.mk	/^INCS_Release := -Isrc \\$/;"	m
+IS_DISPOSABLE	include/common.h	/^#define IS_DISPOSABLE(/;"	d
+IS_X264_TYPE_B	include/x264.h	/^#define IS_X264_TYPE_B(/;"	d
+IS_X264_TYPE_I	include/x264.h	/^#define IS_X264_TYPE_I(/;"	d
+Init	reference_picture_selection.cc	/^void ReferencePictureSelection::Init() {$/;"	f	class:webrtc::ReferencePictureSelection
+Init	x264Encoder.cpp	/^	HRESULT CX264Encoder::Init(X264ENCPARAM param)$/;"	f	class:webrtc::CX264Encoder
+InitDecode	h264.cc	/^int H264Decoder::InitDecode(const VideoCodec* inst, int number_of_cores) {$/;"	f	class:webrtc::H264Decoder
+InitDecode	h264_impl.cc	/^int H264DecoderImpl::InitDecode(const VideoCodec* inst, int number_of_cores) {$/;"	f	class:webrtc::H264DecoderImpl
+InitEncode	h264.cc	/^int H264Encoder::InitEncode(const VideoCodec* inst,$/;"	f	class:webrtc::H264Encoder
+InitEncode	h264_impl.cc	/^int H264EncoderImpl::InitEncode(const VideoCodec* inst,$/;"	f	class:webrtc::H264EncoderImpl
+Initialize	h264_vt_encoder.cc	/^bool H264VideoToolboxEncoder::Initialize($/;"	f	class:webrtc::H264VideoToolboxEncoder
+Initialize	h264_vt_encoder_unittest.cc	/^void MediaTestSuite::Initialize() {$/;"	f	class:__anon9::MediaTestSuite
+LDFLAGS_Debug	libwebrtc_h264.target.mk	/^LDFLAGS_Debug := -Wl,-z,noexecstack \\$/;"	m
+LDFLAGS_Release	libwebrtc_h264.target.mk	/^LDFLAGS_Release := -Wl,-z,noexecstack \\$/;"	m
+LIBS	libwebrtc_h264.target.mk	/^$(obj).target\/src\/modules\/video_coding\/codecs\/h264\/libwebrtc_h264.a: LIBS := $(LIBS)$/;"	m
+LIBS	libwebrtc_h264.target.mk	/^LIBS :=  \\$/;"	m
+LINKER_INITIALIZED	macros.h	/^enum LinkerInitialized { LINKER_INITIALIZED };$/;"	e	enum:base::LinkerInitialized
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := \\$/;"	m
+LOCAL_CPP_EXTENSION	Android.mk	/^LOCAL_CPP_EXTENSION := .cc$/;"	m
+LOCAL_C_INCLUDES	Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libwebrtc_h264$/;"	m
+LOCAL_MODULE_CLASS	Android.mk	/^LOCAL_MODULE_CLASS := STATIC_LIBRARIES$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOGD	x264Encoder.cpp	/^#define LOGD(/;"	d	file:
+LOGE	x264Encoder.cpp	/^#define LOGE /;"	d	file:
+LOGE	x264Encoder.cpp	/^#define LOGE(/;"	d	file:
+LOGI	x264Encoder.cpp	/^#define LOGI(/;"	d	file:
+LOGV	x264Encoder.cpp	/^#define LOGV(/;"	d	file:
+LOGW	x264Encoder.cpp	/^#define LOGW(/;"	d	file:
+LUMA_DC	include/common.h	/^#define LUMA_DC /;"	d
+LinkerInitialized	macros.h	/^enum LinkerInitialized { LINKER_INITIALIZED };$/;"	g	namespace:base
+M128	include/common.h	/^#define M128(/;"	d
+M128_ZERO	include/common.h	/^#define M128_ZERO /;"	d
+M16	include/common.h	/^#define M16(/;"	d
+M32	include/common.h	/^#define M32(/;"	d
+M64	include/common.h	/^#define M64(/;"	d
+MAX_ENC_HEIGHT	include/h264_impl.h	/^        MAX_ENC_HEIGHT    = 480$/;"	e	enum:webrtc::H264DecoderImpl::__anon26
+MAX_ENC_SIZE	include/h264_impl.h	/^        MAX_ENC_SIZE      = 480*640*3\/2,$/;"	e	enum:webrtc::H264DecoderImpl::__anon26
+MAX_ENC_WIDTH	include/h264_impl.h	/^        MAX_ENC_WIDTH     = 640,$/;"	e	enum:webrtc::H264DecoderImpl::__anon26
+MAX_NAL	h264_impl.cc	/^#define MAX_NAL /;"	d	file:
+MAX_NEG_CROP	include/dsputil.h	/^#define MAX_NEG_CROP /;"	d
+MB_INTERLACED	include/common.h	/^#   define MB_INTERLACED /;"	d
+MEDIA_BASE_MAC_COREMEDIA_GLUE_H_	coremedia_glue.h	/^#define MEDIA_BASE_MAC_COREMEDIA_GLUE_H_$/;"	d
+MEDIA_BASE_MAC_VIDEOTOOLBOX_GLUE_H_	videotoolbox_glue.h	/^#define MEDIA_BASE_MAC_VIDEOTOOLBOX_GLUE_H_$/;"	d
+MEDIA_BASE_MEDIA_EXPORT_H_	media_export.h	/^#define MEDIA_BASE_MEDIA_EXPORT_H_$/;"	d
+MEDIA_CAST_SENDER_H264_VT_ENCODER_H_	include/h264_vt_encoder.h	/^#define MEDIA_CAST_SENDER_H264_VT_ENCODER_H_$/;"	d
+MEDIA_EXPORT	media_export.h	/^#define MEDIA_EXPORT /;"	d
+MEDIA_EXPORT	media_export.h	/^#define MEDIA_EXPORT$/;"	d
+MPIXEL_X4	include/common.h	/^#   define MPIXEL_X4(/;"	d
+MediaTestSuite	h264_vt_encoder_unittest.cc	/^  MediaTestSuite(int argc, char** argv) : TestSuite(argc, argv) {}$/;"	f	class:__anon9::MediaTestSuite
+MediaTestSuite	h264_vt_encoder_unittest.cc	/^class MediaTestSuite : public base::TestSuite {$/;"	c	namespace:__anon9	file:
+MetadataRecorder	h264_vt_encoder_unittest.cc	/^  MetadataRecorder() : count_frames_delivered_(0) {}$/;"	f	class:media::cast::MetadataRecorder
+MetadataRecorder	h264_vt_encoder_unittest.cc	/^class MetadataRecorder : public base::RefCountedThreadSafe<MetadataRecorder> {$/;"	c	namespace:media::cast	file:
+NALU_OVERHEAD	include/common.h	/^#define NALU_OVERHEAD /;"	d
+NAL_AUD	include/x264.h	/^    NAL_AUD         = 9,$/;"	e	enum:nal_unit_type_e
+NAL_FILLER	include/x264.h	/^    NAL_FILLER      = 12,$/;"	e	enum:nal_unit_type_e
+NAL_PPS	include/x264.h	/^    NAL_PPS         = 8,$/;"	e	enum:nal_unit_type_e
+NAL_PRIORITY_DISPOSABLE	include/x264.h	/^    NAL_PRIORITY_DISPOSABLE = 0,$/;"	e	enum:nal_priority_e
+NAL_PRIORITY_HIGH	include/x264.h	/^    NAL_PRIORITY_HIGH       = 2,$/;"	e	enum:nal_priority_e
+NAL_PRIORITY_HIGHEST	include/x264.h	/^    NAL_PRIORITY_HIGHEST    = 3,$/;"	e	enum:nal_priority_e
+NAL_PRIORITY_LOW	include/x264.h	/^    NAL_PRIORITY_LOW        = 1,$/;"	e	enum:nal_priority_e
+NAL_SEI	include/x264.h	/^    NAL_SEI         = 6,    \/* ref_idc == 0 *\/$/;"	e	enum:nal_unit_type_e
+NAL_SLICE	include/x264.h	/^    NAL_SLICE       = 1,$/;"	e	enum:nal_unit_type_e
+NAL_SLICE_DPA	include/x264.h	/^    NAL_SLICE_DPA   = 2,$/;"	e	enum:nal_unit_type_e
+NAL_SLICE_DPB	include/x264.h	/^    NAL_SLICE_DPB   = 3,$/;"	e	enum:nal_unit_type_e
+NAL_SLICE_DPC	include/x264.h	/^    NAL_SLICE_DPC   = 4,$/;"	e	enum:nal_unit_type_e
+NAL_SLICE_IDR	include/x264.h	/^    NAL_SLICE_IDR   = 5,    \/* ref_idc != 0 *\/$/;"	e	enum:nal_unit_type_e
+NAL_SPS	include/x264.h	/^    NAL_SPS         = 7,$/;"	e	enum:nal_unit_type_e
+NAL_UNKNOWN	include/x264.h	/^    NAL_UNKNOWN     = 0,$/;"	e	enum:nal_unit_type_e
+OBJS	libwebrtc_h264.target.mk	/^OBJS := $(obj).target\/$(TARGET)\/src\/modules\/video_coding\/codecs\/h264\/reference_picture_selection.o \\$/;"	m
+OUTBUF_SIZE	x264Encoder.cpp	/^#define OUTBUF_SIZE	/;"	d	file:
+PARAM_INTERLACED	include/common.h	/^#   define PARAM_INTERLACED /;"	d
+PIC_STRUCT_AUTO	include/x264.h	/^    PIC_STRUCT_AUTO              = 0, \/\/ automatically decide (default)$/;"	e	enum:pic_struct_e
+PIC_STRUCT_BOTTOM_TOP	include/x264.h	/^    PIC_STRUCT_BOTTOM_TOP        = 5, \/\/ bottom field followed by top$/;"	e	enum:pic_struct_e
+PIC_STRUCT_BOTTOM_TOP_BOTTOM	include/x264.h	/^    PIC_STRUCT_BOTTOM_TOP_BOTTOM = 7, \/\/ bottom field, top field, bottom field repeated$/;"	e	enum:pic_struct_e
+PIC_STRUCT_DOUBLE	include/x264.h	/^    PIC_STRUCT_DOUBLE            = 8, \/\/ double frame$/;"	e	enum:pic_struct_e
+PIC_STRUCT_PROGRESSIVE	include/x264.h	/^    PIC_STRUCT_PROGRESSIVE       = 1, \/\/ progressive frame$/;"	e	enum:pic_struct_e
+PIC_STRUCT_TOP_BOTTOM	include/x264.h	/^    PIC_STRUCT_TOP_BOTTOM        = 4, \/\/ top field followed by bottom$/;"	e	enum:pic_struct_e
+PIC_STRUCT_TOP_BOTTOM_TOP	include/x264.h	/^    PIC_STRUCT_TOP_BOTTOM_TOP    = 6, \/\/ top field, bottom field, top field repeated$/;"	e	enum:pic_struct_e
+PIC_STRUCT_TRIPLE	include/x264.h	/^    PIC_STRUCT_TRIPLE            = 9, \/\/ triple frame$/;"	e	enum:pic_struct_e
+PIXEL_MAX	include/common.h	/^#define PIXEL_MAX /;"	d
+PIXEL_SPLAT_X4	include/common.h	/^#   define PIXEL_SPLAT_X4(/;"	d
+PREALLOC	include/common.h	/^#define PREALLOC(/;"	d
+PREALLOC_BUF_SIZE	include/common.h	/^#define PREALLOC_BUF_SIZE /;"	d
+PREALLOC_END	include/common.h	/^#define PREALLOC_END(/;"	d
+PREALLOC_INIT	include/common.h	/^#define PREALLOC_INIT\\/;"	d
+PushExpectation	h264_vt_encoder_unittest.cc	/^  void PushExpectation(const scoped_refptr<VideoFrame>& frame) {$/;"	f	class:media::cast::EndToEndFrameChecker
+PushExpectation	h264_vt_encoder_unittest.cc	/^  void PushExpectation(uint32 expected_frame_id,$/;"	f	class:media::cast::MetadataRecorder
+QP_BD_OFFSET	include/common.h	/^#define QP_BD_OFFSET /;"	d
+QP_MAX	include/common.h	/^#define QP_MAX /;"	d
+QP_MAX_MAX	include/common.h	/^#define QP_MAX_MAX /;"	d
+QP_MAX_SPEC	include/common.h	/^#define QP_MAX_SPEC /;"	d
+RECON_SHIFT	include/dsputil.h	/^#define RECON_SHIFT /;"	d
+ReceivedRPSI	reference_picture_selection.cc	/^void ReferencePictureSelection::ReceivedRPSI(int rpsi_picture_id) {$/;"	f	class:webrtc::ReferencePictureSelection
+ReceivedSLI	reference_picture_selection.cc	/^bool ReferencePictureSelection::ReceivedSLI(uint32_t now_ts) {$/;"	f	class:webrtc::ReferencePictureSelection
+ReferencePictureSelection	include/reference_picture_selection.h	/^class ReferencePictureSelection {$/;"	c	namespace:webrtc
+ReferencePictureSelection	reference_picture_selection.cc	/^ReferencePictureSelection::ReferencePictureSelection()$/;"	f	class:webrtc::ReferencePictureSelection
+ReferencePictureSelection	reference_picture_selection.h	/^class ReferencePictureSelection {$/;"	c	namespace:webrtc
+RegisterDecodeCompleteCallback	h264.cc	/^int H264Decoder::RegisterDecodeCompleteCallback($/;"	f	class:webrtc::H264Decoder
+RegisterDecodeCompleteCallback	h264_impl.cc	/^int H264DecoderImpl::RegisterDecodeCompleteCallback($/;"	f	class:webrtc::H264DecoderImpl
+RegisterEncodeCompleteCallback	h264.cc	/^int H264Encoder::RegisterEncodeCompleteCallback($/;"	f	class:webrtc::H264Encoder
+RegisterEncodeCompleteCallback	h264_impl.cc	/^int H264EncoderImpl::RegisterEncodeCompleteCallback($/;"	f	class:webrtc::H264EncoderImpl
+Release	h264.cc	/^int H264Decoder::Release() {$/;"	f	class:webrtc::H264Decoder
+Release	h264.cc	/^int H264Encoder::Release() {$/;"	f	class:webrtc::H264Encoder
+Release	h264_impl.cc	/^int H264DecoderImpl::Release() {$/;"	f	class:webrtc::H264DecoderImpl
+Release	h264_impl.cc	/^int H264EncoderImpl::Release() {$/;"	f	class:webrtc::H264EncoderImpl
+Reset	h264.cc	/^int H264Decoder::Reset() {$/;"	f	class:webrtc::H264Decoder
+Reset	h264_impl.cc	/^int H264DecoderImpl::Reset() {$/;"	f	class:webrtc::H264DecoderImpl
+ResetEncoder	x264Encoder.cpp	/^	void CX264Encoder::ResetEncoder(int width, int height)$/;"	f	class:webrtc::CX264Encoder
+ResetRCBuffer	x264Encoder.cpp	/^	void CX264Encoder::ResetRCBuffer()$/;"	f	class:webrtc::CX264Encoder
+RotateDecodedFrame	h264_impl.cc	/^int32_t H264DecoderImpl::RotateDecodedFrame(const int rotation)$/;"	f	class:webrtc::H264DecoderImpl
+SEI_BUFFERING_PERIOD	include/common.h	/^    SEI_BUFFERING_PERIOD       = 0,$/;"	e	enum:sei_payload_type_e
+SEI_DEC_REF_PIC_MARKING	include/common.h	/^    SEI_DEC_REF_PIC_MARKING    = 7,$/;"	e	enum:sei_payload_type_e
+SEI_FILLER	include/common.h	/^    SEI_FILLER                 = 3,$/;"	e	enum:sei_payload_type_e
+SEI_FRAME_PACKING	include/common.h	/^    SEI_FRAME_PACKING          = 45,$/;"	e	enum:sei_payload_type_e
+SEI_OVERHEAD	include/common.h	/^#define SEI_OVERHEAD /;"	d
+SEI_PAN_SCAN_RECT	include/common.h	/^    SEI_PAN_SCAN_RECT          = 2,$/;"	e	enum:sei_payload_type_e
+SEI_PIC_TIMING	include/common.h	/^    SEI_PIC_TIMING             = 1,$/;"	e	enum:sei_payload_type_e
+SEI_RECOVERY_POINT	include/common.h	/^    SEI_RECOVERY_POINT         = 6,$/;"	e	enum:sei_payload_type_e
+SEI_USER_DATA_REGISTERED	include/common.h	/^    SEI_USER_DATA_REGISTERED   = 4,$/;"	e	enum:sei_payload_type_e
+SEI_USER_DATA_UNREGISTERED	include/common.h	/^    SEI_USER_DATA_UNREGISTERED = 5,$/;"	e	enum:sei_payload_type_e
+SLICE_MBAFF	include/common.h	/^#   define SLICE_MBAFF /;"	d
+SLICE_TYPE_B	include/common.h	/^    SLICE_TYPE_B  = 1,$/;"	e	enum:slice_type_e
+SLICE_TYPE_I	include/common.h	/^    SLICE_TYPE_I  = 2,$/;"	e	enum:slice_type_e
+SLICE_TYPE_P	include/common.h	/^    SLICE_TYPE_P  = 0,$/;"	e	enum:slice_type_e
+SPEC_QP	include/common.h	/^#define SPEC_QP(/;"	d
+SYS_LINUX	include/config_x264_x86.h	/^#define SYS_LINUX /;"	d
+SYS_WINDOWS	include/config_x264_x86.h	/^#define SYS_WINDOWS /;"	d
+S_FALSE	include/x264Encoder.h	/^#define S_FALSE /;"	d
+S_OK	include/x264Encoder.h	/^#define S_OK /;"	d
+SaveOperationalStatus	h264_vt_encoder_unittest.cc	/^void SaveOperationalStatus(OperationalStatus* out_status,$/;"	f	namespace:media::cast
+SavePipelineStatus	h264_vt_encoder_unittest.cc	/^void SavePipelineStatus(PipelineStatus* out_status, PipelineStatus in_status) {$/;"	f	namespace:media::cast
+ScanTable	include/dsputil.h	/^typedef struct ScanTable{$/;"	s
+ScanTable	include/dsputil.h	/^} ScanTable;$/;"	t	typeref:struct:ScanTable
+SetChannelParameters	h264.cc	/^int H264Encoder::SetChannelParameters(uint32_t \/*packet_loss*\/, int rtt) {$/;"	f	class:webrtc::H264Encoder
+SetChannelParameters	h264_impl.cc	/^int32_t H264EncoderImpl::SetChannelParameters(uint32_t packet_loss, int64_t rtt){$/;"	f	class:webrtc::H264EncoderImpl
+SetDecodeFrame	h264_impl.cc	/^int32_t H264DecoderImpl::SetDecodeFrame(float scale)$/;"	f	class:webrtc::H264DecoderImpl
+SetDelayTime	x264Encoder.cpp	/^	void CX264Encoder::SetDelayTime(int sec)$/;"	f	class:webrtc::CX264Encoder
+SetFrameRefInfo	x264Encoder.cpp	/^	int CX264Encoder::SetFrameRefInfo(void* ptr, VideoFrameType FrameType)$/;"	f	class:webrtc::CX264Encoder
+SetParam	x264Encoder.cpp	/^	HRESULT CX264Encoder::SetParam(int nBitrate, int nFPS)$/;"	f	class:webrtc::CX264Encoder
+SetPeriod	x264Encoder.cpp	/^	void CX264Encoder::SetPeriod(int GOP, int gfGOP, int spGOP)$/;"	f	class:webrtc::CX264Encoder
+SetRates	h264.cc	/^int H264Encoder::SetRates(uint32_t new_bitrate_kbit, uint32_t new_framerate) {$/;"	f	class:webrtc::H264Encoder
+SetRates	h264_impl.cc	/^int H264EncoderImpl::SetRates(uint32_t new_bitrate_kbit, uint32_t new_framerate) {$/;"	f	class:webrtc::H264EncoderImpl
+SetRtt	reference_picture_selection.cc	/^void ReferencePictureSelection::SetRtt(int rtt) {$/;"	f	class:webrtc::ReferencePictureSelection
+SetUpTestCase	h264_vt_encoder_unittest.cc	/^  static void SetUpTestCase() {$/;"	f	class:media::cast::H264VideoToolboxEncoderTest
+TARGET	libwebrtc_h264.target.mk	/^TARGET := libwebrtc_h264$/;"	m
+TEST_F	h264_vt_encoder_unittest.cc	/^TEST_F(H264VideoToolboxEncoderTest, CheckFrameMetadataSequence) {$/;"	f	namespace:media::cast
+TEST_F	h264_vt_encoder_unittest.cc	/^TEST_F(H264VideoToolboxEncoderTest, CheckFramesAreDecodable) {$/;"	f	namespace:media::cast
+TEST_F	h264_vt_encoder_unittest.cc	/^TEST_F(H264VideoToolboxEncoderTest, CheckVideoFrameFactory) {$/;"	f	namespace:media::cast
+TOOLSET	libwebrtc_h264.target.mk	/^$(OBJS): TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	libwebrtc_h264.target.mk	/^$(obj).target\/src\/modules\/video_coding\/codecs\/h264\/libwebrtc_h264.a: TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	libwebrtc_h264.target.mk	/^TOOLSET := target$/;"	m
+TearDownTestCase	h264_vt_encoder_unittest.cc	/^  static void TearDownTestCase() { frame_ = nullptr; }$/;"	f	class:media::cast::H264VideoToolboxEncoderTest
+Teardown	h264_vt_encoder.cc	/^void H264VideoToolboxEncoder::Teardown() {$/;"	f	class:webrtc::H264VideoToolboxEncoder
+TimestampDiff	reference_picture_selection.cc	/^uint32_t ReferencePictureSelection::TimestampDiff(uint32_t new_ts,$/;"	f	class:webrtc::ReferencePictureSelection
+USE_AVXSYNTH	include/config_x264_x86.h	/^#define USE_AVXSYNTH /;"	d
+UnInit	x264Encoder.cpp	/^	HRESULT CX264Encoder::UnInit()$/;"	f	class:webrtc::CX264Encoder
+UpdateCodecFrameSize	h264.cc	/^int H264Encoder::UpdateCodecFrameSize(WebRtc_UWord32 input_image_width,$/;"	f	class:webrtc::H264Encoder
+UpdateCodecFrameSize	h264_impl.cc	/^int H264EncoderImpl::UpdateCodecFrameSize(uint32_t input_image_width,$/;"	f	class:webrtc::H264EncoderImpl
+UpdateRefStatus	x264Encoder.cpp	/^	void CX264Encoder::UpdateRefStatus(VideoFrameType FrameType)$/;"	f	class:webrtc::CX264Encoder
+VP8EncoderFactoryConfig	h264_factory.h	/^class VP8EncoderFactoryConfig {$/;"	c	namespace:webrtc
+VP8EncoderImplFactory	h264_factory.cc	/^class VP8EncoderImplFactory : public VideoEncoderFactory {$/;"	c	namespace:webrtc	file:
+VQQINT	include/x264Encoder.h	/^#define VQQINT /;"	d
+VQQLONG	include/x264Encoder.h	/^#define VQQLONG /;"	d
+VQQUCHAR	include/x264Encoder.h	/^#define VQQUCHAR /;"	d
+VTCompressionOutputCallback	videotoolbox_glue.h	/^  typedef void (*VTCompressionOutputCallback)($/;"	t	class:VideoToolboxGlue
+VTCompressionSessionRef	include/h264_vt_encoder.h	/^  typedef VideoToolboxGlue::VTCompressionSessionRef VTCompressionSessionRef;$/;"	t	class:webrtc::H264VideoToolboxEncoder
+VTCompressionSessionRef	videotoolbox_glue.h	/^  typedef struct OpaqueVTCompressionSession* VTCompressionSessionRef;$/;"	t	class:VideoToolboxGlue	typeref:struct:VideoToolboxGlue::OpaqueVTCompressionSession
+VTEncodeInfoFlags	include/h264_vt_encoder.h	/^  typedef VideoToolboxGlue::VTEncodeInfoFlags VTEncodeInfoFlags;$/;"	t	class:webrtc::H264VideoToolboxEncoder
+VTEncodeInfoFlags	videotoolbox_glue.h	/^  typedef unsigned int VTEncodeInfoFlags;$/;"	t	class:VideoToolboxGlue
+VTSessionRef	videotoolbox_glue.h	/^  typedef CFTypeRef VTSessionRef;$/;"	t	class:VideoToolboxGlue
+VideoSenderConfig	include/h264_vt_encoder.h	/^struct VideoSenderConfig {$/;"	s	namespace:webrtc
+VideoToolboxGlue	videotoolbox_glue.h	/^class MEDIA_EXPORT VideoToolboxGlue {$/;"	c
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H264_FACTORY_H_	h264_factory.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H264_FACTORY_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H_	include/h264_encoder_decoder.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_IMPL_H_	include/h264_impl.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_IMPL_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_INCLUDE_H264_H_	include/h264.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_INCLUDE_H264_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_INCLUDE_H264_INTERFACE_H_	include/h264_interface.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_INCLUDE_H264_INTERFACE_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_REFERENCE_PICTURE_SELECTION_H_	include/reference_picture_selection.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_REFERENCE_PICTURE_SELECTION_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_REFERENCE_PICTURE_SELECTION_H_	reference_picture_selection.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_REFERENCE_PICTURE_SELECTION_H_$/;"	d
+WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_COMMON_TYPES_H_	include/vp8_common_types.h	/^#define WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_COMMON_TYPES_H_$/;"	d
+WrapVideoFrameInCVPixelBuffer	h264_vt_encoder.cc	/^H264VideoToolboxEncoder::WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) {$/;"	f	class:webrtc::H264VideoToolboxEncoder
+X264ENCPARAM	include/x264Encoder.h	/^	} X264ENCPARAM;$/;"	t	namespace:webrtc	typeref:struct:webrtc::tagx264EncParam
+X264_ANALYSE_BSUB16x16	include/x264.h	/^#define X264_ANALYSE_BSUB16x16 /;"	d
+X264_ANALYSE_I4x4	include/x264.h	/^#define X264_ANALYSE_I4x4 /;"	d
+X264_ANALYSE_I8x8	include/x264.h	/^#define X264_ANALYSE_I8x8 /;"	d
+X264_ANALYSE_PSUB16x16	include/x264.h	/^#define X264_ANALYSE_PSUB16x16 /;"	d
+X264_ANALYSE_PSUB8x8	include/x264.h	/^#define X264_ANALYSE_PSUB8x8 /;"	d
+X264_API	include/x264.h	/^#define X264_API /;"	d
+X264_API	include/x264.h	/^#define X264_API$/;"	d
+X264_AQ_AUTOVARIANCE	include/x264.h	/^#define X264_AQ_AUTOVARIANCE /;"	d
+X264_AQ_AUTOVARIANCE_BIASED	include/x264.h	/^#define X264_AQ_AUTOVARIANCE_BIASED /;"	d
+X264_AQ_NONE	include/x264.h	/^#define X264_AQ_NONE /;"	d
+X264_AQ_VARIANCE	include/x264.h	/^#define X264_AQ_VARIANCE /;"	d
+X264_BFRAME_MAX	include/common.h	/^#define X264_BFRAME_MAX /;"	d
+X264_BIT_DEPTH	include/x264_config.h	/^#define X264_BIT_DEPTH /;"	d
+X264_BUILD	include/x264.h	/^#define X264_BUILD /;"	d
+X264_B_ADAPT_FAST	include/x264.h	/^#define X264_B_ADAPT_FAST /;"	d
+X264_B_ADAPT_NONE	include/x264.h	/^#define X264_B_ADAPT_NONE /;"	d
+X264_B_ADAPT_TRELLIS	include/x264.h	/^#define X264_B_ADAPT_TRELLIS /;"	d
+X264_B_PYRAMID_NONE	include/x264.h	/^#define X264_B_PYRAMID_NONE /;"	d
+X264_B_PYRAMID_NORMAL	include/x264.h	/^#define X264_B_PYRAMID_NORMAL /;"	d
+X264_B_PYRAMID_STRICT	include/x264.h	/^#define X264_B_PYRAMID_STRICT /;"	d
+X264_CHROMA_FORMAT	include/x264_config.h	/^#define X264_CHROMA_FORMAT /;"	d
+X264_COMMON_H	include/common.h	/^#define X264_COMMON_H$/;"	d
+X264_CPU_ALTIVEC	include/x264.h	/^#define X264_CPU_ALTIVEC /;"	d
+X264_CPU_ARMV6	include/x264.h	/^#define X264_CPU_ARMV6 /;"	d
+X264_CPU_ARMV8	include/x264.h	/^#define X264_CPU_ARMV8 /;"	d
+X264_CPU_AVX	include/x264.h	/^#define X264_CPU_AVX /;"	d
+X264_CPU_AVX2	include/x264.h	/^#define X264_CPU_AVX2 /;"	d
+X264_CPU_BMI1	include/x264.h	/^#define X264_CPU_BMI1 /;"	d
+X264_CPU_BMI2	include/x264.h	/^#define X264_CPU_BMI2 /;"	d
+X264_CPU_CACHELINE_32	include/x264.h	/^#define X264_CPU_CACHELINE_32 /;"	d
+X264_CPU_CACHELINE_64	include/x264.h	/^#define X264_CPU_CACHELINE_64 /;"	d
+X264_CPU_CMOV	include/x264.h	/^#define X264_CPU_CMOV /;"	d
+X264_CPU_FAST_NEON_MRC	include/x264.h	/^#define X264_CPU_FAST_NEON_MRC /;"	d
+X264_CPU_FMA3	include/x264.h	/^#define X264_CPU_FMA3 /;"	d
+X264_CPU_FMA4	include/x264.h	/^#define X264_CPU_FMA4 /;"	d
+X264_CPU_LZCNT	include/x264.h	/^#define X264_CPU_LZCNT /;"	d
+X264_CPU_MMX	include/x264.h	/^#define X264_CPU_MMX /;"	d
+X264_CPU_MMX2	include/x264.h	/^#define X264_CPU_MMX2 /;"	d
+X264_CPU_MMXEXT	include/x264.h	/^#define X264_CPU_MMXEXT /;"	d
+X264_CPU_NEON	include/x264.h	/^#define X264_CPU_NEON /;"	d
+X264_CPU_SLOW_ATOM	include/x264.h	/^#define X264_CPU_SLOW_ATOM /;"	d
+X264_CPU_SLOW_CTZ	include/x264.h	/^#define X264_CPU_SLOW_CTZ /;"	d
+X264_CPU_SLOW_PALIGNR	include/x264.h	/^#define X264_CPU_SLOW_PALIGNR /;"	d
+X264_CPU_SLOW_PSHUFB	include/x264.h	/^#define X264_CPU_SLOW_PSHUFB /;"	d
+X264_CPU_SLOW_SHUFFLE	include/x264.h	/^#define X264_CPU_SLOW_SHUFFLE /;"	d
+X264_CPU_SSE	include/x264.h	/^#define X264_CPU_SSE /;"	d
+X264_CPU_SSE2	include/x264.h	/^#define X264_CPU_SSE2 /;"	d
+X264_CPU_SSE2_IS_FAST	include/x264.h	/^#define X264_CPU_SSE2_IS_FAST /;"	d
+X264_CPU_SSE2_IS_SLOW	include/x264.h	/^#define X264_CPU_SSE2_IS_SLOW /;"	d
+X264_CPU_SSE3	include/x264.h	/^#define X264_CPU_SSE3 /;"	d
+X264_CPU_SSE4	include/x264.h	/^#define X264_CPU_SSE4 /;"	d
+X264_CPU_SSE42	include/x264.h	/^#define X264_CPU_SSE42 /;"	d
+X264_CPU_SSSE3	include/x264.h	/^#define X264_CPU_SSSE3 /;"	d
+X264_CPU_STACK_MOD4	include/x264.h	/^#define X264_CPU_STACK_MOD4 /;"	d
+X264_CPU_XOP	include/x264.h	/^#define X264_CPU_XOP /;"	d
+X264_CQM_CUSTOM	include/x264.h	/^#define X264_CQM_CUSTOM /;"	d
+X264_CQM_FLAT	include/x264.h	/^#define X264_CQM_FLAT /;"	d
+X264_CQM_JVT	include/x264.h	/^#define X264_CQM_JVT /;"	d
+X264_CSP_BGR	include/x264.h	/^#define X264_CSP_BGR /;"	d
+X264_CSP_BGRA	include/x264.h	/^#define X264_CSP_BGRA /;"	d
+X264_CSP_HIGH_DEPTH	include/x264.h	/^#define X264_CSP_HIGH_DEPTH /;"	d
+X264_CSP_I420	include/x264.h	/^#define X264_CSP_I420 /;"	d
+X264_CSP_I422	include/x264.h	/^#define X264_CSP_I422 /;"	d
+X264_CSP_I444	include/x264.h	/^#define X264_CSP_I444 /;"	d
+X264_CSP_MASK	include/x264.h	/^#define X264_CSP_MASK /;"	d
+X264_CSP_MAX	include/x264.h	/^#define X264_CSP_MAX /;"	d
+X264_CSP_NONE	include/x264.h	/^#define X264_CSP_NONE /;"	d
+X264_CSP_NV12	include/x264.h	/^#define X264_CSP_NV12 /;"	d
+X264_CSP_NV16	include/x264.h	/^#define X264_CSP_NV16 /;"	d
+X264_CSP_RGB	include/x264.h	/^#define X264_CSP_RGB /;"	d
+X264_CSP_V210	include/x264.h	/^#define X264_CSP_V210 /;"	d
+X264_CSP_VFLIP	include/x264.h	/^#define X264_CSP_VFLIP /;"	d
+X264_CSP_YV12	include/x264.h	/^#define X264_CSP_YV12 /;"	d
+X264_CSP_YV16	include/x264.h	/^#define X264_CSP_YV16 /;"	d
+X264_CSP_YV24	include/x264.h	/^#define X264_CSP_YV24 /;"	d
+X264_DIRECT_PRED_AUTO	include/x264.h	/^#define X264_DIRECT_PRED_AUTO /;"	d
+X264_DIRECT_PRED_NONE	include/x264.h	/^#define X264_DIRECT_PRED_NONE /;"	d
+X264_DIRECT_PRED_SPATIAL	include/x264.h	/^#define X264_DIRECT_PRED_SPATIAL /;"	d
+X264_DIRECT_PRED_TEMPORAL	include/x264.h	/^#define X264_DIRECT_PRED_TEMPORAL /;"	d
+X264_GPL	include/x264_config.h	/^#define X264_GPL /;"	d
+X264_INTERLACED	include/x264_config.h	/^#define X264_INTERLACED /;"	d
+X264_KEYINT_MAX_INFINITE	include/x264.h	/^#define X264_KEYINT_MAX_INFINITE /;"	d
+X264_KEYINT_MIN_AUTO	include/x264.h	/^#define X264_KEYINT_MIN_AUTO /;"	d
+X264_LOG_DEBUG	include/x264.h	/^#define X264_LOG_DEBUG /;"	d
+X264_LOG_ERROR	include/x264.h	/^#define X264_LOG_ERROR /;"	d
+X264_LOG_INFO	include/x264.h	/^#define X264_LOG_INFO /;"	d
+X264_LOG_NONE	include/x264.h	/^#define X264_LOG_NONE /;"	d
+X264_LOG_WARNING	include/x264.h	/^#define X264_LOG_WARNING /;"	d
+X264_LOOKAHEAD_MAX	include/common.h	/^#define X264_LOOKAHEAD_MAX /;"	d
+X264_LOOKAHEAD_QP	include/common.h	/^#define X264_LOOKAHEAD_QP /;"	d
+X264_LOOKAHEAD_THREAD_MAX	include/common.h	/^#define X264_LOOKAHEAD_THREAD_MAX /;"	d
+X264_MAX	include/common.h	/^#define X264_MAX(/;"	d
+X264_MAX3	include/common.h	/^#define X264_MAX3(/;"	d
+X264_MAX4	include/common.h	/^#define X264_MAX4(/;"	d
+X264_MBINFO_CONSTANT	include/x264.h	/^    #define X264_MBINFO_CONSTANT /;"	d
+X264_ME_DIA	include/x264.h	/^#define X264_ME_DIA /;"	d
+X264_ME_ESA	include/x264.h	/^#define X264_ME_ESA /;"	d
+X264_ME_HEX	include/x264.h	/^#define X264_ME_HEX /;"	d
+X264_ME_TESA	include/x264.h	/^#define X264_ME_TESA /;"	d
+X264_ME_UMH	include/x264.h	/^#define X264_ME_UMH /;"	d
+X264_MIN	include/common.h	/^#define X264_MIN(/;"	d
+X264_MIN3	include/common.h	/^#define X264_MIN3(/;"	d
+X264_MIN4	include/common.h	/^#define X264_MIN4(/;"	d
+X264_NAL_HRD_CBR	include/x264.h	/^#define X264_NAL_HRD_CBR /;"	d
+X264_NAL_HRD_NONE	include/x264.h	/^#define X264_NAL_HRD_NONE /;"	d
+X264_NAL_HRD_VBR	include/x264.h	/^#define X264_NAL_HRD_VBR /;"	d
+X264_PARAM_BAD_NAME	include/x264.h	/^#define X264_PARAM_BAD_NAME /;"	d
+X264_PARAM_BAD_VALUE	include/x264.h	/^#define X264_PARAM_BAD_VALUE /;"	d
+X264_PCM_COST	include/common.h	/^#define X264_PCM_COST /;"	d
+X264_POINTVER	include/x264_config.h	/^#define X264_POINTVER /;"	d
+X264_QP_AUTO	include/x264.h	/^#define X264_QP_AUTO /;"	d
+X264_RC_ABR	include/x264.h	/^#define X264_RC_ABR /;"	d
+X264_RC_CQP	include/x264.h	/^#define X264_RC_CQP /;"	d
+X264_RC_CRF	include/x264.h	/^#define X264_RC_CRF /;"	d
+X264_RC_LAMBDA	include/x264.h	/^#define X264_RC_LAMBDA /;"	d
+X264_REF_MAX	include/common.h	/^#define X264_REF_MAX /;"	d
+X264_REV	include/x264_config.h	/^#define X264_REV /;"	d
+X264_REV_DIFF	include/x264_config.h	/^#define X264_REV_DIFF /;"	d
+X264_SCAN8_0	include/common.h	/^#define X264_SCAN8_0 /;"	d
+X264_SCAN8_LUMA_SIZE	include/common.h	/^#define X264_SCAN8_LUMA_SIZE /;"	d
+X264_SCAN8_SIZE	include/common.h	/^#define X264_SCAN8_SIZE /;"	d
+X264_SYNC_LOOKAHEAD_AUTO	include/x264.h	/^#define X264_SYNC_LOOKAHEAD_AUTO /;"	d
+X264_THREADS_AUTO	include/x264.h	/^#define X264_THREADS_AUTO /;"	d
+X264_THREAD_HEIGHT	include/common.h	/^#define X264_THREAD_HEIGHT /;"	d
+X264_THREAD_MAX	include/common.h	/^#define X264_THREAD_MAX /;"	d
+X264_TYPE_AUTO	include/x264.h	/^#define X264_TYPE_AUTO /;"	d
+X264_TYPE_B	include/x264.h	/^#define X264_TYPE_B /;"	d
+X264_TYPE_BREF	include/x264.h	/^#define X264_TYPE_BREF /;"	d
+X264_TYPE_I	include/x264.h	/^#define X264_TYPE_I /;"	d
+X264_TYPE_IDR	include/x264.h	/^#define X264_TYPE_IDR /;"	d
+X264_TYPE_KEYFRAME	include/x264.h	/^#define X264_TYPE_KEYFRAME /;"	d
+X264_TYPE_P	include/x264.h	/^#define X264_TYPE_P /;"	d
+X264_VERSION	include/x264_config.h	/^#define X264_VERSION /;"	d
+X264_WEIGHTP_FAKE	include/common.h	/^#define X264_WEIGHTP_FAKE /;"	d
+X264_WEIGHTP_NONE	include/x264.h	/^#define X264_WEIGHTP_NONE /;"	d
+X264_WEIGHTP_SIMPLE	include/x264.h	/^#define X264_WEIGHTP_SIMPLE /;"	d
+X264_WEIGHTP_SMART	include/x264.h	/^#define X264_WEIGHTP_SMART /;"	d
+X264_X264_H	include/x264.h	/^#define X264_X264_H$/;"	d
+XCHG	include/common.h	/^#define XCHG(/;"	d
+_MSC_VER_WEBRTC	include/config_x264_x86.h	/^#define _MSC_VER_WEBRTC /;"	d
+_X264ENCODER_H	include/x264Encoder.h	/^#define _X264ENCODER_H$/;"	d
+_numerator	include/h264_impl.h	/^	int                     _numerator;$/;"	m	class:webrtc::H264DecoderImpl
+_rotation	include/h264_impl.h	/^	int                     _rotation;$/;"	m	class:webrtc::H264DecoderImpl
+_scale	include/h264_impl.h	/^	float                   _scale;$/;"	m	class:webrtc::H264DecoderImpl
+a	include/common.h	/^typedef union { uint64_t i; uint32_t a[2]; uint16_t b[4]; uint8_t c[8]; } MAY_ALIAS x264_union64_t;$/;"	m	union:__anon12
+a	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	m	union:__anon14
+add_8x8basis	include/dsputil.h	/^    void (*add_8x8basis)(int16_t rem[64], int16_t basis[64], int scale);$/;"	m	struct:DSPContext
+add_bytes	include/dsputil.h	/^    void (*add_bytes)(uint8_t *dst\/*align 16*\/, uint8_t *src\/*align 16*\/, int w);$/;"	m	struct:DSPContext
+add_hfyu_left_prediction	include/dsputil.h	/^    int  (*add_hfyu_left_prediction)(uint8_t *dst, const uint8_t *src, int w, int left);$/;"	m	struct:DSPContext
+add_hfyu_left_prediction_bgr32	include/dsputil.h	/^    void (*add_hfyu_left_prediction_bgr32)(uint8_t *dst, const uint8_t *src, int w, int *red, int *green, int *blue, int *alpha);$/;"	m	struct:DSPContext
+add_hfyu_median_prediction	include/dsputil.h	/^    void (*add_hfyu_median_prediction)(uint8_t *dst, const uint8_t *top, const uint8_t *diff, int w, int *left, int *left_top);$/;"	m	struct:DSPContext
+add_pixels8	include/dsputil.h	/^    void (*add_pixels8)(uint8_t *pixels, int16_t *block, int line_size);$/;"	m	struct:DSPContext
+add_pixels_clamped	include/dsputil.h	/^    void (*add_pixels_clamped)(const int16_t *block\/*align 16*\/, uint8_t *pixels\/*align 8*\/, int line_size);$/;"	m	struct:DSPContext
+analyse	include/x264.h	/^    } analyse;$/;"	m	struct:x264_param_t	typeref:struct:x264_param_t::__anon31
+apply_window_int16	include/dsputil.h	/^    void (*apply_window_int16)(int16_t *output, const int16_t *input,$/;"	m	struct:DSPContext
+arg	include/common.h	/^        int arg;$/;"	m	struct:__anon15::__anon16
+arraysize	macros.h	/^#define arraysize(/;"	d
+avg_qpel_pixels_tab	include/dsputil.h	/^    qpel_mc_func avg_qpel_pixels_tab[2][16];$/;"	m	struct:DSPContext
+avg_tpel_pixels_tab	include/dsputil.h	/^    tpel_mc_func avg_tpel_pixels_tab[11]; \/\/FIXME individual func ptr per width?$/;"	m	struct:DSPContext
+b	include/common.h	/^typedef union { uint32_t i; uint16_t b[2]; uint8_t  c[4]; } MAY_ALIAS x264_union32_t;$/;"	m	union:__anon11
+b	include/common.h	/^typedef union { uint64_t i; uint32_t a[2]; uint16_t b[4]; uint8_t c[8]; } MAY_ALIAS x264_union64_t;$/;"	m	union:__anon12
+b	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	m	union:__anon14
+b_adaptive_mbaff	include/common.h	/^        int     b_adaptive_mbaff; \/* MBAFF+subme 0 requires non-adaptive MBAFF i.e. all field mbs *\/$/;"	m	struct:x264_t::__anon22
+b_adaptive_qp	x264Encoder.cpp	/^		int         b_adaptive_qp;$/;"	m	struct:webrtc::user_param_t	file:
+b_allow_skip	include/common.h	/^        int     b_allow_skip;$/;"	m	struct:x264_t::__anon22
+b_analyse_keyframe	include/common.h	/^    uint8_t                       b_analyse_keyframe;$/;"	m	struct:x264_lookahead_t
+b_annexb	include/x264.h	/^    int b_annexb;               \/* if set, place start codes (4 bytes) before NAL units,$/;"	m	struct:x264_param_t
+b_aud	include/x264.h	/^    int b_aud;                  \/* generate access unit delimiters *\/$/;"	m	struct:x264_param_t
+b_bluray_compat	include/x264.h	/^    int         b_bluray_compat;$/;"	m	struct:x264_param_t
+b_bottom_field	include/common.h	/^    int b_bottom_field;$/;"	m	struct:__anon15
+b_cabac	include/x264.h	/^    int         b_cabac;$/;"	m	struct:x264_param_t
+b_chroma_me	include/common.h	/^        int     b_chroma_me;$/;"	m	struct:x264_t::__anon22
+b_chroma_me	include/x264.h	/^        int          b_chroma_me; \/* chroma ME for subpel and mode decision in P-frames *\/$/;"	m	struct:x264_param_t::__anon31
+b_constrained_intra	include/x264.h	/^    int         b_constrained_intra;$/;"	m	struct:x264_param_t
+b_cpu_independent	include/x264.h	/^    int         b_cpu_independent; \/* force canonical behavior rather than cpu-dependent optimal algorithms *\/$/;"	m	struct:x264_param_t
+b_dct_decimate	include/common.h	/^        int     b_dct_decimate;$/;"	m	struct:x264_t::__anon22
+b_dct_decimate	include/x264.h	/^        int          b_dct_decimate; \/* transform coefficient thresholding on P-frames *\/$/;"	m	struct:x264_param_t::__anon31
+b_deblock_rdo	include/common.h	/^        int b_deblock_rdo;$/;"	m	struct:x264_t::__anon22
+b_deblocking_filter	include/x264.h	/^    int         b_deblocking_filter;$/;"	m	struct:x264_param_t
+b_deterministic	include/x264.h	/^    int         b_deterministic; \/* whether to allow non-deterministic optimizations when threaded *\/$/;"	m	struct:x264_param_t
+b_direct_auto_read	include/common.h	/^        int     b_direct_auto_read; \/* take stats for --direct auto from the 2pass log *\/$/;"	m	struct:x264_t::__anon22
+b_direct_auto_write	include/common.h	/^        int     b_direct_auto_write; \/* analyse direct modes, to use and\/or save *\/$/;"	m	struct:x264_t::__anon22
+b_direct_spatial_mv_pred	include/common.h	/^    int b_direct_spatial_mv_pred;$/;"	m	struct:__anon15
+b_exit_thread	include/common.h	/^    volatile uint8_t              b_exit_thread;$/;"	m	struct:x264_lookahead_t
+b_fake_interlaced	include/x264.h	/^    int b_fake_interlaced;$/;"	m	struct:x264_param_t
+b_fast_pskip	include/x264.h	/^        int          b_fast_pskip; \/* early SKIP detection on P-frames *\/$/;"	m	struct:x264_param_t::__anon31
+b_field_pic	include/common.h	/^    int b_field_pic;$/;"	m	struct:__anon15
+b_filler	include/x264.h	/^        int         b_filler;$/;"	m	struct:x264_param_t::__anon32
+b_force_qp	include/x264.h	/^    int b_force_qp; \/* whether to use qp vs bitrate factor *\/$/;"	m	struct:__anon29
+b_full_recon	include/x264.h	/^    int         b_full_recon;   \/* fully reconstruct frames, even when not necessary for encoding.  Implied by psz_dump_yuv *\/$/;"	m	struct:x264_param_t
+b_fullrange	include/x264.h	/^        int         b_fullrange;$/;"	m	struct:x264_param_t::__anon30
+b_have_lowres	include/common.h	/^        int b_have_lowres;  \/* Whether 1\/2 resolution luma planes are being used *\/$/;"	m	struct:x264_t::__anon20
+b_have_sub8x8_esa	include/common.h	/^        int b_have_sub8x8_esa;$/;"	m	struct:x264_t::__anon20
+b_interlaced	include/common.h	/^        int     b_interlaced;$/;"	m	struct:x264_t::__anon22
+b_interlaced	include/x264.h	/^    int         b_interlaced;$/;"	m	struct:x264_param_t
+b_intra_refresh	include/x264.h	/^    int         b_intra_refresh;    \/* Whether or not to use periodic intra refresh instead of IDR frames. *\/$/;"	m	struct:x264_param_t
+b_keyframe	include/x264.h	/^    int     b_keyframe;$/;"	m	struct:__anon40
+b_long_startcode	include/x264.h	/^    int b_long_startcode;$/;"	m	struct:__anon28
+b_lossless	include/common.h	/^        int     b_lossless;$/;"	m	struct:x264_t::__anon22
+b_mb_info	include/x264.h	/^        int          b_mb_info;            \/* Use input mb_info data in x264_picture_t *\/$/;"	m	struct:x264_param_t::__anon31
+b_mb_info_update	include/x264.h	/^        int          b_mb_info_update; \/* Update the values in mb_info according to the results of encoding. *\/$/;"	m	struct:x264_param_t::__anon31
+b_mb_tree	include/x264.h	/^        int         b_mb_tree;      \/* Macroblock-tree ratecontrol. *\/$/;"	m	struct:x264_param_t::__anon32
+b_mbaff	include/common.h	/^    int b_mbaff;$/;"	m	struct:__anon15
+b_mbrc_strict	x264Encoder.cpp	/^		int         b_mbrc_strict;$/;"	m	struct:webrtc::user_param_t	file:
+b_mixed_references	include/x264.h	/^        int          b_mixed_references; \/* allow each mb partition to have its own reference number *\/$/;"	m	struct:x264_param_t::__anon31
+b_noise_reduction	include/common.h	/^        int     b_noise_reduction;$/;"	m	struct:x264_t::__anon22
+b_num_ref_idx_override	include/common.h	/^    int b_num_ref_idx_override;$/;"	m	struct:__anon15
+b_open_gop	include/x264.h	/^    int         b_open_gop;$/;"	m	struct:x264_param_t
+b_opencl	include/x264.h	/^    int b_opencl;            \/* use OpenCL when available *\/$/;"	m	struct:x264_param_t
+b_overflow	include/common.h	/^        int b_overflow; \/* If CAVLC had a level code overflow during bitstream writing. *\/$/;"	m	struct:x264_t::__anon22
+b_pic_struct	include/x264.h	/^    int b_pic_struct;$/;"	m	struct:x264_param_t
+b_psnr	include/x264.h	/^        int          b_psnr;    \/* compute and print PSNR stats *\/$/;"	m	struct:x264_param_t::__anon31
+b_psy	include/x264.h	/^        int          b_psy; \/* Toggle all psy optimizations *\/$/;"	m	struct:x264_param_t::__anon31
+b_pulldown	include/x264.h	/^    int b_pulldown;             \/* use explicity set timebase for CFR *\/$/;"	m	struct:x264_param_t
+b_queued_intra_refresh	include/common.h	/^    int             b_queued_intra_refresh;$/;"	m	struct:x264_t
+b_rc_vbv	x264Encoder.cpp	/^		int         b_rc_vbv;$/;"	m	struct:webrtc::user_param_t	file:
+b_reencode_mb	include/common.h	/^        int b_reencode_mb;$/;"	m	struct:x264_t::__anon22
+b_ref_pic_list_reordering	include/common.h	/^    int b_ref_pic_list_reordering[2];$/;"	m	struct:__anon15
+b_ref_reorder	include/common.h	/^    int             b_ref_reorder[2];$/;"	m	struct:x264_t
+b_repeat_headers	include/x264.h	/^    int b_repeat_headers;       \/* put SPS\/PPS before each keyframe *\/$/;"	m	struct:x264_param_t
+b_sh_backup	include/common.h	/^    int b_sh_backup;$/;"	m	struct:x264_t
+b_skip_mc	include/common.h	/^        int b_skip_mc;$/;"	m	struct:x264_t::__anon22
+b_sliced_threads	include/x264.h	/^    int         b_sliced_threads;  \/* Whether to use slice-based threading. *\/$/;"	m	struct:x264_param_t
+b_sp_for_swidth	include/common.h	/^    int b_sp_for_swidth;$/;"	m	struct:__anon15
+b_ssim	include/x264.h	/^        int          b_ssim;    \/* compute and print SSIM stats *\/$/;"	m	struct:x264_param_t::__anon31
+b_stat_read	include/x264.h	/^        int         b_stat_read;    \/* Read stat from psz_stat_in and use it *\/$/;"	m	struct:x264_param_t::__anon32
+b_stat_write	include/x264.h	/^        int         b_stat_write;   \/* Enable stat writing in psz_stat_out *\/$/;"	m	struct:x264_param_t::__anon32
+b_stitchable	include/x264.h	/^    int b_stitchable;$/;"	m	struct:x264_param_t
+b_tff	include/x264.h	/^    int b_tff;$/;"	m	struct:x264_param_t
+b_thread_active	include/common.h	/^    int             b_thread_active;$/;"	m	struct:x264_t
+b_thread_active	include/common.h	/^    uint8_t                       b_thread_active;$/;"	m	struct:x264_lookahead_t
+b_transform_8x8	include/common.h	/^        int     b_transform_8x8;$/;"	m	struct:x264_t::__anon22
+b_transform_8x8	include/x264.h	/^        int          b_transform_8x8;$/;"	m	struct:x264_param_t::__anon31
+b_trellis	include/common.h	/^        int     b_trellis;$/;"	m	struct:x264_t::__anon22
+b_variable_qp	include/common.h	/^        int     b_variable_qp; \/* whether qp is allowed to vary per macroblock *\/$/;"	m	struct:x264_t::__anon22
+b_vfr_input	include/x264.h	/^    int b_vfr_input;            \/* VFR input.  If 1, use timebase and timestamps for ratecontrol purposes.$/;"	m	struct:x264_param_t
+b_weighted_bipred	include/x264.h	/^        int          b_weighted_bipred; \/* implicit weighting for B-frames *\/$/;"	m	struct:x264_param_t::__anon31
+b_weighted_pred	include/common.h	/^    int b_weighted_pred;$/;"	m	struct:__anon15
+base	include/common.h	/^        uint8_t *base;                      \/* base pointer for all malloced data in this mb *\/$/;"	m	struct:x264_t::__anon22
+base	macros.h	/^namespace base {$/;"	n
+bipred8x8	include/x264.h	/^    int bipred8x8;   \/* limit bipred to >=8x8 *\/$/;"	m	struct:__anon34
+bipred_weight	include/common.h	/^        int8_t (*bipred_weight)[4];$/;"	m	struct:x264_t::__anon22
+bipred_weight_buf	include/common.h	/^        int8_t bipred_weight_buf[2][2][X264_REF_MAX*2][4];$/;"	m	struct:x264_t::__anon22
+bit	include/dsputil.h	/^    me_cmp_func bit[6];$/;"	m	struct:DSPContext
+bit_cast	macros.h	/^inline Dest bit_cast(const Source& source) {$/;"	f
+bitrate	include/x264.h	/^    int bitrate;     \/* max bitrate (kbit\/sec) *\/$/;"	m	struct:__anon34
+blank_unused	include/common.h	/^        x264_frame_t **blank_unused;$/;"	m	struct:x264_t::__anon20
+bs	include/common.h	/^        bs_t        bs;$/;"	m	struct:x264_t::__anon19
+bsf	include/common.h	/^    x264_bitstream_function_t bsf;$/;"	m	struct:x264_t
+bswap16_buf	include/dsputil.h	/^    void (*bswap16_buf)(uint16_t *dst, const uint16_t *src, int len);$/;"	m	struct:DSPContext
+bswap_buf	include/dsputil.h	/^    void (*bswap_buf)(uint32_t *dst, const uint32_t *src, int w);$/;"	m	struct:DSPContext
+buf_dec_	include/h264_impl.h	/^    uint8_t                 *buf_dec_;$/;"	m	class:webrtc::H264DecoderImpl
+buf_enc_	include/h264_encoder_decoder.h	/^    uint8_t      *buf_enc_;$/;"	m	class:webrtc::H264Encoder
+buf_enc_	include/h264_impl.h	/^    uint8_t      *buf_enc_;$/;"	m	class:webrtc::H264EncoderImpl
+buf_len_	include/h264_impl.h	/^	VQQLONG      buf_len_;$/;"	m	class:webrtc::H264EncoderImpl
+c	include/common.h	/^typedef union { uint16_t i; uint8_t  c[2]; } MAY_ALIAS x264_union16_t;$/;"	m	union:__anon10
+c	include/common.h	/^typedef union { uint32_t i; uint16_t b[2]; uint8_t  c[4]; } MAY_ALIAS x264_union32_t;$/;"	m	union:__anon11
+c	include/common.h	/^typedef union { uint64_t i; uint32_t a[2]; uint16_t b[4]; uint8_t c[8]; } MAY_ALIAS x264_union64_t;$/;"	m	union:__anon12
+c	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	m	union:__anon14
+cabac	include/common.h	/^    x264_cabac_t    cabac;$/;"	m	struct:x264_t
+cache	include/common.h	/^        } cache;$/;"	m	struct:x264_t::__anon22	typeref:struct:x264_t::__anon22::__anon24
+cast	h264_vt_encoder_unittest.cc	/^namespace cast {$/;"	n	namespace:media	file:
+cast_environment_	h264_vt_encoder_unittest.cc	/^  scoped_refptr<CastEnvironment> cast_environment_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+cbitratefile	h264.cc	/^FILE *cbitratefile;$/;"	v
+cbp	include/common.h	/^        int16_t *cbp;                       \/* mb cbp: 0x0?: luma, 0x?0: chroma, 0x100: luma dc, 0x0200 and 0x0400: chroma dc  (all set for PCM)*\/$/;"	m	struct:x264_t::__anon22
+chroma_h_shift	include/common.h	/^        int     chroma_h_shift;$/;"	m	struct:x264_t::__anon22
+chroma_pred_mode	include/common.h	/^        int8_t  *chroma_pred_mode;          \/* chroma_pred_mode. cabac only. for non intra I_PRED_CHROMA_DC(0) *\/$/;"	m	struct:x264_t::__anon22
+chroma_qp_table	include/common.h	/^    const uint8_t   *chroma_qp_table; \/* includes both the nonlinear luma->chroma mapping and chroma_qp_offset *\/$/;"	m	struct:x264_t
+chroma_v_shift	include/common.h	/^        int     chroma_v_shift;$/;"	m	struct:x264_t::__anon22
+clear_block	include/dsputil.h	/^    void (*clear_block)(int16_t *block\/*align 16*\/);$/;"	m	struct:DSPContext
+clear_blocks	include/dsputil.h	/^    void (*clear_blocks)(int16_t *blocks\/*align 16*\/);$/;"	m	struct:DSPContext
+clock_	h264_vt_encoder_unittest.cc	/^  base::SimpleTestTickClock* clock_;  \/\/ Owned by CastEnvironment.$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+codec	include/h264_vt_encoder.h	/^  int codec;$/;"	m	struct:webrtc::VideoSenderConfig
+codec_	include/h264_encoder_decoder.h	/^    VideoCodec codec_;$/;"	m	class:webrtc::H264Encoder
+codec_	include/h264_encoder_decoder.h	/^  VideoCodec codec_;$/;"	m	class:webrtc::H264Decoder
+codec_	include/h264_impl.h	/^    VideoCodec              codec_;$/;"	m	class:webrtc::H264DecoderImpl
+codec_	include/h264_impl.h	/^    VideoCodec codec_;$/;"	m	class:webrtc::H264EncoderImpl
+compression_session_	include/h264_vt_encoder.h	/^  base::ScopedCFTypeRef<VTCompressionSessionRef> compression_session_;$/;"	m	class:webrtc::H264VideoToolboxEncoder
+config_	include/h264_encoder_decoder.h	/^    X264ENCPARAM *config_;$/;"	m	class:webrtc::H264Encoder
+config_	include/h264_impl.h	/^    X264ENCPARAM *config_;$/;"	m	class:webrtc::H264EncoderImpl
+congestion_control_back_off	include/h264_vt_encoder.h	/^  float congestion_control_back_off;$/;"	m	struct:webrtc::VideoSenderConfig
+cost_mv	include/common.h	/^    uint16_t *cost_mv[QP_MAX+1];$/;"	m	struct:x264_t
+cost_mv_fpel	include/common.h	/^    uint16_t *cost_mv_fpel[QP_MAX+1][4];$/;"	m	struct:x264_t
+count_frames_checked	h264_vt_encoder_unittest.cc	/^  int count_frames_checked() const { return count_frames_checked_; }$/;"	f	class:media::cast::EndToEndFrameChecker
+count_frames_checked_	h264_vt_encoder_unittest.cc	/^  int count_frames_checked_;$/;"	m	class:media::cast::EndToEndFrameChecker	file:
+count_frames_delivered	h264_vt_encoder_unittest.cc	/^  int count_frames_delivered() const { return count_frames_delivered_; }$/;"	f	class:media::cast::MetadataRecorder
+count_frames_delivered_	h264_vt_encoder_unittest.cc	/^  int count_frames_delivered_;$/;"	m	class:media::cast::MetadataRecorder	file:
+cp	include/x264Encoder.h	/^		enum enumComplexity cp;$/;"	m	struct:webrtc::tagx264EncParam	typeref:enum:webrtc::tagx264EncParam::enumComplexity
+cp_best	include/x264Encoder.h	/^			cp_best = 0,$/;"	e	enum:webrtc::tagx264EncParam::enumComplexity
+cp_fast	include/x264Encoder.h	/^			cp_fast$/;"	e	enum:webrtc::tagx264EncParam::enumComplexity
+cp_normal	include/x264Encoder.h	/^			cp_normal,$/;"	e	enum:webrtc::tagx264EncParam::enumComplexity
+cpb	include/x264.h	/^    int cpb;         \/* max vbv buffer (kbit) *\/$/;"	m	struct:__anon34
+cpb_final_arrival_time	include/x264.h	/^    double cpb_final_arrival_time;$/;"	m	struct:__anon35
+cpb_initial_arrival_time	include/x264.h	/^    double cpb_initial_arrival_time;$/;"	m	struct:__anon35
+cpb_removal_time	include/x264.h	/^    double cpb_removal_time;$/;"	m	struct:__anon35
+cpu	include/x264.h	/^    unsigned int cpu;$/;"	m	struct:x264_param_t
+cqm_4ic	include/x264.h	/^    uint8_t     cqm_4ic[16];$/;"	m	struct:x264_param_t
+cqm_4iy	include/x264.h	/^    uint8_t     cqm_4iy[16];        \/* used only if i_cqm_preset == X264_CQM_CUSTOM *\/$/;"	m	struct:x264_param_t
+cqm_4pc	include/x264.h	/^    uint8_t     cqm_4pc[16];$/;"	m	struct:x264_param_t
+cqm_4py	include/x264.h	/^    uint8_t     cqm_4py[16];$/;"	m	struct:x264_param_t
+cqm_8ic	include/x264.h	/^    uint8_t     cqm_8ic[64];$/;"	m	struct:x264_param_t
+cqm_8iy	include/x264.h	/^    uint8_t     cqm_8iy[64];$/;"	m	struct:x264_param_t
+cqm_8pc	include/x264.h	/^    uint8_t     cqm_8pc[64];$/;"	m	struct:x264_param_t
+cqm_8py	include/x264.h	/^    uint8_t     cqm_8py[64];$/;"	m	struct:x264_param_t
+cqp_qp	x264Encoder.cpp	/^		int         cqp_qp;$/;"	m	struct:webrtc::user_param_t	file:
+crop_rect	include/x264.h	/^    } crop_rect;$/;"	m	struct:x264_param_t	typeref:struct:x264_param_t::__anon33
+current	include/common.h	/^        x264_frame_t **current;$/;"	m	struct:x264_t::__anon20
+cv	include/common.h	/^    x264_pthread_cond_t cv;$/;"	m	struct:x264_t
+d	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	m	union:__anon14
+dct	include/common.h	/^    } dct;$/;"	m	struct:x264_t	typeref:struct:x264_t::__anon21
+dct264_sad	include/dsputil.h	/^    me_cmp_func dct264_sad[6];$/;"	m	struct:DSPContext
+dct_max	include/dsputil.h	/^    me_cmp_func dct_max[6];$/;"	m	struct:DSPContext
+dct_sad	include/dsputil.h	/^    me_cmp_func dct_sad[6];$/;"	m	struct:DSPContext
+dctcoef	include/common.h	/^    typedef int16_t  dctcoef;$/;"	t
+dctcoef	include/common.h	/^    typedef int32_t  dctcoef;$/;"	t
+dctf	include/common.h	/^    x264_dct_function_t   dctf;$/;"	m	struct:x264_t
+deblock_ref_table	include/common.h	/^        int8_t deblock_ref_table[X264_REF_MAX*2+2];$/;"	m	struct:x264_t::__anon22
+deblock_ref_table	include/common.h	/^#define deblock_ref_table(/;"	d
+deblock_strength	include/common.h	/^            uint8_t (*deblock_strength)[8][4];$/;"	m	struct:x264_t::__anon22::__anon24
+deblock_strength	include/common.h	/^    uint8_t (*deblock_strength[2])[2][8][4];$/;"	m	struct:x264_t
+decode_complete_callback_	include/h264_encoder_decoder.h	/^  DecodedImageCallback* decode_complete_callback_;$/;"	m	class:webrtc::H264Decoder
+decode_complete_callback_	include/h264_impl.h	/^    DecodedImageCallback    *decode_complete_callback_;$/;"	m	class:webrtc::H264DecoderImpl
+decoded_image_	include/h264_encoder_decoder.h	/^  VideoFrame decoded_image_;$/;"	m	class:webrtc::H264Decoder
+decoded_image_	include/h264_impl.h	/^	I420VideoFrame          *decoded_image_;$/;"	m	class:webrtc::H264DecoderImpl
+decoder_	h264_vt_encoder_unittest.cc	/^  FFmpegVideoDecoder decoder_;$/;"	m	class:media::cast::EndToEndFrameChecker	file:
+decoder_	include/h264_encoder_decoder.h	/^  void* decoder_;$/;"	m	class:webrtc::H264Decoder
+decoder_	include/h264_impl.h	/^    void                    *decoder_;$/;"	m	class:webrtc::H264DecoderImpl
+dequant4_mf	include/common.h	/^    int             (*dequant4_mf[4])[16];   \/* [4][6][16] *\/$/;"	m	struct:x264_t
+dequant8_mf	include/common.h	/^    int             (*dequant8_mf[4])[64];   \/* [4][6][64] *\/$/;"	m	struct:x264_t
+diff_bytes	include/dsputil.h	/^    void (*diff_bytes)(uint8_t *dst\/*align 16*\/, const uint8_t *src1\/*align 16*\/, const uint8_t *src2\/*align 1*\/,int w);$/;"	m	struct:DSPContext
+diff_pixels	include/dsputil.h	/^    void (*diff_pixels)(int16_t *block\/*align 16*\/, const uint8_t *s1\/*align 8*\/, const uint8_t *s2\/*align 8*\/, int stride);$/;"	m	struct:DSPContext
+direct8x8	include/x264.h	/^    int direct8x8;   \/* limit b_direct to >=8x8 *\/$/;"	m	struct:__anon34
+direct_partition	include/common.h	/^            int     direct_partition;$/;"	m	struct:x264_t::__anon22::__anon24
+dist_scale_factor	include/common.h	/^        int16_t (*dist_scale_factor)[4];$/;"	m	struct:x264_t::__anon22
+dist_scale_factor_buf	include/common.h	/^        int16_t dist_scale_factor_buf[2][2][X264_REF_MAX*2][4];$/;"	m	struct:x264_t::__anon22
+dpb	include/x264.h	/^    int dpb;         \/* max decoded picture buffer (mbs) *\/$/;"	m	struct:__anon34
+dpb_output_time	include/x264.h	/^    double dpb_output_time;$/;"	m	struct:__anon35
+draw_edges	include/dsputil.h	/^    void (*draw_edges)(uint8_t *buf, int wrap, int width, int height, int w, int h, int sides);$/;"	m	struct:DSPContext
+drop_start_pos	x264Encoder.cpp	/^		int         drop_start_pos;$/;"	m	struct:webrtc::user_param_t	file:
+eProfileLevel	include/x264Encoder.h	/^		enum enumProfileLevel eProfileLevel;$/;"	m	struct:webrtc::tagx264EncParam	typeref:enum:webrtc::tagx264EncParam::enumProfileLevel
+emMode_Dsktop	include/x264Encoder.h	/^			emMode_Dsktop = 1,$/;"	e	enum:webrtc::tagx264EncParam::enumEncMode
+emMode_Normal	include/x264Encoder.h	/^			emMode_Normal = 0,$/;"	e	enum:webrtc::tagx264EncParam::enumEncMode
+emMode_Normal_abr	include/x264Encoder.h	/^			emMode_Normal_abr = 2,$/;"	e	enum:webrtc::tagx264EncParam::enumEncMode
+emProfileLevel_Base	include/x264Encoder.h	/^			emProfileLevel_Base,$/;"	e	enum:webrtc::tagx264EncParam::enumProfileLevel
+emProfileLevel_High	include/x264Encoder.h	/^			emProfileLevel_High,$/;"	e	enum:webrtc::tagx264EncParam::enumProfileLevel
+emProfileLevel_Main	include/x264Encoder.h	/^			emProfileLevel_Main,$/;"	e	enum:webrtc::tagx264EncParam::enumProfileLevel
+emType_GF	include/x264Encoder.h	/^		emType_GF = 1,$/;"	e	enum:webrtc::__anon41
+emType_IDR	include/x264Encoder.h	/^		emType_IDR = 0,$/;"	e	enum:webrtc::__anon41
+emType_PnoSP	include/x264Encoder.h	/^		emType_PnoSP = 4$/;"	e	enum:webrtc::__anon41
+emType_PwithSP	include/x264Encoder.h	/^		emType_PwithSP = 3,$/;"	e	enum:webrtc::__anon41
+emType_SP	include/x264Encoder.h	/^		emType_SP = 2,$/;"	e	enum:webrtc::__anon41
+encode_next_frame_as_keyframe_	include/h264_vt_encoder.h	/^  bool encode_next_frame_as_keyframe_;$/;"	m	class:webrtc::H264VideoToolboxEncoder
+encoded_complete_callback_	include/h264_encoder_decoder.h	/^    EncodedImageCallback* encoded_complete_callback_;$/;"	m	class:webrtc::H264Encoder
+encoded_complete_callback_	include/h264_impl.h	/^    EncodedImageCallback* encoded_complete_callback_;$/;"	m	class:webrtc::H264EncoderImpl
+encoded_image_	include/h264_encoder_decoder.h	/^    EncodedImage encoded_image_;$/;"	m	class:webrtc::H264Encoder
+encoded_image_	include/h264_impl.h	/^    EncodedImage encoded_image_;$/;"	m	class:webrtc::H264EncoderImpl
+encoder_	h264_vt_encoder_unittest.cc	/^  scoped_ptr<VideoEncoder> encoder_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+encoder_	include/h264_encoder_decoder.h	/^    CX264Encoder *encoder_;$/;"	m	class:webrtc::H264Encoder
+encoder_	include/h264_impl.h	/^    CX264Encoder *encoder_;$/;"	m	class:webrtc::H264EncoderImpl
+enumComplexity	include/x264Encoder.h	/^		enum enumComplexity$/;"	g	struct:webrtc::tagx264EncParam
+enumEncMode	include/x264Encoder.h	/^		enum enumEncMode$/;"	g	struct:webrtc::tagx264EncParam
+enumProfileLevel	include/x264Encoder.h	/^		enum enumProfileLevel$/;"	g	struct:webrtc::tagx264EncParam
+epoch	coremedia_glue.h	/^    CMTimeEpoch epoch;$/;"	m	struct:CoreMediaGlue::__anon1
+established_golden_	include/reference_picture_selection.h	/^  bool established_golden_;$/;"	m	class:webrtc::ReferencePictureSelection
+established_golden_	reference_picture_selection.h	/^  bool established_golden_;$/;"	m	class:webrtc::ReferencePictureSelection
+established_ref_picture_id_	include/reference_picture_selection.h	/^  int established_ref_picture_id_;$/;"	m	class:webrtc::ReferencePictureSelection
+established_ref_picture_id_	reference_picture_selection.h	/^  int established_ref_picture_id_;$/;"	m	class:webrtc::ReferencePictureSelection
+expectations_	h264_vt_encoder_unittest.cc	/^  std::queue<Expectation> expectations_;$/;"	m	class:media::cast::MetadataRecorder	file:
+expectations_	h264_vt_encoder_unittest.cc	/^  std::queue<scoped_refptr<VideoFrame>> expectations_;$/;"	m	class:media::cast::EndToEndFrameChecker	file:
+expected_frame_id	h264_vt_encoder_unittest.cc	/^    uint32 expected_frame_id;$/;"	m	struct:media::cast::MetadataRecorder::Expectation	file:
+expected_last_referenced_frame_id	h264_vt_encoder_unittest.cc	/^    uint32 expected_last_referenced_frame_id;$/;"	m	struct:media::cast::MetadataRecorder::Expectation	file:
+expected_reference_time	h264_vt_encoder_unittest.cc	/^    base::TimeTicks expected_reference_time;$/;"	m	struct:media::cast::MetadataRecorder::Expectation	file:
+expected_rtp_timestamp	h264_vt_encoder_unittest.cc	/^    uint32 expected_rtp_timestamp;$/;"	m	struct:media::cast::MetadataRecorder::Expectation	file:
+extra_sei	include/x264.h	/^    x264_sei_t extra_sei;$/;"	m	struct:__anon40
+f_aq_strength	include/x264.h	/^        float       f_aq_strength;$/;"	m	struct:x264_param_t::__anon32
+f_bitrate_factor	include/x264.h	/^    float f_bitrate_factor;$/;"	m	struct:__anon29
+f_complexity_blur	include/x264.h	/^        float       f_complexity_blur; \/* temporally blur complexity *\/$/;"	m	struct:x264_param_t::__anon32
+f_crf_avg	include/x264.h	/^    double f_crf_avg;$/;"	m	struct:__anon39
+f_frame_duration	include/common.h	/^        double  f_frame_duration[3];$/;"	m	struct:x264_t::__anon25
+f_frame_qp	include/common.h	/^        double  f_frame_qp[3];$/;"	m	struct:x264_t::__anon25
+f_ip_factor	include/x264.h	/^        float       f_ip_factor;$/;"	m	struct:x264_param_t::__anon32
+f_pb_factor	include/x264.h	/^        float       f_pb_factor;$/;"	m	struct:x264_param_t::__anon32
+f_psnr	include/x264.h	/^    double f_psnr[3];$/;"	m	struct:__anon39
+f_psnr_average	include/common.h	/^        double  f_psnr_average[3];$/;"	m	struct:x264_t::__anon25
+f_psnr_avg	include/x264.h	/^    double f_psnr_avg;$/;"	m	struct:__anon39
+f_psnr_mean_u	include/common.h	/^        double  f_psnr_mean_u[3];$/;"	m	struct:x264_t::__anon25
+f_psnr_mean_v	include/common.h	/^        double  f_psnr_mean_v[3];$/;"	m	struct:x264_t::__anon25
+f_psnr_mean_y	include/common.h	/^        double  f_psnr_mean_y[3];$/;"	m	struct:x264_t::__anon25
+f_psy_rd	include/x264.h	/^        float        f_psy_rd; \/* Psy RD strength *\/$/;"	m	struct:x264_param_t::__anon31
+f_psy_trellis	include/x264.h	/^        float        f_psy_trellis; \/* Psy trellis strength *\/$/;"	m	struct:x264_param_t::__anon31
+f_qblur	include/x264.h	/^        float       f_qblur;        \/* temporally blur quants *\/$/;"	m	struct:x264_param_t::__anon32
+f_qcompress	include/x264.h	/^        float       f_qcompress;    \/* 0.0 => cbr, 1.0 => constant qp *\/$/;"	m	struct:x264_param_t::__anon32
+f_rate_tolerance	include/x264.h	/^        float       f_rate_tolerance;$/;"	m	struct:x264_param_t::__anon32
+f_rf_constant	include/x264.h	/^        float       f_rf_constant;  \/* 1pass VBR, nominal QP *\/$/;"	m	struct:x264_param_t::__anon32
+f_rf_constant_max	include/x264.h	/^        float       f_rf_constant_max;  \/* In CRF mode, maximum CRF as caused by VBV *\/$/;"	m	struct:x264_param_t::__anon32
+f_ssd_global	include/common.h	/^        double  f_ssd_global[3];$/;"	m	struct:x264_t::__anon25
+f_ssim	include/common.h	/^    double f_ssim;$/;"	m	struct:__anon18
+f_ssim	include/x264.h	/^    double f_ssim;$/;"	m	struct:__anon39
+f_ssim_mean_y	include/common.h	/^        double  f_ssim_mean_y[3];$/;"	m	struct:x264_t::__anon25
+f_vbv_buffer_init	include/x264.h	/^        float       f_vbv_buffer_init; \/* <=1: fraction of buffer_size. >1: kbit *\/$/;"	m	struct:x264_param_t::__anon32
+fdct	include/dsputil.h	/^    void (*fdct)(int16_t *block\/* align 16*\/);$/;"	m	struct:DSPContext
+fdct248	include/dsputil.h	/^    void (*fdct248)(int16_t *block\/* align 16*\/);$/;"	m	struct:DSPContext
+fdec	include/common.h	/^    x264_frame_t    *fdec;$/;"	m	struct:x264_t
+feedback_mode_	include/h264_encoder_decoder.h	/^  bool feedback_mode_;$/;"	m	class:webrtc::H264Decoder
+fenc	include/common.h	/^    x264_frame_t    *fenc;$/;"	m	struct:x264_t
+field	include/common.h	/^        uint8_t *field;$/;"	m	struct:x264_t::__anon22
+field_decoding_flag	include/common.h	/^        int     field_decoding_flag;$/;"	m	struct:x264_t::__anon22
+fileoutputyuv	include/h264_encoder_decoder.h	/^    FILE *fileoutputyuv; $/;"	m	class:webrtc::H264Decoder
+fill_block_tab	include/dsputil.h	/^    op_fill_func fill_block_tab[2];$/;"	m	struct:DSPContext
+first_frame_encoded_	include/h264_encoder_decoder.h	/^    bool first_frame_encoded_;$/;"	m	class:webrtc::H264Encoder
+first_frame_encoded_	include/h264_impl.h	/^    bool first_frame_encoded_;$/;"	m	class:webrtc::H264EncoderImpl
+flags	coremedia_glue.h	/^    CMTimeFlags flags;$/;"	m	struct:CoreMediaGlue::__anon1
+frame	include/common.h	/^        x264_frame_stat_t frame;$/;"	m	struct:x264_t::__anon25
+frame_	h264_vt_encoder_unittest.cc	/^  static scoped_refptr<media::VideoFrame> frame_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+frame_	h264_vt_encoder_unittest.cc	/^scoped_refptr<media::VideoFrame> H264VideoToolboxEncoderTest::frame_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+frame_num_	include/h264_encoder_decoder.h	/^    uint32_t     frame_num_;$/;"	m	class:webrtc::H264Encoder
+frame_num_	include/h264_impl.h	/^    uint32_t     frame_num_;$/;"	m	class:webrtc::H264EncoderImpl
+frame_only	include/x264.h	/^    int frame_only;  \/* forbid interlacing *\/$/;"	m	struct:__anon34
+frame_size	include/h264_impl.h	/^	long        frame_size;$/;"	m	class:webrtc::H264EncoderImpl
+frame_size	include/x264.h	/^    int frame_size;  \/* max frame size (macroblocks) *\/$/;"	m	struct:__anon34
+frame_skip_cmp	include/dsputil.h	/^    me_cmp_func frame_skip_cmp[6]; \/\/only width 8 used$/;"	m	struct:DSPContext
+frame_type_	include/h264_encoder_decoder.h	/^    EmFrameType  frame_type_;$/;"	m	class:webrtc::H264Encoder
+frame_type_	include/h264_impl.h	/^    EmFrameType  frame_type_;$/;"	m	class:webrtc::H264EncoderImpl
+frames	include/common.h	/^    } frames;$/;"	m	struct:x264_t	typeref:struct:x264_t::__anon20
+fref	include/common.h	/^    x264_frame_t    *fref[2][X264_REF_MAX+3];$/;"	m	struct:x264_t
+fref_nearest	include/common.h	/^    x264_frame_t    *fref_nearest[2];$/;"	m	struct:x264_t
+getFrameType	h264.cc	/^EmFrameType H264Encoder::getFrameType(int frameNum,int gop,int gfgop,int spgop)$/;"	f	class:webrtc::H264Encoder
+getFrameType	h264_impl.cc	/^EmFrameType H264EncoderImpl::getFrameType(int frameNum,int gop,int gfgop,int spgop)$/;"	f	class:webrtc::H264EncoderImpl
+get_pixels	include/dsputil.h	/^    void (*get_pixels)(int16_t *block\/*align 16*\/, const uint8_t *pixels\/*align 8*\/, int line_size);$/;"	m	struct:DSPContext
+gmc	include/dsputil.h	/^    void (*gmc )(uint8_t *dst\/*align 8*\/, uint8_t *src\/*align 1*\/, int stride, int h, int ox, int oy,$/;"	m	struct:DSPContext
+gmc1	include/dsputil.h	/^    void (*gmc1)(uint8_t *dst\/*align 8*\/, uint8_t *src\/*align 1*\/, int srcStride, int h, int x16, int y16, int rounder);$/;"	m	struct:DSPContext
+h263_h_loop_filter	include/dsputil.h	/^    void (*h263_h_loop_filter)(uint8_t *src, int stride, int qscale);$/;"	m	struct:DSPContext
+h263_v_loop_filter	include/dsputil.h	/^    void (*h263_v_loop_filter)(uint8_t *src, int stride, int qscale);$/;"	m	struct:DSPContext
+hadamard8_diff	include/dsputil.h	/^    me_cmp_func hadamard8_diff[6];$/;"	m	struct:DSPContext
+height	coremedia_glue.h	/^    int32_t height;$/;"	m	struct:CoreMediaGlue::__anon3
+height	include/h264_encoder_decoder.h	/^  uint32_t height;$/;"	m	class:webrtc::H264Decoder
+hrd_timing	include/x264.h	/^    x264_hrd_t hrd_timing;$/;"	m	struct:__anon40
+i	include/common.h	/^typedef struct { uint64_t i[2]; } x264_uint128_t;$/;"	m	struct:__anon13
+i	include/common.h	/^typedef union { uint16_t i; uint8_t  c[2]; } MAY_ALIAS x264_union16_t;$/;"	m	union:__anon10
+i	include/common.h	/^typedef union { uint32_t i; uint16_t b[2]; uint8_t  c[4]; } MAY_ALIAS x264_union32_t;$/;"	m	union:__anon11
+i	include/common.h	/^typedef union { uint64_t i; uint32_t a[2]; uint16_t b[4]; uint8_t c[8]; } MAY_ALIAS x264_union64_t;$/;"	m	union:__anon12
+i	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	m	union:__anon14
+i4x4_cbp	include/common.h	/^            int i4x4_cbp;$/;"	m	struct:x264_t::__anon22::__anon23
+i4x4_nnz_buf	include/common.h	/^            uint32_t i4x4_nnz_buf[4];$/;"	m	struct:x264_t::__anon22::__anon23
+i8x8_cbp	include/common.h	/^            int i8x8_cbp;$/;"	m	struct:x264_t::__anon22::__anon23
+i8x8_nnz_buf	include/common.h	/^            uint32_t i8x8_nnz_buf[4];$/;"	m	struct:x264_t::__anon22::__anon23
+iBitrate	include/x264Encoder.h	/^		int iBitrate;$/;"	m	struct:webrtc::tagx264EncParam
+iFPS	include/x264Encoder.h	/^		int iFPS;$/;"	m	struct:webrtc::tagx264EncParam
+iGOP	include/x264Encoder.h	/^		int iGOP;$/;"	m	struct:webrtc::tagx264EncParam
+iHeight	include/x264Encoder.h	/^		int iHeight;$/;"	m	struct:webrtc::tagx264EncParam
+iMaxQP	include/x264Encoder.h	/^		int iMaxQP;$/;"	m	struct:webrtc::tagx264EncParam
+iMinQP	include/x264Encoder.h	/^		int iMinQP;$/;"	m	struct:webrtc::tagx264EncParam
+iThreads	include/x264Encoder.h	/^		int iThreads;$/;"	m	struct:webrtc::tagx264EncParam
+iWidth	include/x264Encoder.h	/^		int iWidth;$/;"	m	struct:webrtc::tagx264EncParam
+i_alpha_c0_offset	include/common.h	/^    int i_alpha_c0_offset;$/;"	m	struct:__anon15
+i_aq_mode	include/x264.h	/^        int         i_aq_mode;      \/* psy adaptive QP. (X264_AQ_*) *\/$/;"	m	struct:x264_param_t::__anon32
+i_avcintra_class	include/x264.h	/^    int         i_avcintra_class;$/;"	m	struct:x264_param_t
+i_b4_stride	include/common.h	/^        int     i_b4_stride;$/;"	m	struct:x264_t::__anon22
+i_b4_xy	include/common.h	/^        int     i_b4_xy;$/;"	m	struct:x264_t::__anon22
+i_b8_stride	include/common.h	/^        int     i_b8_stride;$/;"	m	struct:x264_t::__anon22
+i_b8_xy	include/common.h	/^        int     i_b8_xy;$/;"	m	struct:x264_t::__anon22
+i_beta_offset	include/common.h	/^    int i_beta_offset;$/;"	m	struct:__anon15
+i_bframe	include/x264.h	/^    int         i_bframe;   \/* how many b-frame between 2 references pictures *\/$/;"	m	struct:x264_param_t
+i_bframe_adaptive	include/x264.h	/^    int         i_bframe_adaptive;$/;"	m	struct:x264_param_t
+i_bframe_bias	include/x264.h	/^    int         i_bframe_bias;$/;"	m	struct:x264_param_t
+i_bframe_delay	include/common.h	/^        int     i_bframe_delay;$/;"	m	struct:x264_t::__anon20
+i_bframe_delay_time	include/common.h	/^        int64_t i_bframe_delay_time;$/;"	m	struct:x264_t::__anon20
+i_bframe_pyramid	include/x264.h	/^    int         i_bframe_pyramid;   \/* Keep some B-frames as references: 0=off, 1=strict hierarchical, 2=normal *\/$/;"	m	struct:x264_param_t
+i_bitrate	include/x264.h	/^        int         i_bitrate;$/;"	m	struct:x264_param_t::__anon32
+i_bitstream	include/common.h	/^        int         i_bitstream;    \/* size of p_bitstream *\/$/;"	m	struct:x264_t::__anon19
+i_bottom	include/x264.h	/^        unsigned int i_bottom;$/;"	m	struct:x264_param_t::__anon33
+i_cabac_init_idc	include/common.h	/^    int i_cabac_init_idc;$/;"	m	struct:__anon15
+i_cabac_init_idc	include/x264.h	/^    int         i_cabac_init_idc;$/;"	m	struct:x264_param_t
+i_cbp_chroma	include/common.h	/^        int     i_cbp_chroma;$/;"	m	struct:x264_t::__anon22
+i_cbp_left	include/common.h	/^            int     i_cbp_left;$/;"	m	struct:x264_t::__anon22::__anon24
+i_cbp_luma	include/common.h	/^        int     i_cbp_luma;$/;"	m	struct:x264_t::__anon22
+i_cbp_top	include/common.h	/^            int     i_cbp_top;$/;"	m	struct:x264_t::__anon22::__anon24
+i_chroma_lambda2_offset	include/common.h	/^        int     i_chroma_lambda2_offset;$/;"	m	struct:x264_t::__anon22
+i_chroma_loc	include/x264.h	/^        int         i_chroma_loc;    \/* both top & bottom *\/$/;"	m	struct:x264_param_t::__anon30
+i_chroma_pred_mode	include/common.h	/^        int     i_chroma_pred_mode;$/;"	m	struct:x264_t::__anon22
+i_chroma_qp	include/common.h	/^        int     i_chroma_qp;$/;"	m	struct:x264_t::__anon22
+i_chroma_qp_offset	include/x264.h	/^        int          i_chroma_qp_offset;$/;"	m	struct:x264_param_t::__anon31
+i_coded_fields	include/common.h	/^    int64_t         i_coded_fields; \/* Number of coded fields (both coded and implied via pic_struct) *\/$/;"	m	struct:x264_t
+i_coded_fields_lookahead	include/common.h	/^    int64_t         i_coded_fields_lookahead; \/* Use separate counters for lookahead *\/$/;"	m	struct:x264_t
+i_colmatrix	include/x264.h	/^        int         i_colmatrix;$/;"	m	struct:x264_param_t::__anon30
+i_colorprim	include/x264.h	/^        int         i_colorprim;$/;"	m	struct:x264_param_t::__anon30
+i_consecutive_bframes	include/common.h	/^        int     i_consecutive_bframes[X264_BFRAME_MAX+1];$/;"	m	struct:x264_t::__anon25
+i_cpb_delay	include/common.h	/^    int64_t         i_cpb_delay;    \/* Equal to number of fields preceding this field$/;"	m	struct:x264_t
+i_cpb_delay_lookahead	include/common.h	/^    int64_t         i_cpb_delay_lookahead;$/;"	m	struct:x264_t
+i_cpb_delay_pir_offset	include/common.h	/^    int64_t         i_cpb_delay_pir_offset;$/;"	m	struct:x264_t
+i_cpb_delay_pir_offset_next	include/common.h	/^    int64_t         i_cpb_delay_pir_offset_next;$/;"	m	struct:x264_t
+i_cqm_preset	include/x264.h	/^    int         i_cqm_preset;$/;"	m	struct:x264_param_t
+i_csp	include/x264.h	/^    int         i_csp;         \/* CSP of encoded bitstream *\/$/;"	m	struct:x264_param_t
+i_csp	include/x264.h	/^    int     i_csp;       \/* Colorspace *\/$/;"	m	struct:__anon38
+i_deblocking_filter_alphac0	include/x264.h	/^    int         i_deblocking_filter_alphac0;    \/* [-6, 6] -6 light filter, 6 strong *\/$/;"	m	struct:x264_param_t
+i_deblocking_filter_beta	include/x264.h	/^    int         i_deblocking_filter_beta;       \/* [-6, 6]  idem *\/$/;"	m	struct:x264_param_t
+i_delay	include/common.h	/^        int i_delay;    \/* Number of frames buffered for B reordering *\/$/;"	m	struct:x264_t::__anon20
+i_delta_poc	include/common.h	/^    int i_delta_poc[2];$/;"	m	struct:__anon15
+i_delta_poc_bottom	include/common.h	/^    int i_delta_poc_bottom;$/;"	m	struct:__anon15
+i_difference_of_pic_nums	include/common.h	/^        int i_difference_of_pic_nums;$/;"	m	struct:__anon15::__anon17
+i_direct_frames	include/common.h	/^        int     i_direct_frames[2];$/;"	m	struct:x264_t::__anon25
+i_direct_mv_pred	include/x264.h	/^        int          i_direct_mv_pred; \/* spatial vs temporal mv prediction *\/$/;"	m	struct:x264_param_t::__anon31
+i_direct_score	include/common.h	/^        int     i_direct_score[2];$/;"	m	struct:x264_t::__anon25
+i_direct_score	include/common.h	/^    int i_direct_score[2];$/;"	m	struct:__anon18
+i_disable_deblocking_filter_idc	include/common.h	/^    int i_disable_deblocking_filter_idc;$/;"	m	struct:__anon15
+i_disp_fields	include/common.h	/^    int64_t         i_disp_fields;  \/* Number of displayed fields (both coded and implied via pic_struct) *\/$/;"	m	struct:x264_t
+i_disp_fields_last_frame	include/common.h	/^    int             i_disp_fields_last_frame;$/;"	m	struct:x264_t
+i_dpb_size	include/x264.h	/^    int         i_dpb_size;         \/* Force a DPB size larger than that implied by B-frames and reference frames.$/;"	m	struct:x264_param_t
+i_dts	include/x264.h	/^    int64_t i_dts;$/;"	m	struct:__anon40
+i_end	include/x264.h	/^    int i_start, i_end; \/* range of frame numbers *\/$/;"	m	struct:__anon29
+i_first_mb	include/common.h	/^    int i_first_mb;$/;"	m	struct:__anon15
+i_first_mb	include/x264.h	/^    int i_first_mb; \/* If this NAL is a slice, the index of the first MB in the slice. *\/$/;"	m	struct:__anon28
+i_first_pts	include/common.h	/^        int64_t i_first_pts;$/;"	m	struct:x264_t::__anon20
+i_fps_den	include/x264.h	/^    uint32_t i_fps_den;$/;"	m	struct:x264_param_t
+i_fps_num	include/x264.h	/^    uint32_t i_fps_num;$/;"	m	struct:x264_param_t
+i_frame	include/common.h	/^    int             i_frame;$/;"	m	struct:x264_t
+i_frame_count	include/common.h	/^        int     i_frame_count[3];$/;"	m	struct:x264_t::__anon25
+i_frame_num	include/common.h	/^    int             i_frame_num;$/;"	m	struct:x264_t
+i_frame_num	include/common.h	/^    int i_frame_num;$/;"	m	struct:__anon15
+i_frame_packing	include/x264.h	/^    int i_frame_packing;$/;"	m	struct:x264_param_t
+i_frame_reference	include/x264.h	/^    int         i_frame_reference;  \/* Maximum number of reference frames *\/$/;"	m	struct:x264_param_t
+i_frame_size	include/common.h	/^        int64_t i_frame_size[3];$/;"	m	struct:x264_t::__anon25
+i_frame_total	include/x264.h	/^    int         i_frame_total; \/* number of frames to encode if known, else 0 *\/$/;"	m	struct:x264_param_t
+i_fref	include/common.h	/^            int i_fref[2];$/;"	m	struct:x264_t::__anon22::__anon23
+i_height	include/x264.h	/^    int         i_height;$/;"	m	struct:x264_param_t
+i_idr_pic_id	include/common.h	/^    int             i_idr_pic_id;$/;"	m	struct:x264_t
+i_idr_pic_id	include/common.h	/^    int i_idr_pic_id;   \/* -1 if nal_type != 5 *\/$/;"	m	struct:__anon15
+i_input	include/common.h	/^        int i_input;    \/* Number of input frames already accepted *\/$/;"	m	struct:x264_t::__anon20
+i_intra16x16_pred_mode	include/common.h	/^        int     i_intra16x16_pred_mode;$/;"	m	struct:x264_t::__anon22
+i_keyint_max	include/x264.h	/^    int         i_keyint_max;       \/* Force an IDR keyframe at this interval *\/$/;"	m	struct:x264_param_t
+i_keyint_min	include/x264.h	/^    int         i_keyint_min;       \/* Scenecuts closer together than this are coded as I, not IDR. *\/$/;"	m	struct:x264_param_t
+i_largest_pts	include/common.h	/^        int64_t i_largest_pts;$/;"	m	struct:x264_t::__anon20
+i_last_dqp	include/common.h	/^        int     i_last_dqp; \/* last delta qp *\/$/;"	m	struct:x264_t::__anon22
+i_last_idr	include/common.h	/^        int i_last_idr;            \/* Frame number of the last IDR (not RP)*\/$/;"	m	struct:x264_t::__anon20
+i_last_idr_pts	include/common.h	/^    int64_t         i_last_idr_pts;$/;"	m	struct:x264_t
+i_last_keyframe	include/common.h	/^        int i_last_keyframe;       \/* Frame number of the last keyframe *\/$/;"	m	struct:x264_t::__anon20
+i_last_keyframe	include/common.h	/^    int                           i_last_keyframe;$/;"	m	struct:x264_lookahead_t
+i_last_mb	include/common.h	/^    int i_last_mb;$/;"	m	struct:__anon15
+i_last_mb	include/x264.h	/^    int i_last_mb;  \/* If this NAL is a slice, the index of the last MB in the slice. *\/$/;"	m	struct:__anon28
+i_last_qp	include/common.h	/^        int     i_last_qp;  \/* last qp *\/$/;"	m	struct:x264_t::__anon22
+i_left	include/x264.h	/^        unsigned int i_left;$/;"	m	struct:x264_param_t::__anon33
+i_level_idc	include/x264.h	/^    int         i_level_idc;$/;"	m	struct:x264_param_t
+i_log_level	include/x264.h	/^    int         i_log_level;$/;"	m	struct:x264_param_t
+i_lookahead	include/x264.h	/^        int         i_lookahead;$/;"	m	struct:x264_param_t::__anon32
+i_lookahead_threads	include/x264.h	/^    int         i_lookahead_threads; \/* multiple threads for lookahead analysis *\/$/;"	m	struct:x264_param_t
+i_luma_deadzone	include/x264.h	/^        int          i_luma_deadzone[2]; \/* {inter, intra} *\/$/;"	m	struct:x264_param_t::__anon31
+i_max_dpb	include/common.h	/^        int i_max_dpb;  \/* Number of frames allocated in the decoded picture buffer *\/$/;"	m	struct:x264_t::__anon20
+i_max_ref0	include/common.h	/^        int i_max_ref0;$/;"	m	struct:x264_t::__anon20
+i_max_ref1	include/common.h	/^        int i_max_ref1;$/;"	m	struct:x264_t::__anon20
+i_mb_cbp	include/common.h	/^        int64_t i_mb_cbp[6];$/;"	m	struct:x264_t::__anon25
+i_mb_cbp	include/common.h	/^    int i_mb_cbp[6];$/;"	m	struct:__anon18
+i_mb_count	include/common.h	/^        int     i_mb_count;                 \/* number of mbs in a frame *\/$/;"	m	struct:x264_t::__anon22
+i_mb_count	include/common.h	/^        int64_t i_mb_count[3][19];$/;"	m	struct:x264_t::__anon25
+i_mb_count	include/common.h	/^    int i_mb_count[19];$/;"	m	struct:__anon18
+i_mb_count_8x8dct	include/common.h	/^        int64_t i_mb_count_8x8dct[2];$/;"	m	struct:x264_t::__anon25
+i_mb_count_8x8dct	include/common.h	/^    int i_mb_count_8x8dct[2];$/;"	m	struct:__anon18
+i_mb_count_i	include/common.h	/^    int i_mb_count_i;$/;"	m	struct:__anon18
+i_mb_count_p	include/common.h	/^    int i_mb_count_p;$/;"	m	struct:__anon18
+i_mb_count_ref	include/common.h	/^        int64_t i_mb_count_ref[2][2][X264_REF_MAX*2];$/;"	m	struct:x264_t::__anon25
+i_mb_count_ref	include/common.h	/^    int i_mb_count_ref[2][X264_REF_MAX*2];$/;"	m	struct:__anon18
+i_mb_count_skip	include/common.h	/^    int i_mb_count_skip;$/;"	m	struct:__anon18
+i_mb_field	include/common.h	/^        int64_t i_mb_field[3];$/;"	m	struct:x264_t::__anon25
+i_mb_field	include/common.h	/^    int i_mb_field[3];$/;"	m	struct:__anon18
+i_mb_height	include/common.h	/^        int     i_mb_height;$/;"	m	struct:x264_t::__anon22
+i_mb_left_xy	include/common.h	/^        int     i_mb_left_xy[2];$/;"	m	struct:x264_t::__anon22
+i_mb_partition	include/common.h	/^        int64_t i_mb_partition[2][17];$/;"	m	struct:x264_t::__anon25
+i_mb_partition	include/common.h	/^    int i_mb_partition[17];$/;"	m	struct:__anon18
+i_mb_pred_mode	include/common.h	/^        int64_t i_mb_pred_mode[4][13];$/;"	m	struct:x264_t::__anon25
+i_mb_pred_mode	include/common.h	/^    int i_mb_pred_mode[4][13];$/;"	m	struct:__anon18
+i_mb_prev_xy	include/common.h	/^        int     i_mb_prev_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_stride	include/common.h	/^        int     i_mb_stride;$/;"	m	struct:x264_t::__anon22
+i_mb_top_mbpair_xy	include/common.h	/^        int     i_mb_top_mbpair_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_top_xy	include/common.h	/^        int     i_mb_top_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_top_y	include/common.h	/^        int     i_mb_top_y;$/;"	m	struct:x264_t::__anon22
+i_mb_topleft_xy	include/common.h	/^        int     i_mb_topleft_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_topleft_y	include/common.h	/^        int     i_mb_topleft_y;$/;"	m	struct:x264_t::__anon22
+i_mb_topright_xy	include/common.h	/^        int     i_mb_topright_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_topright_y	include/common.h	/^        int     i_mb_topright_y;$/;"	m	struct:x264_t::__anon22
+i_mb_type_left	include/common.h	/^        int     i_mb_type_left[2];$/;"	m	struct:x264_t::__anon22
+i_mb_type_top	include/common.h	/^        int     i_mb_type_top;$/;"	m	struct:x264_t::__anon22
+i_mb_type_topleft	include/common.h	/^        int     i_mb_type_topleft;$/;"	m	struct:x264_t::__anon22
+i_mb_type_topright	include/common.h	/^        int     i_mb_type_topright;$/;"	m	struct:x264_t::__anon22
+i_mb_width	include/common.h	/^        int     i_mb_width;$/;"	m	struct:x264_t::__anon22
+i_mb_x	include/common.h	/^        int     i_mb_x;$/;"	m	struct:x264_t::__anon22
+i_mb_xy	include/common.h	/^        int     i_mb_xy;$/;"	m	struct:x264_t::__anon22
+i_mb_y	include/common.h	/^        int     i_mb_y;$/;"	m	struct:x264_t::__anon22
+i_me_method	include/common.h	/^        int     i_me_method;$/;"	m	struct:x264_t::__anon22
+i_me_method	include/x264.h	/^        int          i_me_method; \/* motion estimation algorithm to use (X264_ME_*) *\/$/;"	m	struct:x264_param_t::__anon31
+i_me_range	include/x264.h	/^        int          i_me_range; \/* integer pixel motion estimation search range (from predicted mv) *\/$/;"	m	struct:x264_param_t::__anon31
+i_misc_bits	include/common.h	/^    int i_misc_bits;$/;"	m	struct:__anon18
+i_mmco_command_count	include/common.h	/^    int i_mmco_command_count;$/;"	m	struct:__anon15
+i_mmco_remove_from_end	include/common.h	/^    int i_mmco_remove_from_end;$/;"	m	struct:__anon15
+i_mv_bits	include/common.h	/^    int i_mv_bits;$/;"	m	struct:__anon18
+i_mv_range	include/x264.h	/^        int          i_mv_range; \/* maximum length of a mv (in pixels). -1 = auto, based on level *\/$/;"	m	struct:x264_param_t::__anon31
+i_mv_range_thread	include/x264.h	/^        int          i_mv_range_thread; \/* minimum space between threads. -1 = auto, based on number of threads. *\/$/;"	m	struct:x264_param_t::__anon31
+i_nal	include/common.h	/^        int         i_nal;$/;"	m	struct:x264_t::__anon19
+i_nal	include/h264_impl.h	/^	int i_nal;$/;"	m	class:webrtc::H264EncoderImpl
+i_nal_hrd	include/x264.h	/^    int         i_nal_hrd;$/;"	m	struct:x264_param_t
+i_nal_ref_idc	include/common.h	/^    int             i_nal_ref_idc;$/;"	m	struct:x264_t
+i_nal_type	include/common.h	/^    int             i_nal_type;$/;"	m	struct:x264_t
+i_nals_allocated	include/common.h	/^        int         i_nals_allocated;$/;"	m	struct:x264_t::__anon19
+i_neighbour	include/common.h	/^        unsigned int i_neighbour;$/;"	m	struct:x264_t::__anon22
+i_neighbour4	include/common.h	/^        unsigned int i_neighbour4[16];      \/* at the time the block is coded *\/$/;"	m	struct:x264_t::__anon22
+i_neighbour8	include/common.h	/^        unsigned int i_neighbour8[4];       \/* neighbours of each 8x8 or 4x4 block that are available *\/$/;"	m	struct:x264_t::__anon22
+i_neighbour_frame	include/common.h	/^        unsigned int i_neighbour_frame;     \/* ignoring slice boundaries *\/$/;"	m	struct:x264_t::__anon22
+i_neighbour_intra	include/common.h	/^        unsigned int i_neighbour_intra;     \/* for constrained intra pred *\/$/;"	m	struct:x264_t::__anon22
+i_neighbour_skip	include/common.h	/^            int     i_neighbour_skip;$/;"	m	struct:x264_t::__anon22::__anon24
+i_neighbour_transform_size	include/common.h	/^            int     i_neighbour_transform_size;$/;"	m	struct:x264_t::__anon22::__anon24
+i_noise_reduction	include/x264.h	/^        int          i_noise_reduction; \/* adaptive pseudo-deadzone *\/$/;"	m	struct:x264_param_t::__anon31
+i_num_ref_idx_l0_active	include/common.h	/^    int i_num_ref_idx_l0_active;$/;"	m	struct:__anon15
+i_num_ref_idx_l1_active	include/common.h	/^    int i_num_ref_idx_l1_active;$/;"	m	struct:__anon15
+i_opencl_device	include/x264.h	/^    int i_opencl_device;     \/* specify count of GPU devices to skip, for CLI users *\/$/;"	m	struct:x264_param_t
+i_overscan	include/x264.h	/^        int         i_overscan;    \/* 0=undef, 1=no overscan, 2=overscan *\/$/;"	m	struct:x264_param_t::__anon30
+i_padding	include/x264.h	/^    int i_padding;$/;"	m	struct:__anon28
+i_partition	include/common.h	/^        int     i_partition;$/;"	m	struct:x264_t::__anon22
+i_payload	include/x264.h	/^    int     i_payload;$/;"	m	struct:__anon28
+i_pic_struct	include/x264.h	/^    int     i_pic_struct;$/;"	m	struct:__anon40
+i_plane	include/x264.h	/^    int     i_plane;     \/* Number of image planes *\/$/;"	m	struct:__anon38
+i_poc	include/common.h	/^        int i_poc;$/;"	m	struct:__anon15::__anon17
+i_poc	include/common.h	/^    int i_poc;$/;"	m	struct:__anon15
+i_poc_last_open_gop	include/common.h	/^        int i_poc_last_open_gop;   \/* Poc of the I frame of the last open-gop. The value$/;"	m	struct:x264_t::__anon20
+i_pps_id	include/common.h	/^    int i_pps_id;$/;"	m	struct:__anon15
+i_prev_duration	include/common.h	/^    int64_t         i_prev_duration; \/* Duration of previous frame *\/$/;"	m	struct:x264_t
+i_prev_reordered_pts	include/common.h	/^        int64_t i_prev_reordered_pts[2];$/;"	m	struct:x264_t::__anon20
+i_psy_rd	include/common.h	/^        int     i_psy_rd; \/* Psy RD strength--fixed point value*\/$/;"	m	struct:x264_t::__anon22
+i_psy_rd_lambda	include/common.h	/^        int     i_psy_rd_lambda;$/;"	m	struct:x264_t::__anon22
+i_psy_trellis	include/common.h	/^        int     i_psy_trellis; \/* Psy trellis strength--fixed point value*\/$/;"	m	struct:x264_t::__anon22
+i_pts	include/x264.h	/^    int64_t i_pts;$/;"	m	struct:__anon40
+i_qp	include/common.h	/^        int     i_qp;       \/* current qp *\/$/;"	m	struct:x264_t::__anon22
+i_qp	include/common.h	/^    int i_qp;$/;"	m	struct:__anon15
+i_qp	include/x264.h	/^    int i_qp;$/;"	m	struct:__anon29
+i_qp_constant	include/x264.h	/^        int         i_qp_constant;  \/* 0 to (51 + 6*(x264_bit_depth-8)). 0=lossless *\/$/;"	m	struct:x264_param_t::__anon32
+i_qp_delta	include/common.h	/^    int i_qp_delta;$/;"	m	struct:__anon15
+i_qp_max	include/x264.h	/^        int         i_qp_max;       \/* max allowed QP value *\/$/;"	m	struct:x264_param_t::__anon32
+i_qp_min	include/x264.h	/^        int         i_qp_min;       \/* min allowed QP value *\/$/;"	m	struct:x264_param_t::__anon32
+i_qp_step	include/x264.h	/^        int         i_qp_step;      \/* max QP step between frames *\/$/;"	m	struct:x264_param_t::__anon32
+i_qpplus1	include/x264.h	/^    int     i_qpplus1;$/;"	m	struct:__anon40
+i_qs_delta	include/common.h	/^    int i_qs_delta;$/;"	m	struct:__anon15
+i_rc_method	include/x264.h	/^        int         i_rc_method;    \/* X264_RC_* *\/$/;"	m	struct:x264_param_t::__anon32
+i_redundant_pic_cnt	include/common.h	/^    int i_redundant_pic_cnt;$/;"	m	struct:__anon15
+i_ref	include/common.h	/^    int             i_ref[2];$/;"	m	struct:x264_t
+i_ref_idc	include/x264.h	/^    int i_ref_idc;  \/* nal_priority_e *\/$/;"	m	struct:__anon28
+i_reordered_pts_delay	include/common.h	/^    int64_t i_reordered_pts_delay;$/;"	m	struct:x264_t
+i_right	include/x264.h	/^        unsigned int i_right;$/;"	m	struct:x264_param_t::__anon33
+i_sar_height	include/x264.h	/^        int         i_sar_height;$/;"	m	struct:x264_param_t::__anon30
+i_sar_width	include/x264.h	/^        int         i_sar_width;$/;"	m	struct:x264_param_t::__anon30
+i_scenecut_threshold	include/x264.h	/^    int         i_scenecut_threshold; \/* how aggressively to insert extra I frames *\/$/;"	m	struct:x264_param_t
+i_second_largest_pts	include/common.h	/^        int64_t i_second_largest_pts;$/;"	m	struct:x264_t::__anon20
+i_skip_intra	include/common.h	/^        int i_skip_intra;$/;"	m	struct:x264_t::__anon22
+i_slice_count	include/x264.h	/^    int i_slice_count;       \/* Number of slices per frame: forces rectangular slices. *\/$/;"	m	struct:x264_param_t
+i_slice_count_max	include/x264.h	/^    int i_slice_count_max;   \/* Absolute cap on slices per frame; stops applying slice-max-size$/;"	m	struct:x264_param_t
+i_slice_max_mbs	include/x264.h	/^    int i_slice_max_mbs;     \/* Max number of MBs per slice; overrides i_slice_count. *\/$/;"	m	struct:x264_param_t
+i_slice_max_size	include/x264.h	/^    int i_slice_max_size;    \/* Max size per slice in bytes; includes estimated NAL overhead. *\/$/;"	m	struct:x264_param_t
+i_slice_min_mbs	include/x264.h	/^    int i_slice_min_mbs;     \/* Min number of MBs per slice *\/$/;"	m	struct:x264_param_t
+i_slicetype_length	include/common.h	/^    int                           i_slicetype_length;$/;"	m	struct:x264_lookahead_t
+i_sps_id	include/x264.h	/^    int i_sps_id;               \/* SPS and PPS id number *\/$/;"	m	struct:x264_param_t
+i_ssd	include/common.h	/^    int64_t i_ssd[3];$/;"	m	struct:__anon18
+i_ssim_cnt	include/common.h	/^    int i_ssim_cnt;$/;"	m	struct:__anon18
+i_start	include/x264.h	/^    int i_start, i_end; \/* range of frame numbers *\/$/;"	m	struct:__anon29
+i_stride	include/common.h	/^            int     i_stride[3];$/;"	m	struct:x264_t::__anon22::__anon23
+i_stride	include/x264.h	/^    int     i_stride[4]; \/* Strides for each plane *\/$/;"	m	struct:__anon38
+i_subpel_refine	include/common.h	/^        int     i_subpel_refine;$/;"	m	struct:x264_t::__anon22
+i_subpel_refine	include/x264.h	/^        int          i_subpel_refine; \/* subpixel motion estimation quality *\/$/;"	m	struct:x264_param_t::__anon31
+i_sync_lookahead	include/x264.h	/^    int         i_sync_lookahead; \/* threaded lookahead buffer *\/$/;"	m	struct:x264_param_t
+i_tex_bits	include/common.h	/^    int i_tex_bits;$/;"	m	struct:__anon18
+i_thread_frames	include/common.h	/^    int             i_thread_frames; \/* Number of different frames being encoded by threads;$/;"	m	struct:x264_t
+i_thread_idx	include/common.h	/^    int             i_thread_idx;   \/* which thread this is *\/$/;"	m	struct:x264_t
+i_thread_phase	include/common.h	/^    int             i_thread_phase; \/* which thread to use for the next frame *\/$/;"	m	struct:x264_t
+i_threads	include/x264.h	/^    int         i_threads;           \/* encode multiple frames in parallel *\/$/;"	m	struct:x264_param_t
+i_threadslice_end	include/common.h	/^    int             i_threadslice_end; \/* row after the end of this thread slice *\/$/;"	m	struct:x264_t
+i_threadslice_pass	include/common.h	/^    int             i_threadslice_pass; \/* which pass of encoding we are on *\/$/;"	m	struct:x264_t
+i_threadslice_start	include/common.h	/^    int             i_threadslice_start; \/* first row in this thread slice *\/$/;"	m	struct:x264_t
+i_timebase_den	include/x264.h	/^    uint32_t i_timebase_den;    \/* Timebase denominator *\/$/;"	m	struct:x264_param_t
+i_timebase_num	include/x264.h	/^    uint32_t i_timebase_num;    \/* Timebase numerator *\/$/;"	m	struct:x264_param_t
+i_top	include/x264.h	/^        unsigned int i_top;$/;"	m	struct:x264_param_t::__anon33
+i_transfer	include/x264.h	/^        int         i_transfer;$/;"	m	struct:x264_param_t::__anon30
+i_trellis	include/x264.h	/^        int          i_trellis;  \/* trellis RD quantization *\/$/;"	m	struct:x264_param_t::__anon31
+i_trellis_lambda2	include/common.h	/^        int     i_trellis_lambda2[2][2]; \/* [luma,chroma][inter,intra] *\/$/;"	m	struct:x264_t::__anon22
+i_type	include/common.h	/^        int     i_type;$/;"	m	struct:x264_t::__anon22
+i_type	include/common.h	/^    int i_type;$/;"	m	struct:__anon15
+i_type	include/x264.h	/^    int     i_type;$/;"	m	struct:__anon40
+i_type	include/x264.h	/^    int i_type;     \/* nal_unit_type_e *\/$/;"	m	struct:__anon28
+i_vbv_buffer_size	include/x264.h	/^        int         i_vbv_buffer_size;$/;"	m	struct:x264_param_t::__anon32
+i_vbv_max_bitrate	include/x264.h	/^        int         i_vbv_max_bitrate;$/;"	m	struct:x264_param_t::__anon32
+i_vidformat	include/x264.h	/^        int         i_vidformat;$/;"	m	struct:x264_param_t::__anon30
+i_weighted_pred	include/x264.h	/^        int          i_weighted_pred; \/* weighting for P-frames *\/$/;"	m	struct:x264_param_t::__anon31
+i_width	include/x264.h	/^    int         i_width;$/;"	m	struct:x264_param_t
+i_wpred	include/common.h	/^        int     i_wpred[2];$/;"	m	struct:x264_t::__anon25
+i_zones	include/x264.h	/^        int         i_zones;        \/* number of zone_t's *\/$/;"	m	struct:x264_param_t::__anon32
+idc	include/common.h	/^        int idc;$/;"	m	struct:__anon15::__anon16
+idct	include/dsputil.h	/^    void (*idct)(int16_t *block\/* align 16*\/);$/;"	m	struct:DSPContext
+idct_add	include/dsputil.h	/^    void (*idct_add)(uint8_t *dest\/*align 8*\/, int line_size, int16_t *block\/*align 16*\/);$/;"	m	struct:DSPContext
+idct_permutation	include/dsputil.h	/^    uint8_t idct_permutation[64];$/;"	m	struct:DSPContext
+idct_permutation_type	include/dsputil.h	/^    int idct_permutation_type;$/;"	m	struct:DSPContext
+idct_put	include/dsputil.h	/^    void (*idct_put)(uint8_t *dest\/*align 8*\/, int line_size, int16_t *block\/*align 16*\/);$/;"	m	struct:DSPContext
+ifbuf	include/common.h	/^    x264_sync_frame_list_t        ifbuf;$/;"	m	struct:x264_lookahead_t
+igfGOP	include/x264Encoder.h	/^		int igfGOP;$/;"	m	struct:webrtc::tagx264EncParam
+ignore_result	macros.h	/^inline void ignore_result(const T&) {$/;"	f
+ildct_cmp	include/dsputil.h	/^    me_cmp_func ildct_cmp[6]; \/\/only width 16 used$/;"	m	struct:DSPContext
+image_format_	include/h264_encoder_decoder.h	/^  int image_format_;$/;"	m	class:webrtc::H264Decoder
+img	include/x264.h	/^    x264_image_t img;$/;"	m	struct:__anon40
+implicit_cast	macros.h	/^inline To implicit_cast(From const &f) {$/;"	f
+inited_	include/h264_encoder_decoder.h	/^    bool inited_;$/;"	m	class:webrtc::H264Encoder
+inited_	include/h264_encoder_decoder.h	/^  bool inited_;$/;"	m	class:webrtc::H264Decoder
+inited_	include/h264_impl.h	/^    bool                    inited_;$/;"	m	class:webrtc::H264DecoderImpl
+inited_	include/h264_impl.h	/^    bool inited_;$/;"	m	class:webrtc::H264EncoderImpl
+initial_cpb_removal_delay	include/common.h	/^    int initial_cpb_removal_delay;$/;"	m	struct:x264_t
+initial_cpb_removal_delay_offset	include/common.h	/^    int initial_cpb_removal_delay_offset;$/;"	m	struct:x264_t
+inter	include/x264.h	/^        unsigned int inter;     \/* inter partitions *\/$/;"	m	struct:x264_param_t::__anon31
+intra	include/common.h	/^    uint8_t intra[4];$/;"	m	struct:x264_left_table_t
+intra	include/x264.h	/^        unsigned int intra;     \/* intra partitions *\/$/;"	m	struct:x264_param_t::__anon31
+intra4x4_pred_mode	include/common.h	/^        int8_t  (*intra4x4_pred_mode)[8];   \/* intra4x4 pred mode. for non I4x4 set to I_PRED_4x4_DC(2) *\/$/;"	m	struct:x264_t::__anon22
+intra_border_backup	include/common.h	/^    pixel *intra_border_backup[5][3]; \/* bottom pixels of the previous mb row, used for intra prediction after the framebuffer has been deblocked *\/$/;"	m	struct:x264_t
+ip_offset	include/common.h	/^        int ip_offset; \/* Used by PIR to offset the quantizer of intra-refresh blocks. *\/$/;"	m	struct:x264_t::__anon22
+ispGOP	include/x264Encoder.h	/^		int ispGOP;$/;"	m	struct:webrtc::tagx264EncParam
+kCMFormatDescriptionBridgeError_InvalidParameter	coremedia_glue.h	/^    kCMFormatDescriptionBridgeError_InvalidParameter = -12712,$/;"	e	enum:CoreMediaGlue::__anon6
+kCMPixelFormat_422YpCbCr8_yuvs	coremedia_glue.h	/^    kCMPixelFormat_422YpCbCr8_yuvs = 'yuvs',$/;"	e	enum:CoreMediaGlue::__anon4
+kCMVideoCodecType_H264	coremedia_glue.h	/^    kCMVideoCodecType_H264 = 'avc1',$/;"	e	enum:CoreMediaGlue::__anon5
+kCMVideoCodecType_JPEG_OpenDML	coremedia_glue.h	/^    kCMVideoCodecType_JPEG_OpenDML = 'dmb1',$/;"	e	enum:CoreMediaGlue::__anon5
+kH264ErrorPropagationTh	h264.cc	/^enum { kH264ErrorPropagationTh = 30 };$/;"	e	enum:__anon7	file:
+kMinUpdateInterval	include/reference_picture_selection.h	/^  enum { kMinUpdateInterval = 90 * 10 };  \/\/ Timestamp frequency$/;"	e	enum:webrtc::ReferencePictureSelection::__anon27
+kMinUpdateInterval	reference_picture_selection.h	/^  enum { kMinUpdateInterval = 90 * 10 };  \/\/ Timestamp frequency$/;"	e	enum:webrtc::ReferencePictureSelection::__anon42
+kRttConfidence	include/reference_picture_selection.h	/^  const double kRttConfidence;$/;"	m	class:webrtc::ReferencePictureSelection
+kRttConfidence	reference_picture_selection.h	/^  const double kRttConfidence;$/;"	m	class:webrtc::ReferencePictureSelection
+kVTEncodeInfo_Asynchronous	videotoolbox_glue.h	/^    kVTEncodeInfo_Asynchronous = 1UL << 0,$/;"	e	enum:VideoToolboxGlue::__anon43
+kVTEncodeInfo_FrameDropped	videotoolbox_glue.h	/^    kVTEncodeInfo_FrameDropped = 1UL << 1,$/;"	e	enum:VideoToolboxGlue::__anon43
+kVideoAcceptedPSNR	h264_vt_encoder_unittest.cc	/^const double kVideoAcceptedPSNR = 38.0;$/;"	m	namespace:media::cast	file:
+kVideoHeight	h264_vt_encoder_unittest.cc	/^const int kVideoHeight = 720;$/;"	m	namespace:__anon9	file:
+kVideoWidth	h264_vt_encoder_unittest.cc	/^const int kVideoWidth = 1280;$/;"	m	namespace:__anon9	file:
+kVp8LayerRateAlloction	include/vp8_common_types.h	/^    kVp8LayerRateAlloction[kMaxTemporalStreams][kMaxTemporalStreams] = {$/;"	m	namespace:webrtc
+last_keyframe_	include/h264_encoder_decoder.h	/^  EncodedImage last_keyframe_;$/;"	m	class:webrtc::H264Decoder
+last_keyframe_	include/h264_impl.h	/^    EncodedImage            last_keyframe_;$/;"	m	class:webrtc::H264DecoderImpl
+last_nonb	include/common.h	/^    x264_frame_t                  *last_nonb;$/;"	m	struct:x264_lookahead_t
+last_refresh_time_	include/reference_picture_selection.h	/^  uint32_t last_refresh_time_;$/;"	m	class:webrtc::ReferencePictureSelection
+last_refresh_time_	reference_picture_selection.h	/^  uint32_t last_refresh_time_;$/;"	m	class:webrtc::ReferencePictureSelection
+last_sent_ref_picture_id_	include/reference_picture_selection.h	/^  int last_sent_ref_picture_id_;$/;"	m	class:webrtc::ReferencePictureSelection
+last_sent_ref_picture_id_	reference_picture_selection.h	/^  int last_sent_ref_picture_id_;$/;"	m	class:webrtc::ReferencePictureSelection
+last_sent_ref_update_time_	include/reference_picture_selection.h	/^  uint32_t last_sent_ref_update_time_;$/;"	m	class:webrtc::ReferencePictureSelection
+last_sent_ref_update_time_	reference_picture_selection.h	/^  uint32_t last_sent_ref_update_time_;$/;"	m	class:webrtc::ReferencePictureSelection
+latest_keyframe_complete_	include/h264_encoder_decoder.h	/^  bool latest_keyframe_complete_;$/;"	m	class:webrtc::H264Decoder
+left_b4	include/common.h	/^        int     left_b4[2];$/;"	m	struct:x264_t::__anon22
+left_b8	include/common.h	/^        int     left_b8[2];$/;"	m	struct:x264_t::__anon22
+left_index_table	include/common.h	/^        const x264_left_table_t *left_index_table;$/;"	m	struct:x264_t::__anon22
+level_idc	include/x264.h	/^    int level_idc;$/;"	m	struct:__anon34
+library_	videotoolbox_glue.h	/^  Library* library_;$/;"	m	class:VideoToolboxGlue
+lookahead	include/common.h	/^    x264_lookahead_t *lookahead;$/;"	m	struct:x264_t
+lookahead_thread	include/common.h	/^    x264_t          *lookahead_thread[X264_LOOKAHEAD_THREAD_MAX];$/;"	m	struct:x264_t
+lookaheadpool	include/common.h	/^    x264_threadpool_t *lookaheadpool;$/;"	m	struct:x264_t
+loopf	include/common.h	/^    x264_deblock_function_t loopf;$/;"	m	struct:x264_t
+luma2chroma_pixel	include/common.h	/^    uint8_t luma2chroma_pixel[7]; \/* Subsampled pixel size *\/$/;"	m	struct:x264_t
+m_level	include/x264Encoder.h	/^		unsigned char m_level[5];\/\/[ level_0 ][ level_1 ][ level_2 ]$/;"	m	class:webrtc::CX264Encoder
+m_pPic	include/x264Encoder.h	/^		void* m_pPic;$/;"	m	class:webrtc::CX264Encoder
+m_px264Handle	include/x264Encoder.h	/^		void* m_px264Handle;$/;"	m	class:webrtc::CX264Encoder
+m_stEncParam	include/x264Encoder.h	/^		X264ENCPARAM m_stEncParam;$/;"	m	class:webrtc::CX264Encoder
+main	h264_vt_encoder_unittest.cc	/^int main(int argc, char** argv) {$/;"	f
+map_col_to_list0	include/common.h	/^        int8_t  map_col_to_list0[X264_REF_MAX+2];$/;"	m	struct:x264_t::__anon22
+map_col_to_list0	include/common.h	/^#define map_col_to_list0(/;"	d
+max_bitrate	include/h264_vt_encoder.h	/^  int max_bitrate;$/;"	m	struct:webrtc::VideoSenderConfig
+max_drop_num	x264Encoder.cpp	/^		int         max_drop_num;$/;"	m	struct:webrtc::user_param_t	file:
+max_frame_rate	include/h264_vt_encoder.h	/^  int max_frame_rate;  \/\/ TODO(miu): Should be double, not int.$/;"	m	struct:webrtc::VideoSenderConfig
+max_number_of_video_buffers_used	include/h264_vt_encoder.h	/^  int max_number_of_video_buffers_used;$/;"	m	struct:webrtc::VideoSenderConfig
+max_qp	include/h264_vt_encoder.h	/^  int max_qp;$/;"	m	struct:webrtc::VideoSenderConfig
+mb	include/common.h	/^    } mb;$/;"	m	struct:x264_t	typeref:struct:x264_t::__anon22
+mb_cmp	include/dsputil.h	/^    me_cmp_func mb_cmp[6];$/;"	m	struct:DSPContext
+mb_info	include/x264.h	/^    uint8_t *mb_info;$/;"	m	struct:__anon39
+mb_info_free	include/x264.h	/^    void (*mb_info_free)( void* );$/;"	m	struct:__anon39
+mb_transform_size	include/common.h	/^        int8_t  *mb_transform_size;         \/* transform_size_8x8_flag of each mb *\/$/;"	m	struct:x264_t::__anon22
+mbps	include/x264.h	/^    int mbps;        \/* max macroblock processing rate (macroblocks\/sec) *\/$/;"	m	struct:__anon34
+mc	include/common.h	/^    x264_mc_functions_t   mc;$/;"	m	struct:x264_t
+me_cmp	include/dsputil.h	/^    me_cmp_func me_cmp[6];$/;"	m	struct:DSPContext
+me_cmp_func	include/dsputil.h	/^typedef int (*me_cmp_func)(void \/*MpegEncContext*\/ *s, uint8_t *blk1\/*align width (8 or 16)*\/, uint8_t *blk2\/*align 1*\/, int line_size, int h)\/* __attribute__ ((const))*\/;$/;"	t
+me_pre_cmp	include/dsputil.h	/^    me_cmp_func me_pre_cmp[6];$/;"	m	struct:DSPContext
+me_sub_cmp	include/dsputil.h	/^    me_cmp_func me_sub_cmp[6];$/;"	m	struct:DSPContext
+media	h264_vt_encoder_unittest.cc	/^namespace media {$/;"	n	file:
+message_loop_	h264_vt_encoder_unittest.cc	/^  base::MessageLoop message_loop_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+mfqe_enabled_	include/h264_encoder_decoder.h	/^  bool mfqe_enabled_;$/;"	m	class:webrtc::H264Decoder
+min_bitrate	include/h264_vt_encoder.h	/^  int min_bitrate;$/;"	m	struct:webrtc::VideoSenderConfig
+min_qp	include/h264_vt_encoder.h	/^  int min_qp;$/;"	m	struct:webrtc::VideoSenderConfig
+mincr	include/x264.h	/^    int mincr;       \/* min compression ratio *\/$/;"	m	struct:__anon34
+mmco	include/common.h	/^    } mmco[X264_REF_MAX];$/;"	m	struct:__anon15	typeref:struct:__anon15::__anon17
+mode	include/x264Encoder.h	/^		enum enumEncMode mode;$/;"	m	struct:webrtc::tagx264EncParam	typeref:enum:webrtc::tagx264EncParam::enumEncMode
+mutex	include/common.h	/^    x264_pthread_mutex_t mutex;$/;"	m	struct:x264_t
+mv	include/common.h	/^        int16_t (*mv[2])[2];                \/* mb mv. set to 0 for intra mb *\/$/;"	m	struct:x264_t::__anon22
+mv	include/common.h	/^    uint8_t mv[4];$/;"	m	struct:x264_left_table_t
+mv_max	include/common.h	/^        int     mv_max[2];$/;"	m	struct:x264_t::__anon22
+mv_max_spel	include/common.h	/^        int     mv_max_spel[2];$/;"	m	struct:x264_t::__anon22
+mv_maxy_fpel_row	include/common.h	/^        int     mv_maxy_fpel_row[3];$/;"	m	struct:x264_t::__anon22
+mv_maxy_row	include/common.h	/^        int     mv_maxy_row[3];$/;"	m	struct:x264_t::__anon22
+mv_maxy_spel_row	include/common.h	/^        int     mv_maxy_spel_row[3];$/;"	m	struct:x264_t::__anon22
+mv_min	include/common.h	/^        int     mv_min[2];$/;"	m	struct:x264_t::__anon22
+mv_min_spel	include/common.h	/^        int     mv_min_spel[2];$/;"	m	struct:x264_t::__anon22
+mv_miny_fpel_row	include/common.h	/^        int     mv_miny_fpel_row[3];$/;"	m	struct:x264_t::__anon22
+mv_miny_row	include/common.h	/^        int     mv_miny_row[3]; \/* 0 == top progressive, 1 == bot progressive, 2 == interlaced *\/$/;"	m	struct:x264_t::__anon22
+mv_miny_spel_row	include/common.h	/^        int     mv_miny_spel_row[3];$/;"	m	struct:x264_t::__anon22
+mv_range	include/x264.h	/^    int mv_range;    \/* max vertical mv component range (pixels) *\/$/;"	m	struct:__anon34
+mvd	include/common.h	/^        uint8_t (*mvd[2])[8][2];            \/* absolute value of mb mv difference with predict, clipped to [0,33]. set to 0 if intra. cabac only *\/$/;"	m	struct:x264_t::__anon22
+mvr	include/common.h	/^        int16_t (*mvr[2][X264_REF_MAX*2])[2];\/* 16x16 mv for each possible ref *\/$/;"	m	struct:x264_t::__anon22
+mvs_per_2mb	include/x264.h	/^    int mvs_per_2mb; \/* max mvs per 2 consecutive mbs. *\/$/;"	m	struct:__anon34
+nal	include/common.h	/^        x264_nal_t  *nal;$/;"	m	struct:x264_t::__anon19
+nal_buffer	include/common.h	/^    uint8_t *nal_buffer;$/;"	m	struct:x264_t
+nal_buffer_size	include/common.h	/^    int      nal_buffer_size;$/;"	m	struct:x264_t
+nal_info_	include/h264_encoder_decoder.h	/^    X264NalInfo  *nal_info_;$/;"	m	class:webrtc::H264Encoder
+nal_info_	include/h264_impl.h	/^	x264_nal_t  *nal_info_;$/;"	m	class:webrtc::H264EncoderImpl
+nal_priority_e	include/x264.h	/^enum nal_priority_e$/;"	g
+nal_unit_type_e	include/x264.h	/^enum nal_unit_type_e$/;"	g
+nalu_process	include/x264.h	/^    void (*nalu_process) ( x264_t *h, x264_nal_t *nal, void *opaque );$/;"	m	struct:x264_param_t
+next	include/common.h	/^    x264_sync_frame_list_t        next;$/;"	m	struct:x264_lookahead_t
+next_frame_id_	include/h264_vt_encoder.h	/^  uint32 next_frame_id_;$/;"	m	class:webrtc::H264VideoToolboxEncoder
+nnz	include/common.h	/^    uint8_t nnz[4];$/;"	m	struct:x264_left_table_t
+nnz_chroma	include/common.h	/^    uint8_t nnz_chroma[4];$/;"	m	struct:x264_left_table_t
+non_zero_count	include/common.h	/^        uint8_t (*non_zero_count)[16*3];    \/* nzc. for I_PCM set to 16 *\/$/;"	m	struct:x264_t::__anon22
+nr_count	include/common.h	/^    uint32_t *nr_count;$/;"	m	struct:x264_t
+nr_count_buf	include/common.h	/^    uint32_t nr_count_buf[2][4];$/;"	m	struct:x264_t
+nr_offset	include/common.h	/^    udctcoef (*nr_offset)[64];$/;"	m	struct:x264_t
+nr_offset_emergency	include/common.h	/^    udctcoef        (*nr_offset_emergency)[4][64];$/;"	m	struct:x264_t
+nr_residual_sum	include/common.h	/^    uint32_t (*nr_residual_sum)[64];$/;"	m	struct:x264_t
+nsse	include/dsputil.h	/^    me_cmp_func nsse[6];$/;"	m	struct:DSPContext
+num_payloads	include/x264.h	/^    int num_payloads;$/;"	m	struct:__anon37
+number_of_encode_threads	include/h264_vt_encoder.h	/^  int number_of_encode_threads;$/;"	m	struct:webrtc::VideoSenderConfig
+ofbuf	include/common.h	/^    x264_sync_frame_list_t        ofbuf;$/;"	m	struct:x264_lookahead_t
+op_fill_func	include/dsputil.h	/^typedef void (*op_fill_func)(uint8_t *block\/*align width (8 or 16)*\/, uint8_t value, int line_size, int h);$/;"	t
+opaque	include/x264.h	/^    void *opaque;$/;"	m	struct:__anon40
+opencl	include/common.h	/^    x264_opencl_t opencl;$/;"	m	struct:x264_t
+opencl_device_id	include/x264.h	/^    void *opencl_device_id;  \/* pass explicit cl_device_id as void*, for API users *\/$/;"	m	struct:x264_param_t
+operational_status_	h264_vt_encoder_unittest.cc	/^  OperationalStatus operational_status_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+out	include/common.h	/^    } out;$/;"	m	struct:x264_t	typeref:struct:x264_t::__anon19
+override	h264_vt_encoder_unittest.cc	/^  void Initialize() override;$/;"	m	class:__anon9::MediaTestSuite	file:
+p_bitstream	include/common.h	/^        uint8_t     *p_bitstream;   \/* will hold data for all nal *\/$/;"	m	struct:x264_t::__anon19
+p_fdec	include/common.h	/^            pixel *p_fdec[3];$/;"	m	struct:x264_t::__anon22::__anon23
+p_fenc	include/common.h	/^            pixel *p_fenc[3]; \/* y,u,v *\/$/;"	m	struct:x264_t::__anon22::__anon23
+p_fenc_plane	include/common.h	/^            pixel *p_fenc_plane[3];$/;"	m	struct:x264_t::__anon22::__anon23
+p_fref	include/common.h	/^            pixel *p_fref[2][X264_REF_MAX*2][12];$/;"	m	struct:x264_t::__anon22::__anon23
+p_fref_w	include/common.h	/^            pixel *p_fref_w[X264_REF_MAX*2];  \/* weighted fullpel luma *\/$/;"	m	struct:x264_t::__anon22::__anon23
+p_integral	include/common.h	/^            uint16_t *p_integral[2][X264_REF_MAX];$/;"	m	struct:x264_t::__anon22::__anon23
+p_log_private	include/x264.h	/^    void        *p_log_private;$/;"	m	struct:x264_param_t
+p_payload	include/x264.h	/^    uint8_t *p_payload;$/;"	m	struct:__anon28
+p_weight_buf	include/common.h	/^        pixel *p_weight_buf[X264_REF_MAX];$/;"	m	struct:x264_t::__anon22
+param	include/common.h	/^    x264_param_t    param;$/;"	m	struct:x264_t
+param	include/x264.h	/^    struct x264_param_t *param;$/;"	m	struct:__anon29	typeref:struct:__anon29::x264_param_t
+param	include/x264.h	/^    x264_param_t *param;$/;"	m	struct:__anon40
+param_free	include/x264.h	/^    void (*param_free)( void* );$/;"	m	struct:x264_param_t
+partition	include/common.h	/^        uint8_t *partition;                 \/* mb partition *\/$/;"	m	struct:x264_t::__anon22
+payload	include/x264.h	/^    uint8_t *payload;$/;"	m	struct:__anon36
+payload_size	include/x264.h	/^    int payload_size;$/;"	m	struct:__anon36
+payload_type	include/x264.h	/^    int payload_type;$/;"	m	struct:__anon36
+payloads	include/x264.h	/^    x264_sei_payload_t *payloads;$/;"	m	struct:__anon37
+permutated	include/dsputil.h	/^    uint8_t permutated[64];$/;"	m	struct:ScanTable
+pf_log	include/x264.h	/^    void        (*pf_log)( void *, int i_level, const char *psz, va_list );$/;"	m	struct:x264_param_t
+pic	include/common.h	/^        } pic;$/;"	m	struct:x264_t::__anon22	typeref:struct:x264_t::__anon22::__anon23
+pic_struct_e	include/x264.h	/^enum pic_struct_e$/;"	g
+pix_abs	include/dsputil.h	/^    me_cmp_func pix_abs[2][4];$/;"	m	struct:DSPContext
+pix_norm1	include/dsputil.h	/^    int (*pix_norm1)(uint8_t * pix, int line_size);$/;"	m	struct:DSPContext
+pix_sum	include/dsputil.h	/^    int (*pix_sum)(uint8_t * pix, int line_size);$/;"	m	struct:DSPContext
+pixel	include/common.h	/^    typedef uint16_t pixel;$/;"	t
+pixel	include/common.h	/^    typedef uint8_t  pixel;$/;"	t
+pixel4	include/common.h	/^    typedef uint32_t pixel4;$/;"	t
+pixel4	include/common.h	/^    typedef uint64_t pixel4;$/;"	t
+pixf	include/common.h	/^    x264_pixel_function_t pixf;$/;"	m	struct:x264_t
+plane	include/x264.h	/^    uint8_t *plane[4];   \/* Pointers to each plane *\/$/;"	m	struct:__anon38
+pps	include/common.h	/^    x264_pps_t      pps[1];$/;"	m	struct:x264_t
+pps	include/common.h	/^    x264_pps_t *pps;$/;"	m	struct:__anon15
+predict_16x16	include/common.h	/^    x264_predict_t      predict_16x16[4+3];$/;"	m	struct:x264_t
+predict_4x4	include/common.h	/^    x264_predict_t      predict_4x4[9+3];$/;"	m	struct:x264_t
+predict_8x16c	include/common.h	/^    x264_predict_t      predict_8x16c[4+3];$/;"	m	struct:x264_t
+predict_8x8	include/common.h	/^    x264_predict8x8_t   predict_8x8[9+3];$/;"	m	struct:x264_t
+predict_8x8_filter	include/common.h	/^    x264_predict_8x8_filter_t predict_8x8_filter;$/;"	m	struct:x264_t
+predict_8x8c	include/common.h	/^    x264_predict_t      predict_8x8c[4+3];$/;"	m	struct:x264_t
+predict_chroma	include/common.h	/^    x264_predict_t      predict_chroma[4+3];$/;"	m	struct:x264_t
+prop	include/x264.h	/^    x264_image_properties_t prop;$/;"	m	struct:__anon40
+propagation_cnt_	include/h264_encoder_decoder.h	/^  int propagation_cnt_;$/;"	m	class:webrtc::H264Decoder
+psz_clbin_file	include/x264.h	/^    char *psz_clbin_file;    \/* filename (in UTF-8) of the compiled OpenCL kernel cache file *\/$/;"	m	struct:x264_param_t
+psz_cqm_file	include/x264.h	/^    char        *psz_cqm_file;      \/* filename (in UTF-8) of CQM file, JM format *\/$/;"	m	struct:x264_param_t
+psz_dump_yuv	include/x264.h	/^    char        *psz_dump_yuv;  \/* filename (in UTF-8) for reconstructed frames *\/$/;"	m	struct:x264_param_t
+psz_stat_in	include/x264.h	/^        char        *psz_stat_in;   \/* input filename (in UTF-8) of the 2pass stats file *\/$/;"	m	struct:x264_param_t::__anon32
+psz_stat_out	include/x264.h	/^        char        *psz_stat_out;  \/* output filename (in UTF-8) of the 2pass stats file *\/$/;"	m	struct:x264_param_t::__anon32
+psz_zones	include/x264.h	/^        char        *psz_zones;     \/* alternate method of specifying zones *\/$/;"	m	struct:x264_param_t::__anon32
+put_mspel_pixels_tab	include/dsputil.h	/^    qpel_mc_func put_mspel_pixels_tab[8];$/;"	m	struct:DSPContext
+put_no_rnd_qpel_pixels_tab	include/dsputil.h	/^    qpel_mc_func put_no_rnd_qpel_pixels_tab[2][16];$/;"	m	struct:DSPContext
+put_pixels_clamped	include/dsputil.h	/^    void (*put_pixels_clamped)(const int16_t *block\/*align 16*\/, uint8_t *pixels\/*align 8*\/, int line_size);$/;"	m	struct:DSPContext
+put_qpel_pixels_tab	include/dsputil.h	/^    qpel_mc_func put_qpel_pixels_tab[2][16];$/;"	m	struct:DSPContext
+put_signed_pixels_clamped	include/dsputil.h	/^    void (*put_signed_pixels_clamped)(const int16_t *block\/*align 16*\/, uint8_t *pixels\/*align 8*\/, int line_size);$/;"	m	struct:DSPContext
+put_tpel_pixels_tab	include/dsputil.h	/^    tpel_mc_func put_tpel_pixels_tab[11]; \/\/FIXME individual func ptr per width?$/;"	m	struct:DSPContext
+qp	include/common.h	/^        int8_t  *qp;                        \/* mb qp *\/$/;"	m	struct:x264_t::__anon22
+qpel_mc_func	include/dsputil.h	/^typedef void (*qpel_mc_func)(uint8_t *dst\/*align width (8 or 16)*\/, uint8_t *src\/*align 1*\/, ptrdiff_t stride);$/;"	t
+quant4_bias	include/common.h	/^    udctcoef        (*quant4_bias[4])[16];   \/* [4][QP_MAX_SPEC+1][16] *\/$/;"	m	struct:x264_t
+quant4_bias0	include/common.h	/^    udctcoef        (*quant4_bias0[4])[16];  \/* [4][QP_MAX_SPEC+1][16] *\/$/;"	m	struct:x264_t
+quant4_mf	include/common.h	/^    udctcoef        (*quant4_mf[4])[16];     \/* [4][QP_MAX_SPEC+1][16] *\/$/;"	m	struct:x264_t
+quant8_bias	include/common.h	/^    udctcoef        (*quant8_bias[4])[64];   \/* [4][QP_MAX_SPEC+1][64] *\/$/;"	m	struct:x264_t
+quant8_bias0	include/common.h	/^    udctcoef        (*quant8_bias0[4])[64];  \/* [4][QP_MAX_SPEC+1][64] *\/$/;"	m	struct:x264_t
+quant8_mf	include/common.h	/^    udctcoef        (*quant8_mf[4])[64];     \/* [4][QP_MAX_SPEC+1][64] *\/$/;"	m	struct:x264_t
+quant_offsets	include/x264.h	/^    float *quant_offsets;$/;"	m	struct:__anon39
+quant_offsets_free	include/x264.h	/^    void (*quant_offsets_free)( void* );$/;"	m	struct:__anon39
+quant_psnr	include/dsputil.h	/^    me_cmp_func quant_psnr[6];$/;"	m	struct:DSPContext
+quantf	include/common.h	/^    x264_quant_function_t quantf;$/;"	m	struct:x264_t
+raster_end	include/dsputil.h	/^    uint8_t raster_end[64];$/;"	m	struct:ScanTable
+rawUV_stride	include/h264_impl.h	/^	uint32_t rawUV_stride;$/;"	m	class:webrtc::H264EncoderImpl
+rawU_	include/h264_impl.h	/^	uint8_t      *rawU_;$/;"	m	class:webrtc::H264EncoderImpl
+rawV_	include/h264_impl.h	/^	uint8_t      *rawV_;$/;"	m	class:webrtc::H264EncoderImpl
+rawY_	include/h264_impl.h	/^    uint8_t      *rawY_;$/;"	m	class:webrtc::H264EncoderImpl
+rawY_stride	include/h264_impl.h	/^	uint32_t rawY_stride;$/;"	m	class:webrtc::H264EncoderImpl
+raw_	include/h264_encoder_decoder.h	/^    uint8_t      *raw_;$/;"	m	class:webrtc::H264Encoder
+rc	include/common.h	/^    x264_ratecontrol_t *rc;$/;"	m	struct:x264_t
+rc	include/x264.h	/^    } rc;$/;"	m	struct:x264_param_t	typeref:struct:x264_param_t::__anon32
+rd	include/dsputil.h	/^    me_cmp_func rd[6];$/;"	m	struct:DSPContext
+received_ack_	include/reference_picture_selection.h	/^  bool received_ack_;$/;"	m	class:webrtc::ReferencePictureSelection
+received_ack_	reference_picture_selection.h	/^  bool received_ack_;$/;"	m	class:webrtc::ReferencePictureSelection
+receiver_ssrc	include/h264_vt_encoder.h	/^  uint32 receiver_ssrc;$/;"	m	struct:webrtc::VideoSenderConfig
+reconfig	include/common.h	/^    int             reconfig;$/;"	m	struct:x264_t
+reconfig_h	include/common.h	/^    x264_t          *reconfig_h;$/;"	m	struct:x264_t
+ref	include/common.h	/^        int8_t   *ref[2];                   \/* mb ref. set to -1 if non used (intra or Lx only) *\/$/;"	m	struct:x264_t::__anon22
+ref	include/common.h	/^    uint8_t ref[4];$/;"	m	struct:x264_left_table_t
+refCon	coremedia_glue.h	/^    void* refCon;$/;"	m	struct:CoreMediaGlue::__anon2
+ref_blind_dupe	include/common.h	/^        int ref_blind_dupe; \/* The index of the blind reference frame duplicate. *\/$/;"	m	struct:x264_t::__anon22
+ref_frame_	include/h264_encoder_decoder.h	/^  vpx_ref_frame_t* ref_frame_;$/;"	m	class:webrtc::H264Decoder
+ref_pic_list_order	include/common.h	/^    } ref_pic_list_order[2][X264_REF_MAX];$/;"	m	struct:__anon15	typeref:struct:__anon15::__anon16
+reference	include/common.h	/^        x264_frame_t *reference[X264_REF_MAX+2];$/;"	m	struct:x264_t::__anon20
+rtcp_interval	include/h264_vt_encoder.h	/^  int rtcp_interval;$/;"	m	struct:webrtc::VideoSenderConfig
+rtp_payload_type	include/h264_vt_encoder.h	/^  int rtp_payload_type;$/;"	m	struct:webrtc::VideoSenderConfig
+rtt_	include/reference_picture_selection.h	/^  uint32_t rtt_;$/;"	m	class:webrtc::ReferencePictureSelection
+rtt_	reference_picture_selection.h	/^  uint32_t rtt_;$/;"	m	class:webrtc::ReferencePictureSelection
+sad	include/dsputil.h	/^    me_cmp_func sad[6]; \/* identical to pix_absAxA except additional void * *\/$/;"	m	struct:DSPContext
+scalarproduct_and_madd_int16	include/dsputil.h	/^    int32_t (*scalarproduct_and_madd_int16)(int16_t *v1\/*align 16*\/, const int16_t *v2, const int16_t *v3, int len, int mul);$/;"	m	struct:DSPContext
+scalarproduct_int16	include/dsputil.h	/^    int32_t (*scalarproduct_int16)(const int16_t *v1, const int16_t *v2\/*align 16*\/, int len);$/;"	m	struct:DSPContext
+scantable	include/dsputil.h	/^    const uint8_t *scantable;$/;"	m	struct:ScanTable
+scratch_buffer	include/common.h	/^    void *scratch_buffer; \/* for any temporary storage that doesn't want repeated malloc *\/$/;"	m	struct:x264_t
+scratch_buffer2	include/common.h	/^    void *scratch_buffer2; \/* if the first one's already in use *\/$/;"	m	struct:x264_t
+sei_free	include/x264.h	/^    void (*sei_free)( void* );$/;"	m	struct:__anon37
+sei_payload_type_e	include/common.h	/^enum sei_payload_type_e$/;"	g
+set_use_simulcast_adapter	h264_factory.h	/^  static void set_use_simulcast_adapter(bool use_simulcast_adapter) {$/;"	f	class:webrtc::VP8EncoderFactoryConfig
+sh	include/common.h	/^    x264_slice_header_t sh;$/;"	m	struct:x264_t
+sh_backup	include/common.h	/^    x264_slice_header_t sh_backup;$/;"	m	struct:x264_t
+shrink	include/dsputil.h	/^    void (*shrink[4])(uint8_t *dst, int dst_wrap, const uint8_t *src, int src_wrap, int width, int height);$/;"	m	struct:DSPContext
+skipbp	include/common.h	/^        int8_t  *skipbp;                    \/* block pattern for SKIP or DIRECT (sub)mbs. B-frames + cabac only *\/$/;"	m	struct:x264_t::__anon22
+slice_rate	include/x264.h	/^    int slice_rate;  \/* ?? *\/$/;"	m	struct:__anon34
+slice_table	include/common.h	/^        uint16_t *slice_table;              \/* sh->first_mb of the slice that the indexed mb is part of$/;"	m	struct:x264_t::__anon22
+slice_type_e	include/common.h	/^enum slice_type_e$/;"	g
+slice_type_to_char	include/common.h	/^static const char slice_type_to_char[] = { 'P', 'B', 'I' };$/;"	v
+sps	include/common.h	/^    x264_sps_t      sps[1];$/;"	m	struct:x264_t
+sps	include/common.h	/^    x264_sps_t *sps;$/;"	m	struct:__anon15
+ssd_int8_vs_int16	include/dsputil.h	/^    int (*ssd_int8_vs_int16)(const int8_t *pix1, const int16_t *pix2,$/;"	m	struct:DSPContext
+sse	include/dsputil.h	/^    me_cmp_func sse[6];$/;"	m	struct:DSPContext
+ssrc	include/h264_vt_encoder.h	/^  uint32 ssrc;$/;"	m	struct:webrtc::VideoSenderConfig
+start_bitrate	include/h264_vt_encoder.h	/^  int start_bitrate;$/;"	m	struct:webrtc::VideoSenderConfig
+stat	include/common.h	/^    } stat;$/;"	m	struct:x264_t	typeref:struct:x264_t::__anon25
+sub_hfyu_median_prediction	include/dsputil.h	/^    void (*sub_hfyu_median_prediction)(uint8_t *dst, const uint8_t *src1, const uint8_t *src2, int w, int *left, int *left_top);$/;"	m	struct:DSPContext
+sum_abs_dctelem	include/dsputil.h	/^    int (*sum_abs_dctelem)(int16_t *block\/*align 16*\/);$/;"	m	struct:DSPContext
+tagx264EncParam	include/x264Encoder.h	/^		tagx264EncParam()$/;"	f	struct:webrtc::tagx264EncParam
+tagx264EncParam	include/x264Encoder.h	/^	typedef struct tagx264EncParam$/;"	s	namespace:webrtc
+thread	include/common.h	/^    x264_t          *thread[X264_THREAD_MAX+1];$/;"	m	struct:x264_t
+thread_handle	include/common.h	/^    x264_pthread_t                thread_handle;$/;"	m	struct:x264_lookahead_t
+threadpool	include/common.h	/^    x264_threadpool_t *threadpool;$/;"	m	struct:x264_t
+timescale	coremedia_glue.h	/^    CMTimeScale timescale;$/;"	m	struct:CoreMediaGlue::__anon1
+timestamp_	include/h264_encoder_decoder.h	/^    uint32_t timestamp_;$/;"	m	class:webrtc::H264Encoder
+timestamp_	include/h264_impl.h	/^    uint32_t timestamp_;$/;"	m	class:webrtc::H264EncoderImpl
+topleft_partition	include/common.h	/^        int     topleft_partition;$/;"	m	struct:x264_t::__anon22
+topright_mv	include/common.h	/^            int16_t topright_mv[2][3][2];$/;"	m	struct:x264_t::__anon22::__anon24
+topright_ref	include/common.h	/^            int8_t  topright_ref[2][3];$/;"	m	struct:x264_t::__anon22::__anon24
+tpel_mc_func	include/dsputil.h	/^typedef void (*tpel_mc_func)(uint8_t *block\/*align width (8 or 16)*\/, const uint8_t *pixels\/*align 1*\/, int line_size, int w, int h);$/;"	t
+try_8x8basis	include/dsputil.h	/^    int (*try_8x8basis)(int16_t rem[64], int16_t weight[64], int16_t basis[64], int scale);$/;"	m	struct:DSPContext
+type	include/common.h	/^        int8_t  *type;                      \/* mb type *\/$/;"	m	struct:x264_t::__anon22
+udctcoef	include/common.h	/^    typedef uint16_t udctcoef;$/;"	t
+udctcoef	include/common.h	/^    typedef uint32_t udctcoef;$/;"	t
+unquant4_mf	include/common.h	/^    int             (*unquant4_mf[4])[16];   \/* [4][QP_MAX_SPEC+1][16] *\/$/;"	m	struct:x264_t
+unquant8_mf	include/common.h	/^    int             (*unquant8_mf[4])[64];   \/* [4][QP_MAX_SPEC+1][64] *\/$/;"	m	struct:x264_t
+unused	include/common.h	/^        x264_frame_t **unused[2];$/;"	m	struct:x264_t::__anon20
+update_golden_next_	include/reference_picture_selection.h	/^  bool update_golden_next_;$/;"	m	class:webrtc::ReferencePictureSelection
+update_golden_next_	reference_picture_selection.h	/^  bool update_golden_next_;$/;"	m	class:webrtc::ReferencePictureSelection
+use_external_encoder	include/h264_vt_encoder.h	/^  bool use_external_encoder;$/;"	m	struct:webrtc::VideoSenderConfig
+use_simulcast_adapter	h264_factory.h	/^  static bool use_simulcast_adapter() { return use_simulcast_adapter_; }$/;"	f	class:webrtc::VP8EncoderFactoryConfig
+use_simulcast_adapter_	h264_factory.cc	/^bool VP8EncoderFactoryConfig::use_simulcast_adapter_ = false;$/;"	m	class:webrtc::VP8EncoderFactoryConfig	file:
+use_simulcast_adapter_	h264_factory.h	/^  static bool use_simulcast_adapter_;$/;"	m	class:webrtc::VP8EncoderFactoryConfig
+user_param	x264Encoder.cpp	/^	} user_param;$/;"	t	namespace:webrtc	typeref:struct:webrtc::user_param_t	file:
+user_param_t	x264Encoder.cpp	/^	typedef struct user_param_t$/;"	s	namespace:webrtc	file:
+usr_ptr	include/x264Encoder.h	/^		void* usr_ptr;$/;"	m	struct:webrtc::tagx264EncParam
+value	coremedia_glue.h	/^    CMTimeValue value;$/;"	m	struct:CoreMediaGlue::__anon1
+vbv_buffer_percent	x264Encoder.cpp	/^		float       vbv_buffer_percent;$/;"	m	struct:webrtc::user_param_t	file:
+vbv_drop_thr	x264Encoder.cpp	/^		float       vbv_drop_thr;$/;"	m	struct:webrtc::user_param_t	file:
+vector_clip_int32	include/dsputil.h	/^    void (*vector_clip_int32)(int32_t *dst, const int32_t *src, int32_t min,$/;"	m	struct:DSPContext
+vector_clipf	include/dsputil.h	/^    void (*vector_clipf)(float *dst \/* align 16 *\/, const float *src \/* align 16 *\/, float min, float max, int len \/* align 16 *\/);$/;"	m	struct:DSPContext
+version	coremedia_glue.h	/^    uint32_t version;$/;"	m	struct:CoreMediaGlue::__anon2
+video_sender_config_	h264_vt_encoder_unittest.cc	/^  static VideoSenderConfig video_sender_config_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+video_sender_config_	h264_vt_encoder_unittest.cc	/^VideoSenderConfig H264VideoToolboxEncoderTest::video_sender_config_;$/;"	m	class:media::cast::H264VideoToolboxEncoderTest	file:
+videotoolbox_glue_	include/h264_vt_encoder.h	/^  const VideoToolboxGlue* const videotoolbox_glue_;$/;"	m	class:webrtc::H264VideoToolboxEncoder
+vpx_dec_ctx_t	include/h264_encoder_decoder.h	/^typedef struct vpx_codec_ctx vpx_dec_ctx_t;$/;"	t	typeref:struct:vpx_codec_ctx
+vpx_image_t	include/h264_encoder_decoder.h	/^typedef struct vpx_image vpx_image_t;$/;"	t	typeref:struct:vpx_image
+vpx_ref_frame_t	include/h264_encoder_decoder.h	/^typedef struct vpx_ref_frame vpx_ref_frame_t;$/;"	t	typeref:struct:vpx_ref_frame
+vsad	include/dsputil.h	/^    me_cmp_func vsad[6];$/;"	m	struct:DSPContext
+vsse	include/dsputil.h	/^    me_cmp_func vsse[6];$/;"	m	struct:DSPContext
+vtEncoder	include/h264_impl.h	/^    H264VideoToolboxEncoder* vtEncoder;$/;"	m	class:webrtc::H264EncoderImpl
+vui	include/x264.h	/^    } vui;$/;"	m	struct:x264_param_t	typeref:struct:x264_param_t::__anon30
+w53	include/dsputil.h	/^    me_cmp_func w53[6];$/;"	m	struct:DSPContext
+w97	include/dsputil.h	/^    me_cmp_func w97[6];$/;"	m	struct:DSPContext
+webrtc	h264.cc	/^namespace webrtc$/;"	n	file:
+webrtc	h264_factory.cc	/^namespace webrtc {$/;"	n	file:
+webrtc	h264_factory.h	/^namespace webrtc {$/;"	n
+webrtc	h264_impl.cc	/^namespace webrtc$/;"	n	file:
+webrtc	h264_vt_encoder.cc	/^namespace webrtc{$/;"	n	file:
+webrtc	include/h264.h	/^namespace webrtc {$/;"	n
+webrtc	include/h264_encoder_decoder.h	/^namespace webrtc$/;"	n
+webrtc	include/h264_impl.h	/^namespace webrtc {$/;"	n
+webrtc	include/h264_interface.h	/^namespace webrtc {$/;"	n
+webrtc	include/h264_vt_encoder.h	/^namespace webrtc{$/;"	n
+webrtc	include/reference_picture_selection.h	/^namespace webrtc {$/;"	n
+webrtc	include/vp8_common_types.h	/^namespace webrtc {$/;"	n
+webrtc	include/x264Encoder.h	/^namespace webrtc {$/;"	n
+webrtc	reference_picture_selection.cc	/^namespace webrtc {$/;"	n	file:
+webrtc	reference_picture_selection.h	/^namespace webrtc {$/;"	n
+webrtc	x264Encoder.cpp	/^namespace webrtc$/;"	n	file:
+weight	include/common.h	/^    x264_weight_t weight[X264_REF_MAX*2][3];$/;"	m	struct:__anon15
+width	coremedia_glue.h	/^    int32_t width;$/;"	m	struct:CoreMediaGlue::__anon3
+width	include/h264_encoder_decoder.h	/^  uint32_t width;$/;"	m	class:webrtc::H264Decoder
+x264EncParam_SET	include/x264.h	/^#define x264EncParam_SET /;"	d
+x264_b_pyramid_names	include/x264.h	/^static const char * const x264_b_pyramid_names[] = { "none", "strict", "normal", 0 };$/;"	v
+x264_cabac_mvd_sum	include/common.h	/^static ALWAYS_INLINE uint16_t x264_cabac_mvd_sum( uint8_t *mvdleft, uint8_t *mvdtop )$/;"	f
+x264_clip3	include/common.h	/^static ALWAYS_INLINE int x264_clip3( int v, int i_min, int i_max )$/;"	f
+x264_clip3f	include/common.h	/^static ALWAYS_INLINE double x264_clip3f( double v, double f_min, double f_max )$/;"	f
+x264_clip_pixel	include/common.h	/^static ALWAYS_INLINE pixel x264_clip_pixel( int x )$/;"	f
+x264_colmatrix_names	include/x264.h	/^static const char * const x264_colmatrix_names[] = { "GBR", "bt709", "undef", "", "fcc", "bt470bg", "smpte170m", "smpte240m", "YCgCo", "bt2020nc", "bt2020c", 0 };$/;"	v
+x264_colorprim_names	include/x264.h	/^static const char * const x264_colorprim_names[] = { "", "bt709", "undef", "", "bt470m", "bt470bg", "smpte170m", "smpte240m", "film", "bt2020", 0 };$/;"	v
+x264_direct_pred_names	include/x264.h	/^static const char * const x264_direct_pred_names[] = { "none", "spatial", "temporal", "auto", 0 };$/;"	v
+x264_encoder_glue1	include/x264.h	/^#define x264_encoder_glue1(/;"	d
+x264_encoder_glue2	include/x264.h	/^#define x264_encoder_glue2(/;"	d
+x264_encoder_open	include/x264.h	/^#define x264_encoder_open /;"	d
+x264_exp2fix8	include/common.h	/^static ALWAYS_INLINE int x264_exp2fix8( float x )$/;"	f
+x264_frame_stat_t	include/common.h	/^} x264_frame_stat_t;$/;"	t	typeref:struct:__anon18
+x264_fullrange_names	include/x264.h	/^static const char * const x264_fullrange_names[] = { "off", "on", 0 };$/;"	v
+x264_hrd_t	include/x264.h	/^} x264_hrd_t;$/;"	t	typeref:struct:__anon35
+x264_image_properties_t	include/x264.h	/^} x264_image_properties_t;$/;"	t	typeref:struct:__anon39
+x264_image_t	include/x264.h	/^} x264_image_t;$/;"	t	typeref:struct:__anon38
+x264_left_table_t	include/common.h	/^typedef struct x264_left_table_t$/;"	s
+x264_left_table_t	include/common.h	/^} x264_left_table_t;$/;"	t	typeref:struct:x264_left_table_t
+x264_level_t	include/x264.h	/^} x264_level_t;$/;"	t	typeref:struct:__anon34
+x264_log2	include/common.h	/^static ALWAYS_INLINE float x264_log2( uint32_t x )$/;"	f
+x264_lookahead_t	include/common.h	/^typedef struct x264_lookahead_t$/;"	s
+x264_lookahead_t	include/common.h	/^} x264_lookahead_t;$/;"	t	typeref:struct:x264_lookahead_t
+x264_median	include/common.h	/^static ALWAYS_INLINE int x264_median( int a, int b, int c )$/;"	f
+x264_median_mv	include/common.h	/^static ALWAYS_INLINE void x264_median_mv( int16_t *dst, int16_t *a, int16_t *b, int16_t *c )$/;"	f
+x264_motion_est_names	include/x264.h	/^static const char * const x264_motion_est_names[] = { "dia", "hex", "umh", "esa", "tesa", 0 };$/;"	v
+x264_nal_hrd_names	include/x264.h	/^static const char * const x264_nal_hrd_names[] = { "none", "vbr", "cbr", 0 };$/;"	v
+x264_nal_t	include/x264.h	/^} x264_nal_t;$/;"	t	typeref:struct:__anon28
+x264_overscan_names	include/x264.h	/^static const char * const x264_overscan_names[] = { "undef", "show", "crop", 0 };$/;"	v
+x264_param_t	include/x264.h	/^typedef struct x264_param_t$/;"	s
+x264_param_t	include/x264.h	/^} x264_param_t;$/;"	t	typeref:struct:x264_param_t
+x264_picture_t	include/x264.h	/^} x264_picture_t;$/;"	t	typeref:struct:__anon40
+x264_predictor_clip	include/common.h	/^static int ALWAYS_INLINE x264_predictor_clip( int16_t (*dst)[2], int16_t (*mvc)[2], int i_mvc, int16_t mv_limit[2][2], uint32_t pmv )$/;"	f
+x264_predictor_difference	include/common.h	/^static ALWAYS_INLINE int x264_predictor_difference( int16_t (*mvc)[2], intptr_t i_mvc )$/;"	f
+x264_predictor_roundclip	include/common.h	/^static int ALWAYS_INLINE x264_predictor_roundclip( int16_t (*dst)[2], int16_t (*mvc)[2], int i_mvc, int16_t mv_limit[2][2], uint32_t pmv )$/;"	f
+x264_preset_names	include/x264.h	/^static const char * const x264_preset_names[] = { "ultrafast", "superfast", "veryfast", "faster", "fast", "medium", "slow", "slower", "veryslow", "placebo", 0 };$/;"	v
+x264_profile_names	include/x264.h	/^static const char * const x264_profile_names[] = { "baseline", "main", "high", "high10", "high422", "high444", 0 };$/;"	v
+x264_ratecontrol_t	include/common.h	/^typedef struct x264_ratecontrol_t   x264_ratecontrol_t;$/;"	t	typeref:struct:x264_ratecontrol_t
+x264_scan8	include/common.h	/^static const uint8_t x264_scan8[16*3 + 3] =$/;"	v
+x264_sei_payload_t	include/x264.h	/^} x264_sei_payload_t;$/;"	t	typeref:struct:__anon36
+x264_sei_t	include/x264.h	/^} x264_sei_t;$/;"	t	typeref:struct:__anon37
+x264_slice_header_t	include/common.h	/^} x264_slice_header_t;$/;"	t	typeref:struct:__anon15
+x264_t	include/common.h	/^struct x264_t$/;"	s
+x264_t	include/x264.h	/^typedef struct x264_t x264_t;$/;"	t	typeref:struct:x264_t
+x264_transfer_names	include/x264.h	/^static const char * const x264_transfer_names[] = { "", "bt709", "undef", "", "bt470m", "bt470bg", "smpte170m", "smpte240m", "linear", "log100", "log316",$/;"	v
+x264_tune_names	include/x264.h	/^static const char * const x264_tune_names[] = { "film", "animation", "grain", "stillimage", "psnr", "ssim", "fastdecode", "zerolatency", 0 };$/;"	v
+x264_uint128_t	include/common.h	/^typedef struct { uint64_t i[2]; } x264_uint128_t;$/;"	t	typeref:struct:__anon13
+x264_union128_t	include/common.h	/^typedef union { x264_uint128_t i; uint64_t a[2]; uint32_t b[4]; uint16_t c[8]; uint8_t d[16]; } MAY_ALIAS x264_union128_t;$/;"	t	typeref:union:__anon14
+x264_union16_t	include/common.h	/^typedef union { uint16_t i; uint8_t  c[2]; } MAY_ALIAS x264_union16_t;$/;"	t	typeref:union:__anon10
+x264_union32_t	include/common.h	/^typedef union { uint32_t i; uint16_t b[2]; uint8_t  c[4]; } MAY_ALIAS x264_union32_t;$/;"	t	typeref:union:__anon11
+x264_union64_t	include/common.h	/^typedef union { uint64_t i; uint32_t a[2]; uint16_t b[4]; uint8_t c[8]; } MAY_ALIAS x264_union64_t;$/;"	t	typeref:union:__anon12
+x264_vidformat_names	include/x264.h	/^static const char * const x264_vidformat_names[] = { "component", "pal", "ntsc", "secam", "mac", "undef", 0 };$/;"	v
+x264_zone_t	include/x264.h	/^} x264_zone_t;$/;"	t	typeref:struct:__anon29
+yuv_dec_	include/h264_impl.h	/^    uint8_t                 *yuv_dec_;$/;"	m	class:webrtc::H264DecoderImpl
+yuv_size	include/h264_impl.h	/^	int32_t                  yuv_size;$/;"	m	class:webrtc::H264DecoderImpl
+zigzagf	include/common.h	/^    x264_zigzag_function_t zigzagf;$/;"	m	struct:x264_t
+zigzagf_interlaced	include/common.h	/^    x264_zigzag_function_t zigzagf_interlaced;$/;"	m	struct:x264_t
+zigzagf_progressive	include/common.h	/^    x264_zigzag_function_t zigzagf_progressive;$/;"	m	struct:x264_t
+zones	include/x264.h	/^        x264_zone_t *zones;         \/* ratecontrol overrides *\/$/;"	m	struct:x264_param_t::__anon32
+~CX264Encoder	x264Encoder.cpp	/^	CX264Encoder::~CX264Encoder()$/;"	f	class:webrtc::CX264Encoder
+~EndToEndFrameChecker	h264_vt_encoder_unittest.cc	/^  virtual ~EndToEndFrameChecker() {}$/;"	f	class:media::cast::EndToEndFrameChecker	file:
+~H264Decoder	h264.cc	/^H264Decoder::~H264Decoder() {$/;"	f	class:webrtc::H264Decoder
+~H264Decoder	include/h264_interface.h	/^	 virtual ~H264Decoder() {};$/;"	f	class:webrtc::H264Decoder
+~H264DecoderImpl	h264_impl.cc	/^H264DecoderImpl::~H264DecoderImpl() {$/;"	f	class:webrtc::H264DecoderImpl
+~H264Encoder	h264.cc	/^H264Encoder::~H264Encoder() {$/;"	f	class:webrtc::H264Encoder
+~H264Encoder	include/h264.h	/^  virtual ~H264Encoder() {}$/;"	f	class:webrtc::H264Encoder
+~H264Encoder	include/h264_interface.h	/^	 virtual ~H264Encoder() {};$/;"	f	class:webrtc::H264Encoder
+~H264EncoderImpl	h264_impl.cc	/^H264EncoderImpl::~H264EncoderImpl() {$/;"	f	class:webrtc::H264EncoderImpl
+~MetadataRecorder	h264_vt_encoder_unittest.cc	/^  virtual ~MetadataRecorder() {}$/;"	f	class:media::cast::MetadataRecorder	file:
+~VP8EncoderImplFactory	h264_factory.cc	/^  virtual ~VP8EncoderImplFactory() {}$/;"	f	class:webrtc::VP8EncoderImplFactory

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{a86494f5-2dc7-4ce2-9e75-4c2ef70d199c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\h264_impl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\third_party\libx264\H264Enc\x264Encoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x264.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x264_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\h264_interface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="h264_impl.cc" />
+    <ClCompile Include="x264Encoder.cpp" />
+  </ItemGroup>
+</Project>

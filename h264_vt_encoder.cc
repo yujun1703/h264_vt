@@ -343,12 +343,12 @@ bool H264VideoToolboxEncoder::Initialize(
   };
 */
 
-printf("111111\n");
+printf("video tools:111111\n");
   CFTypeRef buffer_attributes_keys[] = {
     kCVPixelBufferPixelFormatTypeKey,
 //    kCVBufferPropagatedAttachmentsKey
   };
-printf("22222\n");
+printf("video tools:22222\n");
   CFTypeRef buffer_attributes_values[] = {
     ArrayWithIntegers(formats, 2).release(),
     //ArrayWithIntegers(formats, arraysize(formats)).release(),
@@ -356,7 +356,7 @@ printf("22222\n");
  //                               attachments_values,
  //                               arraysize(attachments_keys)).release()
   };
-printf("33333\n");
+printf("video tools:33333\n");
   const base::ScopedCFTypeRef<CFDictionaryRef> buffer_attributes =
       DictionaryWithKeysAndValues(buffer_attributes_keys,
                                   buffer_attributes_values,1
@@ -365,7 +365,7 @@ printf("33333\n");
     CFRelease(v);
 
   VTCompressionSessionRef session;
-  printf("44444,seesion\n");
+  printf("video tools:44444,seesion\n");
   OSStatus status = videotoolbox_glue_->VTCompressionSessionCreate(
       kCFAllocatorDefault, width, height,
       CoreMediaGlue::kCMVideoCodecType_H264, NULL, buffer_attributes,
@@ -373,7 +373,7 @@ printf("33333\n");
       &H264VideoToolboxEncoder::CompressionCallback,
       reinterpret_cast<void*>(this), &session);
 
-printf("status =%d\n",(int)status);
+printf("video tools:status =%d\n",(int)status);
 
 #if 0
   VTCompressionSessionRef session;
@@ -401,22 +401,22 @@ printf("status =%d\n",(int)status);
 #endif
   compression_session_.reset(session);
 
-printf("555555\n");
+printf("video tools:555555\n");
   ConfigureSession(video_config);
 
-printf("66666\n");
+printf("video tools:66666\n");
   return true;
 }
 
 void H264VideoToolboxEncoder::ConfigureSession(
     const VideoSenderConfig& video_config) {
-printf("7777\n");
+printf("video tools:7777\n");
   SetSessionProperty(
       videotoolbox_glue_->kVTCompressionPropertyKey_ProfileLevel(),
       videotoolbox_glue_->kVTProfileLevel_H264_Main_AutoLevel());
   SetSessionProperty(videotoolbox_glue_->kVTCompressionPropertyKey_RealTime(),
                      true);
-printf("8888\n");
+printf("video tools:8888\n");
   SetSessionProperty(
       videotoolbox_glue_->kVTCompressionPropertyKey_AllowFrameReordering(),
       false);
@@ -428,7 +428,7 @@ printf("8888\n");
       240);
   // TODO(jfroy): implement better bitrate control
   //              https://crbug.com/425352
-printf("9999\n");
+printf("video tools:9999\n");
   SetSessionProperty(
       videotoolbox_glue_->kVTCompressionPropertyKey_AverageBitRate(),
       (video_config.min_bitrate + video_config.max_bitrate) / 2);
@@ -450,7 +450,7 @@ printf("9999\n");
         videotoolbox_glue_->kVTCompressionPropertyKey_MaxFrameDelayCount(),
         video_config.max_number_of_video_buffers_used);
   }
-printf("101010101\n");
+printf("video tools:101010101\n");
 }
 
 void H264VideoToolboxEncoder::Teardown() {
@@ -577,13 +577,13 @@ bool H264VideoToolboxEncoder::EncodeVideoFrame(
 ) {
   //DCHECK(thread_checker_.CalledOnValidThread());
   //DCHECK(!frame_encoded_callback.is_null());
-   printf("aaaaaa\n");
+   printf("video tools:aaaaaa\n");
   if (!compression_session_) {
     //DLOG(ERROR) << " compression session is null";
     return false;
   }
 
-   printf("bbbbb\n");
+   printf("video tools:bbbbb\n");
   //if (video_frame->visible_rect().size() != frame_size_)
    // return false;
 
@@ -598,7 +598,7 @@ bool H264VideoToolboxEncoder::EncodeVideoFrame(
     return false;
   }
 
-   printf("cccc,pixbuffer=\n");
+   printf("video tools:cccc,pixbuffer=\n");
  // auto timestamp_cm = CoreMediaGlue::CMTimeMake(
 //      (reference_time - base::TimeTicks()).InMicroseconds(), USEC_PER_SEC);
 
@@ -630,7 +630,7 @@ bool H264VideoToolboxEncoder::EncodeVideoFrame(
       pixel_buffer, 
       &info);
 
-   printf("after encoder ,status=%d\n",(int)status);
+   printf("video tools:after encoder ,status=%d\n",(int)status);
       //reinterpret_cast<void*>(request.release()), &info);
   if (status != noErr) {
     //DLOG(ERROR) << " VTCompressionSessionEncodeFrame failed: " << status;
@@ -644,13 +644,6 @@ bool H264VideoToolboxEncoder::EncodeVideoFrame(
   return true;
 }
 
-#if 0
-
-void H264VideoToolboxEncoder::SetBitRate(int new_bit_rate) {
-  //DCHECK(thread_checker_.CalledOnValidThread());
-  // VideoToolbox does not seem to support bitrate reconfiguration.
-}
-
 void H264VideoToolboxEncoder::GenerateKeyFrame() {
   //DCHECK(thread_checker_.CalledOnValidThread());
   //DCHECK(compression_session_);
@@ -658,6 +651,13 @@ void H264VideoToolboxEncoder::GenerateKeyFrame() {
   encode_next_frame_as_keyframe_ = true;
 }
 
+
+#if 0
+
+void H264VideoToolboxEncoder::SetBitRate(int new_bit_rate) {
+  //DCHECK(thread_checker_.CalledOnValidThread());
+  // VideoToolbox does not seem to support bitrate reconfiguration.
+}
 void H264VideoToolboxEncoder::LatestFrameIdToReference(uint32 /*frame_id*/) {
   // Not supported by VideoToolbox in any meaningful manner.
 }
@@ -729,7 +729,7 @@ void H264VideoToolboxEncoder::CompressionCallback(void* encoder_opaque,
         FROM_HERE,
         base::Bind(encoder->status_change_cb_, STATUS_CODEC_RUNTIME_ERROR));*/
   } else if ((info & VideoToolboxGlue::kVTEncodeInfo_FrameDropped)) {
-	printf("frame dropped\n");
+	printf("video tools:frame dropped\n");
     //DVLOG(2) << " frame dropped";
   } else {
 

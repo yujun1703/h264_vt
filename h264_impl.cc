@@ -114,7 +114,10 @@ int H264EncoderImpl::SetRates(uint32_t new_bitrate_kbit, uint32_t new_framerate)
         return WEBRTC_VIDEO_CODEC_UNINITIALIZED;
     }
     
+#if 0
     encoder_->SetParam(new_bitrate_kbit, new_framerate);
+
+#endif
   
     return WEBRTC_VIDEO_CODEC_OK;
 }
@@ -147,6 +150,7 @@ int H264EncoderImpl::InitEncode(const VideoCodec* inst,
     vtEncoder->Initialize(config,inst->width,inst->height);
 
 
+    inited_ = true;
 #if 0
     int retVal = Release();
     if (retVal < 0) {
@@ -297,19 +301,24 @@ enum PlaneType {
 int H264EncoderImpl::Encode(const I420VideoFrame& input_image,
                        const CodecSpecificInfo* codec_specific_info,
 					   const std::vector<VideoFrameType>* frame_types) {
-  
-	//x264_nal_t *nal;
-
+    //x264_nal_t *nal;
+    printf("video tools:@@@@@@@@@@\n");
     if (!inited_) {
+	   printf("video tools:WEBRTC_VIDEO_CODEC_UNINITIALIZED\n");
         return WEBRTC_VIDEO_CODEC_UNINITIALIZED;
     }
-	if (input_image.buffer(kYPlane) == NULL) {
-        return WEBRTC_VIDEO_CODEC_ERR_PARAMETER;
+
+    if (input_image.buffer(kYPlane) == NULL) {
+	   printf("video tools:WEBRTC_VIDEO_CODEC_ERR_PARAMETER\n");
+           return WEBRTC_VIDEO_CODEC_ERR_PARAMETER;
     }
+
     if (encoded_complete_callback_ == NULL) {
+	printf("video tools:WEBRTC_VIDEO_CODEC_UNINITIALIZED\n");
         return WEBRTC_VIDEO_CODEC_UNINITIALIZED;
     }
     
+   printf("video tools:###############\n");
 
 	VideoFrameType frame_type_ = kDeltaFrame;
 	// We only support one stream at the moment.
@@ -322,18 +331,27 @@ int H264EncoderImpl::Encode(const I420VideoFrame& input_image,
 		frame_type_ = kKeyFrame;
 	}
 
+    if(frame_type_==kKeyFrame)
+    {
+	   printf("video tools:GenerateKeyFrame\n");
+	vtEncoder->GenerateKeyFrame();
+    }
+      
 
     // Check for change in frame size.
     if (input_image.width() != codec_.width ||
 		input_image.height() != codec_.height) {
 		int ret = UpdateCodecFrameSize(input_image.width(), input_image.height());
         if (ret < 0) {
+   printf("video tools:$$$$$$$$$$$$$$$$\n");
             return ret;
         }
     }
     
+   printf("video tools:&&&&&&&&&&\n");
     frame_num_++;
     vtEncoder->EncodeVideoFrame(input_image); 
+   printf("video tools:**********\n");
     return 0;
 #if 0
     //frame_size = (long)config_->iWidth * config_->iHeight * 3 / 2;

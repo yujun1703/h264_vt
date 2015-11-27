@@ -237,6 +237,7 @@ int H264EncoderImpl::InitEncode(const VideoCodec* inst,
         return WEBRTC_VIDEO_CODEC_ERROR;
     }
     
+#endif
     if (encoded_image_._buffer != NULL) {
         delete [] encoded_image_._buffer;
     }
@@ -244,6 +245,7 @@ int H264EncoderImpl::InitEncode(const VideoCodec* inst,
     encoded_image_._buffer = new uint8_t[encoded_image_._size];
     encoded_image_._completeFrame = true;
     
+#if 0
     inited_ = true;
     WEBRTC_TRACE(webrtc::kTraceApiCall, webrtc::kTraceVideoCoding, -1,
                  "H264EncoderImpl::InitEncode(width:%d, height:%d, framerate:%d, start_bitrate:%d, max_bitrate:%d, cp:%d, profile:%d)",

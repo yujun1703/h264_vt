@@ -107,7 +107,9 @@ class H264VideoToolboxEncoder {
   void EmitFrames() override;
 #endif
 
-  EncodedImageCallback* encoded_complete_callback_;
+                                    
+ 
+
   CVPixelBufferPoolRef pool;
   void GenerateKeyFrame() ;
   // media::cast::VideoEncoder implementation
@@ -117,8 +119,12 @@ class H264VideoToolboxEncoder {
 //      const FrameEncodedCallback& frame_encoded_callback
   ) ;
 
+/*
+void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,std::string* annexb_buffer,bool keyframe) ;
+void CopyNalsToAnnexB(char* avcc_buffer,const size_t avcc_size,unsigned char* annexb_buffer,VideoFrameType frame_type_com) ;
 
-
+*/
+                      
   CVPixelBufferRef WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) ;
 //base::ScopedCFTypeRef<CVPixelBufferRef> WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) ;
  
@@ -170,6 +176,8 @@ class H264VideoToolboxEncoder {
 
   // Frame identifier counter.
   uint32 next_frame_id_;
+  int inputwidth;
+  int inputheight;
 
   // Force next frame to be a keyframe.
   bool encode_next_frame_as_keyframe_;

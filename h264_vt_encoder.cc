@@ -23,7 +23,6 @@ using namespace std;
 
 namespace webrtc{
 
-namespace {
 
 /*
 // Container for the associated data of a video frame being processed.
@@ -41,6 +40,10 @@ struct InProgressFrameEncode {
 };
 
 */
+EncodedImageCallback* encoded_complete_callback_;
+int input_width;
+int input_height;
+
 base::ScopedCFTypeRef<CFDictionaryRef> DictionaryWithKeysAndValues(
     CFTypeRef* keys,
     CFTypeRef* values,
@@ -75,40 +78,51 @@ base::ScopedCFTypeRef<CFArrayRef> ArrayWithIntegers(const int* v, size_t size) {
   return array;
 }
 
-template <typename NalSizeType>
 void CopyNalsToAnnexB(char* avcc_buffer,
                       const size_t avcc_size,
-                      std::string* annexb_buffer) {
+  			VideoFrameType frame_type_com) {
   //static_assert(sizeof(NalSizeType) == 4,"NAL size type has unsupported size");
   static const char startcode_3[3] = {0, 0, 1};
   //DCHECK(avcc_buffer);
   //DCHECK(annexb_buffer);
   size_t bytes_left = avcc_size;
+  EncodedImage encoded_image_;
   while (bytes_left > 0) {
     //DCHECK_GT(bytes_left, sizeof(NalSizeType));
-    NalSizeType nal_size;
+    int nal_size;
     //base::ReadBigEndian(avcc_buffer, &nal_size);
     //OSBigEndian(avcc_buffer, &nal_size);
     nal_size=*(int*)avcc_buffer;
 
     printf("nal_size=%d\n",nal_size);
 
-    bytes_left -= sizeof(NalSizeType);
-    avcc_buffer += sizeof(NalSizeType);
+    bytes_left -= sizeof(int);
+    avcc_buffer += sizeof(int);
 
+    encoded_image_._buffer=(unsigned char*)malloc(nal_size);
     //DCHECK_GE(bytes_left, nal_size);
-    annexb_buffer->append(startcode_3, sizeof(startcode_3));
-    annexb_buffer->append(avcc_buffer, nal_size);
+    //annexb_buffer->append(startcode_3, sizeof(startcode_3));
+    //annexb_buffer->append(avcc_buffer, nal_size);
+    memcpy(encoded_image_._buffer,avcc_buffer,nal_size);
     bytes_left -= nal_size;
     avcc_buffer += nal_size;
+
+    encoded_image_._length          = nal_size;
+    encoded_image_._frameType       = frame_type_com;
+  //  encoded_image_._timeStamp       = input_image.timestamp();
+   // encoded_image_.capture_time_ms_ = input_image.render_time_ms();
+    encoded_image_._encodedHeight   = input_height;
+    encoded_image_._encodedWidth    = input_width;
+
+    encoded_complete_callback_->Encoded(encoded_image_,NULL,NULL);
+    free(encoded_image_._buffer);
+
   }
 }
 
 // Copy a H.264 frame stored in a CM sample buffer to an Annex B buffer. Copies
 // parameter sets for keyframes before the frame data as well.
-void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,
-                                    std::string* annexb_buffer,
-                                    bool keyframe) {
+void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,std::string* annexb_buffer,bool keyframe) {
   // Perform two pass, one to figure out the total output size, and another to
   // copy the data after having performed a single output allocation. Note that
   // we'll allocate a bit more because we'll count 4 bytes instead of 3 for
@@ -154,15 +168,18 @@ void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,
         return;
       }
       total_bytes += pset_size + nal_size_field_bytes;
+      cout<< " pset_size=%d\n"<<pset_size<<endl;
     }
   }
 
-  annexb_buffer->reserve(total_bytes);
+  //annexb_buffer->reserve(total_bytes);
 
+  VideoFrameType  frame_type_com;
   // Copy all parameter sets before keyframes.
   if (keyframe) {
     const uint8_t* pset;
     size_t pset_size;
+    frame_type_com=kKeyFrame;
     for (size_t pset_i = 0; pset_i < pset_count; ++pset_i) {
       status =
           CoreMediaGlue::CMVideoFormatDescriptionGetH264ParameterSetAtIndex(
@@ -173,9 +190,16 @@ void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,
         return;
       }
       static const char startcode_4[4] = {0, 0, 0, 1};
-      annexb_buffer->append(startcode_4, sizeof(startcode_4));
-      annexb_buffer->append(reinterpret_cast<const char*>(pset), pset_size);
+
+//what to do?
+//      annexb_buffer->append(startcode_4, sizeof(startcode_4));
+
+ //     annexb_buffer->append(reinterpret_cast<const char*>(pset), pset_size);
     }
+  }
+  else
+  {
+	frame_type_com=kDeltaFrame;
   }
 
   // Block buffers can be composed of non-contiguous chunks. For the sake of
@@ -202,25 +226,23 @@ void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,
     cout << " CMBlockBufferGetDataPointer failed: " << status<<endl;
     return;
   }
-
-
-
-    CopyNalsToAnnexB<uint32_t>(bb_data, bb_size, annexb_buffer);
-
+        
+    CopyNalsToAnnexB(bb_data, bb_size,frame_type_com);
+   // memcpy(encoded_image_._buffer, (pBuf+lenNalHeader), encoded_image_._length);
 
 /*
     int             nalNum = 0;
     uint8_t         *pBuf;
     uint8_t         lenNalHeader = 0;
 
-	//x264_nal_t		pNalInfo = nal_info_[0];
+    //x264_nal_t		pNalInfo = nal_info_[0];
     VideoFrameType  frame_type_com;
     
     while (nalNum < i_nal) 
-	{
-		x264_nal_t  pNalInfo = nal_info_[nalNum];
-		//int	 lenNal = nal_info.i_payload;
-		pBuf = pNalInfo.p_payload;
+    {
+	x264_nal_t  pNalInfo = nal_info_[nalNum];
+	//int	 lenNal = nal_info.i_payload;
+	pBuf = pNalInfo.p_payload;
         if((*pBuf == 0x00) && (*(pBuf+1) == 0x00) && (*(pBuf+2) == 0x00) && (*(pBuf+3) == 0x01))
         {
             lenNalHeader = 4;
@@ -254,8 +276,8 @@ void CopySampleBufferToAnnexBBuffer(CoreMediaGlue::CMSampleBufferRef sbuf,
        // pNalInfo++;
 		nalNum++;
     }
-
 */
+
 
 
 
@@ -305,7 +327,6 @@ class VideoFrameFactoryCVPixelBufferPoolImpl : public VideoFrameFactory {
 };
 
 #endif
-}  // namespace
 
 
 H264VideoToolboxEncoder::H264VideoToolboxEncoder()
@@ -359,6 +380,8 @@ H264VideoToolboxEncoder::~H264VideoToolboxEncoder() {
 #endif
 bool H264VideoToolboxEncoder::Initialize(
     const VideoSenderConfig& video_config,int width,int height) {
+  input_width = width;
+  input_height = height;
   //DCHECK(thread_checker_.CalledOnValidThread());
   //DCHECK(!compression_session_); 
   // Note that the encoder object is given to the compression session as the
@@ -878,7 +901,7 @@ void H264VideoToolboxEncoder::EmitFrames() {
 #endif
 
 
-void H264VideoToolboxEncoder::SetEncodedCompleteCallback(EncodedImageCallback* cb)
+void SetEncodedCompleteCallback(EncodedImageCallback* cb)
 {
       encoded_complete_callback_=cb;
 }

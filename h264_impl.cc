@@ -343,7 +343,7 @@ int H264EncoderImpl::Encode(const I420VideoFrame& input_image,
 		input_image.height() != codec_.height) {
 		int ret = UpdateCodecFrameSize(input_image.width(), input_image.height());
         if (ret < 0) {
-   printf("video tools:$$$$$$$$$$$$$$$$\n");
+            printf("video tools:$$$$$$$$$$$$$$$$\n");
             return ret;
         }
     }
@@ -400,10 +400,10 @@ int H264EncoderImpl::GetEncodedPartitions(const I420VideoFrame& input_image) {
     VideoFrameType  frame_type_com;
     
     while (nalNum < i_nal) 
-	{
-		x264_nal_t  pNalInfo = nal_info_[nalNum];
-		//int	 lenNal = nal_info.i_payload;
-		pBuf = pNalInfo.p_payload;
+    {
+        x264_nal_t  pNalInfo = nal_info_[nalNum];
+	//int	 lenNal = nal_info.i_payload;
+	pBuf = pNalInfo.p_payload;
         if((*pBuf == 0x00) && (*(pBuf+1) == 0x00) && (*(pBuf+2) == 0x00) && (*(pBuf+3) == 0x01))
         {
             lenNalHeader = 4;
@@ -448,6 +448,9 @@ int32_t H264EncoderImpl::SetChannelParameters(uint32_t packet_loss, int64_t rtt)
 int H264EncoderImpl::RegisterEncodeCompleteCallback(
     EncodedImageCallback* callback) {
     encoded_complete_callback_ = callback;
+
+    vtEncoder->SetEncodedCompleteCallback(callback);
+
     return WEBRTC_VIDEO_CODEC_OK;
 }
 

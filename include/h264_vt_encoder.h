@@ -12,6 +12,12 @@
 //#include "media/cast/sender/video_encoder.h"
 #include "video_frame.h"
 
+
+
+
+#include "h264_interface.h"
+
+
 namespace webrtc{
 struct VideoSenderConfig {
   VideoSenderConfig(){};
@@ -96,22 +102,25 @@ class H264VideoToolboxEncoder {
   static bool IsSupported(int codec);
 
   void SetBitRate(int new_bit_rate) override;
-  void GenerateKeyFrame() override;
   void LatestFrameIdToReference(uint32 frame_id) override;
   scoped_ptr<VideoFrameFactory> CreateVideoFrameFactory() override;
   void EmitFrames() override;
 #endif
 
+  EncodedImageCallback* encoded_complete_callback_;
+  CVPixelBufferPoolRef pool;
+  void GenerateKeyFrame() ;
   // media::cast::VideoEncoder implementation
   bool EncodeVideoFrame(
       const I420VideoFrame& video_frame
       //const base::TimeTicks& reference_time,
 //      const FrameEncodedCallback& frame_encoded_callback
-) ;
+  ) ;
 
 
 
-base::ScopedCFTypeRef<CVPixelBufferRef> WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) ;
+  CVPixelBufferRef WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) ;
+//base::ScopedCFTypeRef<CVPixelBufferRef> WrapVideoFrameInCVPixelBuffer(const I420VideoFrame& frame) ;
  
 
 
@@ -124,6 +133,8 @@ base::ScopedCFTypeRef<CVPixelBufferRef> WrapVideoFrameInCVPixelBuffer(const I420
 
   // Teardown the encoder.
   void Teardown();
+
+  void SetEncodedCompleteCallback(EncodedImageCallback* cb);
 
   // Set a compression session property.
   bool SetSessionProperty(CFStringRef key, int32_t value);
